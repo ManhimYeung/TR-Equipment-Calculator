@@ -32,7 +32,7 @@ class HairClass : Gears
     #region C_Hair Stats
 
     #region C_Hair Rarity
-    public void C_RarityIndex()
+    void C_RarityIndex()
     {
         CRarityLookup["守護者髮型-D"] = 1;
         CRarityLookup["新手訓練髮型(女)"] = 1;
@@ -45,23 +45,11 @@ class HairClass : Gears
         CRarityLookup["愛坡的頭髮"] = 1;
         CRarityLookup["墮落的頭髮"] = 1;
         CRarityLookup["魔鬼的頭髮"] = 1;
-
-        int CRarityItem1 = CRarityLookup["守護者髮型-D"];
-        int CRarityItem2 = CRarityLookup["新手訓練髮型(女)"];
-        int CRarityItem3 = CRarityLookup["新手訓練髮型(男)"];
-        int CRarityItem4 = CRarityLookup["新手冰涼布丁髮型"];
-        int CRarityItem5 = CRarityLookup["春季髮型(女)"];
-        int CRarityItem6 = CRarityLookup["春季髮型(男)"];
-        int CRarityItem7 = CRarityLookup["紫色煙火髮型-D"];
-        int CRarityItem8 = CRarityLookup["安琪的頭髮"];
-        int CRarityItem9 = CRarityLookup["愛坡的頭髮"];
-        int CRarityItem10 = CRarityLookup["墮落的頭髮"];
-        int CRarityItem11 = CRarityLookup["魔鬼的頭髮"];
     }
     #endregion C_Hair Rarity
 
     #region C_Hair Avatar Mode
-    public void C_ModeIndex()
+    void C_ModeIndex()
     {
         //page 1 row 1
         CModeLookup["守護者髮型-D"] = false;
@@ -77,26 +65,11 @@ class HairClass : Gears
         CModeLookup["墮落的頭髮"] = false;
         //page 1 row 3
         CModeLookup["魔鬼的頭髮"] = false;
-
-        //page 1 row 1
-        bool ModeItem1 = CModeLookup["守護者髮型-D"];
-        bool ModeItem2 = CModeLookup["新手訓練髮型(女)"];
-        bool ModeItem3 = CModeLookup["新手訓練髮型(男)"];
-        bool ModeItem4 = CModeLookup["新手冰涼布丁髮型"];
-        bool ModeItem5 = CModeLookup["春季髮型(女)"];
-        //page 1 row 2
-        bool ModeItem6 = CModeLookup["春季髮型(男)"];
-        bool ModeItem7 = CModeLookup["紫色煙火髮型-D"];
-        bool ModeItem8 = CModeLookup["安琪的頭髮"];
-        bool ModeItem9 = CModeLookup["愛坡的頭髮"];
-        bool ModeItem10 = CModeLookup["墮落的頭髮"];
-        //page 1 row 3
-        bool ModeItem11 = CModeLookup["魔鬼的頭髮"];
     }
     #endregion
 
     #region C_Hair Speed
-    public void C_SpeedIndex()
+    void C_SpeedIndex()
     {
         CSpeedLookup["守護者髮型-D"] = 0;
         CSpeedLookup["新手訓練髮型(女)"] = 0;
@@ -109,24 +82,11 @@ class HairClass : Gears
         CSpeedLookup["愛坡的頭髮"] = 0;
         CSpeedLookup["墮落的頭髮"] = 0;
         CSpeedLookup["魔鬼的頭髮"] = 0;
-
-        int CSpeedItem1 = CSpeedLookup["守護者髮型-D"];
-        int CSpeedItem2 = CSpeedLookup["新手訓練髮型(女)"];
-        int CSpeedItem3 = CSpeedLookup["新手訓練髮型(男)"];
-        int CSpeedItem4 = CSpeedLookup["新手冰涼布丁髮型"];
-        int CSpeedItem5 = CSpeedLookup["春季髮型(女)"];
-        int CSpeedItem6 = CSpeedLookup["春季髮型(男)"];
-        int CSpeedItem7 = CSpeedLookup["紫色煙火髮型-D"];
-        int CSpeedItem8 = CSpeedLookup["安琪的頭髮"];
-        int CSpeedItem9 = CSpeedLookup["愛坡的頭髮"];
-        int CSpeedItem10 = CSpeedLookup["墮落的頭髮"];
-        int CSpeedItem11 = CSpeedLookup["魔鬼的頭髮"];
-        
     }
     #endregion C_Hair Speed
 
     #region C_Hair Acceleration
-    public void C_AccIndex()
+    void C_AccIndex()
     {
         CAccelerationLookup["守護者髮型-D"] = 0;
         CAccelerationLookup["新手訓練髮型(女)"] = 0;
@@ -139,18 +99,6 @@ class HairClass : Gears
         CAccelerationLookup["愛坡的頭髮"] = 0;
         CAccelerationLookup["墮落的頭髮"] = 0;
         CAccelerationLookup["魔鬼的頭髮"] = 0;
-
-        int AccItem1 = CAccelerationLookup["守護者髮型-D"];
-        int AccItem2 = CAccelerationLookup["新手訓練髮型(女)"];
-        int AccItem3 = CAccelerationLookup["新手訓練髮型(男)"];
-        int AccItem4 = CAccelerationLookup["新手冰涼布丁髮型"];
-        int AccItem5 = CAccelerationLookup["春季髮型(女)"];
-        int AccItem6 = CAccelerationLookup["春季髮型(男)"];
-        int AccItem7 = CAccelerationLookup["紫色煙火髮型-D"];
-        int AccItem8 = CAccelerationLookup["安琪的頭髮"];
-        int AccItem9 = CAccelerationLookup["愛坡的頭髮"];
-        int AccItem10 = CAccelerationLookup["墮落的頭髮"];
-        int AccItem11 = CAccelerationLookup["魔鬼的頭髮"];
     }
     #endregion C_Hair Acceleration
 
@@ -168,23 +116,11 @@ class HairClass : Gears
         CPowerLookup["愛坡的頭髮"] = 0;
         CPowerLookup["墮落的頭髮"] = 0;
         CPowerLookup["魔鬼的頭髮"] = 0;
-
-        int PowerItem1 = CPowerLookup["守護者髮型-D"];
-        int PowerItem2 = CPowerLookup["新手訓練髮型(女)"];
-        int PowerItem3 = CPowerLookup["新手訓練髮型(男)"];
-        int PowerItem4 = CPowerLookup["新手冰涼布丁髮型"];
-        int PowerItem5 = CPowerLookup["春季髮型(女)"];
-        int PowerItem6 = CPowerLookup["春季髮型(男)"];
-        int PowerItem7 = CPowerLookup["紫色煙火髮型-D"];
-        int PowerItem8 = CPowerLookup["安琪的頭髮"];
-        int PowerItem9 = CPowerLookup["愛坡的頭髮"];
-        int PowerItem10 = CPowerLookup["墮落的頭髮"];
-        int PowerItem11 = CPowerLookup["魔鬼的頭髮"];
     }
     #endregion C_Hair Power
 
     #region C_Hair Control
-    public void C_ControlIndex()
+    void C_ControlIndex()
     {
         CControlLookup["守護者髮型-D"] = 0;
         CControlLookup["新手訓練髮型(女)"] = 0;
@@ -197,23 +133,11 @@ class HairClass : Gears
         CControlLookup["愛坡的頭髮"] = 0;
         CControlLookup["墮落的頭髮"] = 0;
         CControlLookup["魔鬼的頭髮"] = 0;
-
-        int ControlItem1 = CControlLookup["守護者髮型-D"];
-        int ControlItem2 = CControlLookup["新手訓練髮型(女)"];
-        int ControlItem3 = CControlLookup["新手訓練髮型(男)"];
-        int ControlItem4 = CControlLookup["新手冰涼布丁髮型"];
-        int ControlItem5 = CControlLookup["春季髮型(女)"];
-        int ControlItem6 = CControlLookup["春季髮型(男)"];
-        int ControlItem7 = CControlLookup["紫色煙火髮型-D"];
-        int ControlItem8 = CControlLookup["安琪的頭髮"];
-        int ControlItem9 = CControlLookup["愛坡的頭髮"];
-        int ControlItem10 = CControlLookup["墮落的頭髮"];
-        int ControlItem11 = CControlLookup["魔鬼的頭髮"];
     }
     #endregion C_Hair Control
 
     #region C_Hair Rage Duration
-    public void C_RageDurationIndex()
+    void C_RageDurationIndex()
     {
         CRageDurationLookup["守護者髮型-D"] = 3;
         CRageDurationLookup["新手訓練髮型(女)"] = 0;
@@ -242,7 +166,7 @@ class HairClass : Gears
     #endregion Rage Duration
 
     #region C_Hair Rage Charge
-    public void C_RageChargeIndex()
+    void C_RageChargeIndex()
     {
         CRageChargeLookup["守護者髮型-D"] = 3;
         CRageChargeLookup["新手訓練髮型(女)"] = 0;
@@ -255,23 +179,11 @@ class HairClass : Gears
         CRageChargeLookup["愛坡的頭髮"] = 0;
         CRageChargeLookup["墮落的頭髮"] = 0;
         CRageChargeLookup["魔鬼的頭髮"] = 0;
-
-        int RageChargeItem1 = CRageChargeLookup["守護者髮型-D"];
-        int RageChargeItem2 = CRageChargeLookup["新手訓練髮型(女)"];
-        int RageChargeItem3 = CRageChargeLookup["新手訓練髮型(男)"];
-        int RageChargeItem4 = CRageChargeLookup["新手冰涼布丁髮型"];
-        int RageChargeItem5 = CRageChargeLookup["春季髮型(女)"];
-        int RageChargeItem6 = CRageChargeLookup["春季髮型(男)"];
-        int RageChargeItem7 = CRageChargeLookup["紫色煙火髮型-D"];
-        int RageChargeItem8 = CRageChargeLookup["安琪的頭髮"];
-        int RageChargeItem9 = CRageChargeLookup["愛坡的頭髮"];
-        int RageChargeItem10 = CRageChargeLookup["墮落的頭髮"];
-        int RageChargeItem11 = CRageChargeLookup["魔鬼的頭髮"];
     }
     #endregion C_Hair Rage Charge
 
     #region C_Hair Max Energy
-    public void C_MaxEnergyIndex()
+    void C_MaxEnergyIndex()
     {
         CMaxEnergyLookup["守護者髮型-D"] = 0;
         CMaxEnergyLookup["新手訓練髮型(女)"] = 0;
@@ -284,23 +196,11 @@ class HairClass : Gears
         CMaxEnergyLookup["愛坡的頭髮"] = 0;
         CMaxEnergyLookup["墮落的頭髮"] = 0;
         CMaxEnergyLookup["魔鬼的頭髮"] = 0;
-
-        int MaxEnergyItem1 = CMaxEnergyLookup["守護者髮型-D"];
-        int MaxEnergyItem2 = CMaxEnergyLookup["新手訓練髮型(女)"];
-        int MaxEnergyItem3 = CMaxEnergyLookup["新手訓練髮型(男)"];
-        int MaxEnergyItem4 = CMaxEnergyLookup["新手冰涼布丁髮型"];
-        int MaxEnergyItem5 = CMaxEnergyLookup["春季髮型(女)"];
-        int MaxEnergyItem6 = CMaxEnergyLookup["春季髮型(男)"];
-        int MaxEnergyItem7 = CMaxEnergyLookup["紫色煙火髮型-D"];
-        int MaxEnergyItem8 = CMaxEnergyLookup["安琪的頭髮"];
-        int MaxEnergyItem9 = CMaxEnergyLookup["愛坡的頭髮"];
-        int MaxEnergyItem10 = CMaxEnergyLookup["墮落的頭髮"];
-        int MaxEnergyItem11 = CMaxEnergyLookup["魔鬼的頭髮"];
     }
     #endregion C_Hair Max Energy
 
     #region C_Hair Max Sprint
-    public void C_MaxSprintIndex()
+    void C_MaxSprintIndex()
     {
         CMaxSprintLookup["守護者髮型-D"] = 0;
         CMaxSprintLookup["新手訓練髮型(女)"] = 0;
@@ -313,23 +213,11 @@ class HairClass : Gears
         CMaxSprintLookup["愛坡的頭髮"] = 0;
         CMaxSprintLookup["墮落的頭髮"] = 0;
         CMaxSprintLookup["魔鬼的頭髮"] = 0;
-
-        int MaxSprintItem1 = CMaxSprintLookup["守護者髮型-D"];
-        int MaxSprintItem2 = CMaxSprintLookup["新手訓練髮型(女)"];
-        int MaxSprintItem3 = CMaxSprintLookup["新手訓練髮型(男)"];
-        int MaxSprintItem4 = CMaxSprintLookup["新手冰涼布丁髮型"];
-        int MaxSprintItem5 = CMaxSprintLookup["春季髮型(女)"];
-        int MaxSprintItem6 = CMaxSprintLookup["春季髮型(男)"];
-        int MaxSprintItem7 = CMaxSprintLookup["紫色煙火髮型-D"];
-        int MaxSprintItem8 = CMaxSprintLookup["安琪的頭髮"];
-        int MaxSprintItem9 = CMaxSprintLookup["愛坡的頭髮"];
-        int MaxSprintItem10 = CMaxSprintLookup["墮落的頭髮"];
-        int MaxSprintItem11 = CMaxSprintLookup["魔鬼的頭髮"];
     }
     #endregion C_Hair Max Sprint
 
     #region C_Hair Force
-    public void C_ForceIndex()
+    void C_ForceIndex()
     {
         CForceLookup["守護者髮型-D"] = 0;
         CForceLookup["新手訓練髮型(女)"] = 0;
@@ -342,23 +230,11 @@ class HairClass : Gears
         CForceLookup["愛坡的頭髮"] = 0;
         CForceLookup["墮落的頭髮"] = 0;
         CForceLookup["魔鬼的頭髮"] = 0;
-
-        int ForceItem1 = CForceLookup["守護者髮型-D"];
-        int ForceItem2 = CForceLookup["新手訓練髮型(女)"];
-        int ForceItem3 = CForceLookup["新手訓練髮型(男)"];
-        int ForceItem4 = CForceLookup["新手冰涼布丁髮型"];
-        int ForceItem5 = CForceLookup["春季髮型(女)"];
-        int ForceItem6 = CForceLookup["春季髮型(男)"];
-        int ForceItem7 = CForceLookup["紫色煙火髮型-D"];
-        int ForceItem8 = CForceLookup["安琪的頭髮"];
-        int ForceItem9 = CForceLookup["愛坡的頭髮"];
-        int ForceItem10 = CForceLookup["墮落的頭髮"];
-        int ForceItem11 = CForceLookup["魔鬼的頭髮"];
     }
     #endregion C_Hair Force
 
     #region C_Hair Luck
-    public void C_LuckIndex()
+    void C_LuckIndex()
     {
         CLuckLookup["守護者髮型-D"] = 0;
         CLuckLookup["新手訓練髮型(女)"] = 0;
@@ -371,18 +247,6 @@ class HairClass : Gears
         CLuckLookup["愛坡的頭髮"] = 0;
         CLuckLookup["墮落的頭髮"] = 0;
         CLuckLookup["魔鬼的頭髮"] = 0;
-
-        int LuckItem1 = CLuckLookup["守護者髮型-D"];
-        int LuckItem2 = CLuckLookup["新手訓練髮型(女)"];
-        int LuckItem3 = CLuckLookup["新手訓練髮型(男)"];
-        int LuckItem4 = CLuckLookup["新手冰涼布丁髮型"];
-        int LuckItem5 = CLuckLookup["春季髮型(女)"];
-        int LuckItem6 = CLuckLookup["春季髮型(男)"];
-        int LuckItem7 = CLuckLookup["紫色煙火髮型-D"];
-        int LuckItem8 = CLuckLookup["安琪的頭髮"];
-        int LuckItem9 = CLuckLookup["愛坡的頭髮"];
-        int LuckItem10 = CLuckLookup["墮落的頭髮"];
-        int LuckItem11 = CLuckLookup["魔鬼的頭髮"];
     }
     #endregion Luck
 
@@ -394,10 +258,15 @@ class HairClass : Gears
         B_ModeIndex();
         B_Speed();
         B_Acceleration();
+        B_Power();
+        B_Control();
+        B_RageDuration();
+        B_RageCharge();
+        B_MaxEnergyIndex();
     }
 
     #region B_Hair Rarity
-    public void B_RarityIndex()
+    void B_RarityIndex()
     {
         //page 1 row 1
         BRarityLookup["時尚休閒髮型"] = 2;
@@ -605,16 +474,15 @@ class HairClass : Gears
     #endregion B_Hair Rarity
 
     #region B_Hair Mode
-    public void B_ModeIndex()
+    void B_ModeIndex()
     {
-        #region checked
         //page 1 row 1
         BModeLookup["時尚休閒髮型"] = false;
         BModeLookup["夏日野餐髮型(女)-D"] = false;
         BModeLookup["夏日野餐髮型(男)-D"] = false;
         BModeLookup["夏日時尚髮型(女)"] = false;
         BModeLookup["夏日時尚髮型(男)"] = false;
-        
+
         //page 1 row 
         BModeLookup["悠閒夏日髮型(女)"] = false;
         BModeLookup["悠閒夏日髮型(男)"] = false;
@@ -640,7 +508,7 @@ class HairClass : Gears
         BModeLookup["王國公主髮飾"] = true;
         BModeLookup["伊諾梅爾髮型-D"] = false;
         BModeLookup["Ms. Black髮型-D"] = false;
-        
+
         //page 1 row 6
         BModeLookup["Mr. Black髮型-D"] = false;
         BModeLookup["幽靈獵人髮型(女)-D"] = false;
@@ -813,13 +681,12 @@ class HairClass : Gears
         BModeLookup["極限藍焰髮型"] = false;
         BModeLookup["傳說的火焰髮型"] = false;
         BModeLookup["Dr Hell面貝"] = false;
-        #endregion checked
 
     }
     #endregion B_Hair Mode
 
     #region B_Hair Speed
-    public void B_Speed()
+    void B_Speed()
     {
         //page 1 row 1
         BSpeedLookup["時尚休閒髮型"] = 0;
@@ -1029,7 +896,7 @@ class HairClass : Gears
     #endregion B_Hair Speed
 
     #region B_Hair Acceleration
-    public void B_Acceleration()
+    void B_Acceleration()
     {
         //page 1 row 1
         BAccelerationLookup["時尚休閒髮型"] = 0;
@@ -1237,7 +1104,7 @@ class HairClass : Gears
     #endregion B_Hair Acceleration
 
     #region B_Hair Power
-    public void B_Power()
+    void B_Power()
     {
         //page 1 row 1
         BPowerLookup["時尚休閒髮型"] = 0;
@@ -1445,7 +1312,7 @@ class HairClass : Gears
     #endregion B_Hair Power
 
     #region B_Hair Control
-    public void B_Control()
+    void B_Control()
     {
         //page 1 row 1
         BControlLookup["時尚休閒髮型"] = 0;
@@ -1653,7 +1520,7 @@ class HairClass : Gears
     #endregion B_Hair Control
 
     #region B_Hair Rage Duration
-    public void B_RageDuration()
+    void B_RageDuration()
     {
         //page 1 row 1
         BRageDurationLookup["時尚休閒髮型"] = 8;
@@ -1860,7 +1727,8 @@ class HairClass : Gears
     }
     #endregion B_Hair Rage Duration
 
-    public void B_RageCharge()
+    #region B_Hair Rage Charge
+    void B_RageCharge()
     {
         //page 1 row 1
         BRageChargeLookup["時尚休閒髮型"] = 8;
@@ -2065,5 +1933,838 @@ class HairClass : Gears
         BRageChargeLookup["傳說的火焰髮型"] = 0;
         BRageChargeLookup["Dr Hell面貝"] = 0;
     }
+    #endregion B_Hair Rage Charge
+
+    #region B_Hair Max Energy
+    void B_MaxEnergyIndex()
+    {
+        //page 1 row 1
+        BMaxEnergyLookup["時尚休閒髮型"] = 0;
+        BMaxEnergyLookup["夏日野餐髮型(女)-D"] = 0;
+        BMaxEnergyLookup["夏日野餐髮型(男)-D"] = 0;
+        BMaxEnergyLookup["夏日時尚髮型(女)"] = 0;
+        BMaxEnergyLookup["夏日時尚髮型(男)"] = 0;
+        //page 1 row 0
+        BMaxEnergyLookup["悠閒夏日髮型(女)"] = 0;
+        BMaxEnergyLookup["悠閒夏日髮型(男)"] = 0;
+        BMaxEnergyLookup["祭典浴衣髮型(女)-D"] = 0;
+        BMaxEnergyLookup["祭典浴衣髮型(男)-D"] = 0;
+        BMaxEnergyLookup["春雨櫻花髮型(女)-D"] = 0;
+        //page 1 row 3
+        BMaxEnergyLookup["春雨櫻花髮型(男)-D"] = 0;
+        BMaxEnergyLookup["活潑的莉莉髮型-D"] = 0;
+        BMaxEnergyLookup["貴族少爺路易髮型-D"] = 0;
+        BMaxEnergyLookup["巧克力馬卡龍髮型-D"] = 0;
+        BMaxEnergyLookup["啦啦隊長髮型(女)-D"] = 0;
+        //page 1 row 4
+        BMaxEnergyLookup["啦啦隊長髮型(男)-D"] = 0;
+        BMaxEnergyLookup["花樣新衣髮型(女)-D"] = 0;
+        BMaxEnergyLookup["花樣新衣髮型(男)-D"] = 0;
+        BMaxEnergyLookup["禦寒時尚髮型(男)-D"] = 0;
+        BMaxEnergyLookup["禦寒時尚髮型(女)-D"] = 0;
+        //page 1 row 5
+        BMaxEnergyLookup["雪之精靈髮型-D"] = 0;
+        BMaxEnergyLookup["王國公主髮型-D"] = 0;
+        BMaxEnergyLookup["王國公主髮飾"] = 0;
+        BMaxEnergyLookup["伊諾梅爾髮型-D"] = 0;
+        BMaxEnergyLookup["Ms. Black髮型-D"] = 0;
+        //page 1 row 6
+        BMaxEnergyLookup["Mr. Black髮型-D"] = 0;
+        BMaxEnergyLookup["幽靈獵人髮型(女)-D"] = 0;
+        BMaxEnergyLookup["幽靈獵人髮型(男)-D"] = 0;
+        BMaxEnergyLookup["深秋約會髮型(女)-D"] = 0;
+        BMaxEnergyLookup["深秋約會髮型(男)-D"] = 0;
+
+        //page 0 row 1
+        BMaxEnergyLookup["普拉莉絲髮型(女)-D"] = 0;
+        BMaxEnergyLookup["普拉莉絲髮型(男)-D"] = 0;
+        BMaxEnergyLookup["夏夜髮型(女)-D"] = 0;
+        BMaxEnergyLookup["夏夜髮型(男)-D"] = 0;
+        BMaxEnergyLookup["森之精靈髮型-D"] = 0;
+        //page 0 row 0
+        BMaxEnergyLookup["地獄使者白髮-D"] = 0;
+        BMaxEnergyLookup["夏日麻花辮(女)-D"] = 0;
+        BMaxEnergyLookup["夏日灰髮(男)-D"] = 0;
+        BMaxEnergyLookup["活潑小紅帽髮型-D"] = 0;
+        BMaxEnergyLookup["酷帥大野狼髮型-D"] = 0;
+        //page 0 row 3
+        BMaxEnergyLookup["深海刑警髮型-D"] = 0;
+        BMaxEnergyLookup["幼稚園生髮型(女)"] = 0;
+        BMaxEnergyLookup["幼稚園生髮型(男)"] = 0;
+        BMaxEnergyLookup["宴會髮型(女)-D"] = 0;
+        BMaxEnergyLookup["宴會髮型(男)-D"] = 0;
+        //page 0 row 4
+        BMaxEnergyLookup["童話學園髮型(女)-D"] = 0;
+        BMaxEnergyLookup["童話學園髮型(男)-D"] = 0;
+        BMaxEnergyLookup["時尚韓服髮型(男)-D"] = 0;
+        BMaxEnergyLookup["時尚韓服髮型(女)-D"] = 0;
+        BMaxEnergyLookup["惡魔靈魂髮型-D"] = 0;
+        //page 0 row 5
+        BMaxEnergyLookup["禦寒髮型-D"] = 0;
+        BMaxEnergyLookup["高階騎士髮型-D"] = 0;
+        BMaxEnergyLookup["紫晶銀月髮型-D"] = 0;
+        BMaxEnergyLookup["王后新娘髮型-D"] = 0;
+        BMaxEnergyLookup["國王新郎髮型-D"] = 0;
+        //page 0 row 6
+        BMaxEnergyLookup["月兔髮型(男)-D"] = 0;
+        BMaxEnergyLookup["月兔髮型(女)-D"] = 0;
+        BMaxEnergyLookup["魔法夏卡爾髮型-D"] = 0;
+        BMaxEnergyLookup["魔法肯恩髮型-D"] = 0;
+        BMaxEnergyLookup["水手泳裝髮型(男)-D"] = 0;
+
+        //page 3 row 1
+        BMaxEnergyLookup["水手泳裝髮型(女)-D"] = 0;
+        BMaxEnergyLookup["秋日休閒髮型(男)-D"] = 0;
+        BMaxEnergyLookup["秋日休閒髮型(女)-D"] = 0;
+        BMaxEnergyLookup["星夢戀人短髮-D"] = 0;
+        BMaxEnergyLookup["星夢戀人長髮-D"] = 0;
+        //page 3 row 0
+        BMaxEnergyLookup["不完整的童話髮型-D"] = 0;
+        BMaxEnergyLookup["光輝童話髮型-D"] = 0;
+        BMaxEnergyLookup["亮白羽絨衣髮型-D"] = 0;
+        BMaxEnergyLookup["個性羽絨衣髮型-D"] = 0;
+        BMaxEnergyLookup["黑色童話髮型-D"] = 0;
+        //page 3 row 3
+        BMaxEnergyLookup["兔子管家髮型-D"] = 0;
+        BMaxEnergyLookup["飛魚髮型-D"] = 0;
+        BMaxEnergyLookup["道士髮型-D"] = 0;
+        BMaxEnergyLookup["皇牌玩家髮型-D"] = 0;
+        BMaxEnergyLookup["藍海水母髮型(女)-D"] = 0;
+        //page 3 row 4
+        BMaxEnergyLookup["藍海水母髮型(男)-D"] = 0;
+        BMaxEnergyLookup["傳說的人魚髮型-D"] = 0;
+        BMaxEnergyLookup["森林冒險家髮型-D"] = 0;
+        BMaxEnergyLookup["日之光輝髮型-D"] = 0;
+        BMaxEnergyLookup["舞動少年Cap帽(女)-D"] = 0;
+        //page 3 row 5
+        BMaxEnergyLookup["舞動少年Cap帽(男)-D"] = 0;
+        BMaxEnergyLookup["高級守護者髮型-D"] = 0;
+        BMaxEnergyLookup["溫馨約會長髮-D"] = 0;
+        BMaxEnergyLookup["溫馨約會短髮-D"] = 0;
+        BMaxEnergyLookup["典雅韓式髮型(女)-D"] = 0;
+        //page 3 row 6
+        BMaxEnergyLookup["典雅韓底髮型(男)-D"] = 0;
+        BMaxEnergyLookup["淡雅韓底髮型(女)-D"] = 0;
+        BMaxEnergyLookup["淡雅韓底髮型(男)-D"] = 0;
+        BMaxEnergyLookup["守護妖精髮型-D"] = 0;
+        BMaxEnergyLookup["女王護衛髮型-D"] = 0;
+        //page 4 row 1
+        BMaxEnergyLookup["冰雪女王髮型-D"] = 0;
+        BMaxEnergyLookup["柔白雪花髮型-D"] = 0;
+        BMaxEnergyLookup["甜美淑女髮型-D"] = 0;
+        BMaxEnergyLookup["白髮女巫髮型-D"] = 0;
+        BMaxEnergyLookup["黑女巫髮型-D"] = 0;
+        //page 4 row 0
+        BMaxEnergyLookup["萬聖節奸笑南瓜-D"] = 0;
+        BMaxEnergyLookup["萬聖節大笑南瓜-D"] = 0;
+        BMaxEnergyLookup["查理的明星髮型-D"] = 0;
+        BMaxEnergyLookup["查理的藍色精靈髮型"] = 0;
+        BMaxEnergyLookup["查理的魅影髮型-D"] = 0;
+        //page 4 row 3
+        BMaxEnergyLookup["查理的貴族髮型-D"] = 0;
+        BMaxEnergyLookup["查理的橙色陽光髮型"] = 0;
+        BMaxEnergyLookup["查理的冬季精靈髮型"] = 0;
+        BMaxEnergyLookup["查理的白虎髮型-D"] = 0;
+        BMaxEnergyLookup["查理的浪漫髮型-D"] = 0;
+        //page 4 row 4
+        BMaxEnergyLookup["查理的麒麟髮型-D"] = 0;
+        BMaxEnergyLookup["浪漫提琴手的髮型(女)"] = 0;
+        BMaxEnergyLookup["浪漫提琴手的髮型(男)"] = 0;
+        BMaxEnergyLookup["冷艷吸血鬼髮型-D"] = 0;
+        BMaxEnergyLookup["清新活力髮型(女)-P"] = 0;
+        //page 4 row 5
+        BMaxEnergyLookup["清新活力髮型(男)-P"] = 0;
+        BMaxEnergyLookup["闇影修行者髮型"] = 0;
+        BMaxEnergyLookup["莉莉的糖果恆星髮型"] = 0;
+        BMaxEnergyLookup["莉莉的糖果極光髮型"] = 0;
+        BMaxEnergyLookup["莉莉的狂野學園髮型"] = 0;
+        //page 4 row 6
+        BMaxEnergyLookup["莉莉的暗黑殺手髮型"] = 0;
+        BMaxEnergyLookup["莉莉的秋天精靈髮型"] = 0;
+        BMaxEnergyLookup["莉莉的聖龍王髮王"] = 0;
+        BMaxEnergyLookup["莉莉的甜蜜布丁髮型"] = 0;
+        BMaxEnergyLookup["莉莉的活力少年髮型"] = 0;
+
+        //page 5 row 1
+        BMaxEnergyLookup["莉莉的戰鬥士髮型"] = 0;
+        BMaxEnergyLookup["莉莉的高尚貴族髮型"] = 0;
+        BMaxEnergyLookup["莉莉的皇族黑夜髮型"] = 0;
+        BMaxEnergyLookup["深幽婚禮頭紗(女)"] = 0;
+        BMaxEnergyLookup["粉橙潮女髮型"] = 0;
+        //page 5 row 0
+        BMaxEnergyLookup["粉橙潮男髮型-D"] = 0;
+        BMaxEnergyLookup["閃亮少女髮型-D"] = 0;
+        BMaxEnergyLookup["閃亮少男髮型-D"] = 0;
+        BMaxEnergyLookup["甜蜜布丁髮型"] = 0;
+        BMaxEnergyLookup["糖果極光髮型"] = 0;
+        //page 5 row 3
+        BMaxEnergyLookup["韓國貴族校服髮型(女)"] = 0;
+        BMaxEnergyLookup["韓國貴族校服髮型(男)"] = 0;
+        BMaxEnergyLookup["韓國偶像校服髮型(女)"] = 0;
+        BMaxEnergyLookup["韓國偶像校服髮型(男)"] = 0;
+        BMaxEnergyLookup["暗黑魅力髮型-D"] = 0;
+        //page 5 row 4
+        BMaxEnergyLookup["光之魅力髮型-D"] = 0;
+        BMaxEnergyLookup["綠焰髮型"] = 0;
+        BMaxEnergyLookup["皇家騎士團髮型-D"] = 0;
+        BMaxEnergyLookup["橘色陽光髮型(女)"] = 0;
+        BMaxEnergyLookup["橘色陽光髮型(男)"] = 0;
+        //page 5 row 5
+        BMaxEnergyLookup["摩登少女髮型-D"] = 0;
+        BMaxEnergyLookup["摩登少年髮型-D"] = 0;
+        BMaxEnergyLookup["浪漫少女髮型-D"] = 0;
+        BMaxEnergyLookup["浪漫少年髮型-D"] = 0;
+        BMaxEnergyLookup["白色情人節Cap帽(男)"] = 0;
+        //page 5 row 6
+        BMaxEnergyLookup["白色情人節Cap帽(女)"] = 0;
+        BMaxEnergyLookup["清爽春風髮型(女)"] = 0;
+        BMaxEnergyLookup["清爽春風髮型(男)"] = 0;
+        BMaxEnergyLookup["天空之國髮型-D(男)"] = 0;
+        BMaxEnergyLookup["天空之國髮型-D(女)"] = 0;
+
+        //page 6 row 1
+        BMaxEnergyLookup["異世界髮型-D"] = 0;
+        BMaxEnergyLookup["異世甲髮型-D"] = 0;
+        BMaxEnergyLookup["布拉基的髮型-D"] = 0;
+        BMaxEnergyLookup["聖戰女神髮型-D"] = 0;
+        BMaxEnergyLookup["凡賽堤髮型-D"] = 0;
+        //page 6 row 0
+        BMaxEnergyLookup["黃金火焰髮型"] = 0;
+        BMaxEnergyLookup["聖光烈焰髮型"] = 0;
+        BMaxEnergyLookup["真 ᛫ 女神白焰髮型"] = 0;
+        BMaxEnergyLookup["安琪公主的頭髮"] = 0;
+        BMaxEnergyLookup["安琪道路的頭髮"] = 0;
+        //page 6 row 3
+        BMaxEnergyLookup["魔鬼國王的頭髮"] = 0;
+        BMaxEnergyLookup["魔鬼道路的頭髮"] = 0;
+        BMaxEnergyLookup["極限藍焰髮型"] = 0;
+        BMaxEnergyLookup["傳說的火焰髮型"] = 0;
+        BMaxEnergyLookup["Dr Hell面貝"] = 0;
+    }
+    #endregion B_Hair Max Energy
+
+    #region B_Hair Max Sprint
+    void B_MaxSprint()
+    {
+        //page 1 row 1
+        BMaxSprintLookup["時尚休閒髮型"] = 0;
+        BMaxSprintLookup["夏日野餐髮型(女)-D"] = 0;
+        BMaxSprintLookup["夏日野餐髮型(男)-D"] = 0;
+        BMaxSprintLookup["夏日時尚髮型(女)"] = 0;
+        BMaxSprintLookup["夏日時尚髮型(男)"] = 0;
+        //page 1 row 0
+        BMaxSprintLookup["悠閒夏日髮型(女)"] = 0;
+        BMaxSprintLookup["悠閒夏日髮型(男)"] = 0;
+        BMaxSprintLookup["祭典浴衣髮型(女)-D"] = 0;
+        BMaxSprintLookup["祭典浴衣髮型(男)-D"] = 0;
+        BMaxSprintLookup["春雨櫻花髮型(女)-D"] = 0;
+        //page 1 row 3
+        BMaxSprintLookup["春雨櫻花髮型(男)-D"] = 0;
+        BMaxSprintLookup["活潑的莉莉髮型-D"] = 0;
+        BMaxSprintLookup["貴族少爺路易髮型-D"] = 0;
+        BMaxSprintLookup["巧克力馬卡龍髮型-D"] = 0;
+        BMaxSprintLookup["啦啦隊長髮型(女)-D"] = 0;
+        //page 1 row 4
+        BMaxSprintLookup["啦啦隊長髮型(男)-D"] = 0;
+        BMaxSprintLookup["花樣新衣髮型(女)-D"] = 0;
+        BMaxSprintLookup["花樣新衣髮型(男)-D"] = 0;
+        BMaxSprintLookup["禦寒時尚髮型(男)-D"] = 0;
+        BMaxSprintLookup["禦寒時尚髮型(女)-D"] = 0;
+        //page 1 row 5
+        BMaxSprintLookup["雪之精靈髮型-D"] = 0;
+        BMaxSprintLookup["王國公主髮型-D"] = 0;
+        BMaxSprintLookup["王國公主髮飾"] = 0;
+        BMaxSprintLookup["伊諾梅爾髮型-D"] = 0;
+        BMaxSprintLookup["Ms. Black髮型-D"] = 0;
+        //page 1 row 6
+        BMaxSprintLookup["Mr. Black髮型-D"] = 0;
+        BMaxSprintLookup["幽靈獵人髮型(女)-D"] = 0;
+        BMaxSprintLookup["幽靈獵人髮型(男)-D"] = 0;
+        BMaxSprintLookup["深秋約會髮型(女)-D"] = 0;
+        BMaxSprintLookup["深秋約會髮型(男)-D"] = 0;
+
+        //page 0 row 1
+        BMaxSprintLookup["普拉莉絲髮型(女)-D"] = 0;
+        BMaxSprintLookup["普拉莉絲髮型(男)-D"] = 0;
+        BMaxSprintLookup["夏夜髮型(女)-D"] = 0;
+        BMaxSprintLookup["夏夜髮型(男)-D"] = 0;
+        BMaxSprintLookup["森之精靈髮型-D"] = 0;
+        //page 0 row 0
+        BMaxSprintLookup["地獄使者白髮-D"] = 0;
+        BMaxSprintLookup["夏日麻花辮(女)-D"] = 0;
+        BMaxSprintLookup["夏日灰髮(男)-D"] = 0;
+        BMaxSprintLookup["活潑小紅帽髮型-D"] = 0;
+        BMaxSprintLookup["酷帥大野狼髮型-D"] = 0;
+        //page 0 row 3
+        BMaxSprintLookup["深海刑警髮型-D"] = 0;
+        BMaxSprintLookup["幼稚園生髮型(女)"] = 0;
+        BMaxSprintLookup["幼稚園生髮型(男)"] = 0;
+        BMaxSprintLookup["宴會髮型(女)-D"] = 0;
+        BMaxSprintLookup["宴會髮型(男)-D"] = 0;
+        //page 0 row 4
+        BMaxSprintLookup["童話學園髮型(女)-D"] = 0;
+        BMaxSprintLookup["童話學園髮型(男)-D"] = 0;
+        BMaxSprintLookup["時尚韓服髮型(男)-D"] = 0;
+        BMaxSprintLookup["時尚韓服髮型(女)-D"] = 0;
+        BMaxSprintLookup["惡魔靈魂髮型-D"] = 0;
+        //page 0 row 5
+        BMaxSprintLookup["禦寒髮型-D"] = 0;
+        BMaxSprintLookup["高階騎士髮型-D"] = 0;
+        BMaxSprintLookup["紫晶銀月髮型-D"] = 0;
+        BMaxSprintLookup["王后新娘髮型-D"] = 0;
+        BMaxSprintLookup["國王新郎髮型-D"] = 0;
+        //page 0 row 6
+        BMaxSprintLookup["月兔髮型(男)-D"] = 0;
+        BMaxSprintLookup["月兔髮型(女)-D"] = 0;
+        BMaxSprintLookup["魔法夏卡爾髮型-D"] = 0;
+        BMaxSprintLookup["魔法肯恩髮型-D"] = 0;
+        BMaxSprintLookup["水手泳裝髮型(男)-D"] = 0;
+
+        //page 3 row 1
+        BMaxSprintLookup["水手泳裝髮型(女)-D"] = 0;
+        BMaxSprintLookup["秋日休閒髮型(男)-D"] = 0;
+        BMaxSprintLookup["秋日休閒髮型(女)-D"] = 0;
+        BMaxSprintLookup["星夢戀人短髮-D"] = 0;
+        BMaxSprintLookup["星夢戀人長髮-D"] = 0;
+        //page 3 row 0
+        BMaxSprintLookup["不完整的童話髮型-D"] = 0;
+        BMaxSprintLookup["光輝童話髮型-D"] = 0;
+        BMaxSprintLookup["亮白羽絨衣髮型-D"] = 0;
+        BMaxSprintLookup["個性羽絨衣髮型-D"] = 0;
+        BMaxSprintLookup["黑色童話髮型-D"] = 0;
+        //page 3 row 3
+        BMaxSprintLookup["兔子管家髮型-D"] = 0;
+        BMaxSprintLookup["飛魚髮型-D"] = 0;
+        BMaxSprintLookup["道士髮型-D"] = 0;
+        BMaxSprintLookup["皇牌玩家髮型-D"] = 0;
+        BMaxSprintLookup["藍海水母髮型(女)-D"] = 0;
+        //page 3 row 4
+        BMaxSprintLookup["藍海水母髮型(男)-D"] = 0;
+        BMaxSprintLookup["傳說的人魚髮型-D"] = 0;
+        BMaxSprintLookup["森林冒險家髮型-D"] = 0;
+        BMaxSprintLookup["日之光輝髮型-D"] = 0;
+        BMaxSprintLookup["舞動少年Cap帽(女)-D"] = 0;
+        //page 3 row 5
+        BMaxSprintLookup["舞動少年Cap帽(男)-D"] = 0;
+        BMaxSprintLookup["高級守護者髮型-D"] = 0;
+        BMaxSprintLookup["溫馨約會長髮-D"] = 0;
+        BMaxSprintLookup["溫馨約會短髮-D"] = 0;
+        BMaxSprintLookup["典雅韓式髮型(女)-D"] = 0;
+        //page 3 row 6
+        BMaxSprintLookup["典雅韓底髮型(男)-D"] = 0;
+        BMaxSprintLookup["淡雅韓底髮型(女)-D"] = 0;
+        BMaxSprintLookup["淡雅韓底髮型(男)-D"] = 0;
+        BMaxSprintLookup["守護妖精髮型-D"] = 0;
+        BMaxSprintLookup["女王護衛髮型-D"] = 0;
+        //page 4 row 1
+        BMaxSprintLookup["冰雪女王髮型-D"] = 0;
+        BMaxSprintLookup["柔白雪花髮型-D"] = 0;
+        BMaxSprintLookup["甜美淑女髮型-D"] = 0;
+        BMaxSprintLookup["白髮女巫髮型-D"] = 0;
+        BMaxSprintLookup["黑女巫髮型-D"] = 0;
+        //page 4 row 0
+        BMaxSprintLookup["萬聖節奸笑南瓜-D"] = 0;
+        BMaxSprintLookup["萬聖節大笑南瓜-D"] = 0;
+        BMaxSprintLookup["查理的明星髮型-D"] = 0;
+        BMaxSprintLookup["查理的藍色精靈髮型"] = 0;
+        BMaxSprintLookup["查理的魅影髮型-D"] = 0;
+        //page 4 row 3
+        BMaxSprintLookup["查理的貴族髮型-D"] = 0;
+        BMaxSprintLookup["查理的橙色陽光髮型"] = 0;
+        BMaxSprintLookup["查理的冬季精靈髮型"] = 0;
+        BMaxSprintLookup["查理的白虎髮型-D"] = 0;
+        BMaxSprintLookup["查理的浪漫髮型-D"] = 0;
+        //page 4 row 4
+        BMaxSprintLookup["查理的麒麟髮型-D"] = 0;
+        BMaxSprintLookup["浪漫提琴手的髮型(女)"] = 0;
+        BMaxSprintLookup["浪漫提琴手的髮型(男)"] = 0;
+        BMaxSprintLookup["冷艷吸血鬼髮型-D"] = 0;
+        BMaxSprintLookup["清新活力髮型(女)-P"] = 0;
+        //page 4 row 5
+        BMaxSprintLookup["清新活力髮型(男)-P"] = 0;
+        BMaxSprintLookup["闇影修行者髮型"] = 0;
+        BMaxSprintLookup["莉莉的糖果恆星髮型"] = 0;
+        BMaxSprintLookup["莉莉的糖果極光髮型"] = 0;
+        BMaxSprintLookup["莉莉的狂野學園髮型"] = 0;
+        //page 4 row 6
+        BMaxSprintLookup["莉莉的暗黑殺手髮型"] = 0;
+        BMaxSprintLookup["莉莉的秋天精靈髮型"] = 0;
+        BMaxSprintLookup["莉莉的聖龍王髮王"] = 0;
+        BMaxSprintLookup["莉莉的甜蜜布丁髮型"] = 0;
+        BMaxSprintLookup["莉莉的活力少年髮型"] = 0;
+
+        //page 5 row 1
+        BMaxSprintLookup["莉莉的戰鬥士髮型"] = 0;
+        BMaxSprintLookup["莉莉的高尚貴族髮型"] = 0;
+        BMaxSprintLookup["莉莉的皇族黑夜髮型"] = 0;
+        BMaxSprintLookup["深幽婚禮頭紗(女)"] = 0;
+        BMaxSprintLookup["粉橙潮女髮型"] = 0;
+        //page 5 row 0
+        BMaxSprintLookup["粉橙潮男髮型-D"] = 0;
+        BMaxSprintLookup["閃亮少女髮型-D"] = 0;
+        BMaxSprintLookup["閃亮少男髮型-D"] = 0;
+        BMaxSprintLookup["甜蜜布丁髮型"] = 0;
+        BMaxSprintLookup["糖果極光髮型"] = 0;
+        //page 5 row 3
+        BMaxSprintLookup["韓國貴族校服髮型(女)"] = 0;
+        BMaxSprintLookup["韓國貴族校服髮型(男)"] = 0;
+        BMaxSprintLookup["韓國偶像校服髮型(女)"] = 0;
+        BMaxSprintLookup["韓國偶像校服髮型(男)"] = 0;
+        BMaxSprintLookup["暗黑魅力髮型-D"] = 0;
+        //page 5 row 4
+        BMaxSprintLookup["光之魅力髮型-D"] = 0;
+        BMaxSprintLookup["綠焰髮型"] = 0;
+        BMaxSprintLookup["皇家騎士團髮型-D"] = 0;
+        BMaxSprintLookup["橘色陽光髮型(女)"] = 0;
+        BMaxSprintLookup["橘色陽光髮型(男)"] = 0;
+        //page 5 row 5
+        BMaxSprintLookup["摩登少女髮型-D"] = 0;
+        BMaxSprintLookup["摩登少年髮型-D"] = 0;
+        BMaxSprintLookup["浪漫少女髮型-D"] = 0;
+        BMaxSprintLookup["浪漫少年髮型-D"] = 0;
+        BMaxSprintLookup["白色情人節Cap帽(男)"] = 0;
+        //page 5 row 6
+        BMaxSprintLookup["白色情人節Cap帽(女)"] = 0;
+        BMaxSprintLookup["清爽春風髮型(女)"] = 0;
+        BMaxSprintLookup["清爽春風髮型(男)"] = 0;
+        BMaxSprintLookup["天空之國髮型-D(男)"] = 0;
+        BMaxSprintLookup["天空之國髮型-D(女)"] = 0;
+
+        //page 6 row 1
+        BMaxSprintLookup["異世界髮型-D"] = 0;
+        BMaxSprintLookup["異世甲髮型-D"] = 0;
+        BMaxSprintLookup["布拉基的髮型-D"] = 0;
+        BMaxSprintLookup["聖戰女神髮型-D"] = 0;
+        BMaxSprintLookup["凡賽堤髮型-D"] = 0;
+        //page 6 row 0
+        BMaxSprintLookup["黃金火焰髮型"] = 0;
+        BMaxSprintLookup["聖光烈焰髮型"] = 0;
+        BMaxSprintLookup["真 ᛫ 女神白焰髮型"] = 0;
+        BMaxSprintLookup["安琪公主的頭髮"] = 0;
+        BMaxSprintLookup["安琪道路的頭髮"] = 0;
+        //page 6 row 3
+        BMaxSprintLookup["魔鬼國王的頭髮"] = 0;
+        BMaxSprintLookup["魔鬼道路的頭髮"] = 0;
+        BMaxSprintLookup["極限藍焰髮型"] = 0;
+        BMaxSprintLookup["傳說的火焰髮型"] = 0;
+        BMaxSprintLookup["Dr Hell面貝"] = 0;
+    }
+    #endregion B_Hair Max Sprint
+
+    #region B_Hair Force
+    void B_Force()
+    {
+        //page 1 row 1
+        BForceLookup["時尚休閒髮型"] = 0;
+        BForceLookup["夏日野餐髮型(女)-D"] = 0;
+        BForceLookup["夏日野餐髮型(男)-D"] = 0;
+        BForceLookup["夏日時尚髮型(女)"] = 0;
+        BForceLookup["夏日時尚髮型(男)"] = 0;
+        //page 1 row 0
+        BForceLookup["悠閒夏日髮型(女)"] = 0;
+        BForceLookup["悠閒夏日髮型(男)"] = 0;
+        BForceLookup["祭典浴衣髮型(女)-D"] = 0;
+        BForceLookup["祭典浴衣髮型(男)-D"] = 0;
+        BForceLookup["春雨櫻花髮型(女)-D"] = 0;
+        //page 1 row 3
+        BForceLookup["春雨櫻花髮型(男)-D"] = 0;
+        BForceLookup["活潑的莉莉髮型-D"] = 0;
+        BForceLookup["貴族少爺路易髮型-D"] = 0;
+        BForceLookup["巧克力馬卡龍髮型-D"] = 0;
+        BForceLookup["啦啦隊長髮型(女)-D"] = 0;
+        //page 1 row 4
+        BForceLookup["啦啦隊長髮型(男)-D"] = 0;
+        BForceLookup["花樣新衣髮型(女)-D"] = 0;
+        BForceLookup["花樣新衣髮型(男)-D"] = 0;
+        BForceLookup["禦寒時尚髮型(男)-D"] = 0;
+        BForceLookup["禦寒時尚髮型(女)-D"] = 0;
+        //page 1 row 5
+        BForceLookup["雪之精靈髮型-D"] = 0;
+        BForceLookup["王國公主髮型-D"] = 0;
+        BForceLookup["王國公主髮飾"] = 0;
+        BForceLookup["伊諾梅爾髮型-D"] = 0;
+        BForceLookup["Ms. Black髮型-D"] = 0;
+        //page 1 row 6
+        BForceLookup["Mr. Black髮型-D"] = 0;
+        BForceLookup["幽靈獵人髮型(女)-D"] = 0;
+        BForceLookup["幽靈獵人髮型(男)-D"] = 0;
+        BForceLookup["深秋約會髮型(女)-D"] = 0;
+        BForceLookup["深秋約會髮型(男)-D"] = 0;
+
+        //page 0 row 1
+        BForceLookup["普拉莉絲髮型(女)-D"] = 0;
+        BForceLookup["普拉莉絲髮型(男)-D"] = 0;
+        BForceLookup["夏夜髮型(女)-D"] = 0;
+        BForceLookup["夏夜髮型(男)-D"] = 0;
+        BForceLookup["森之精靈髮型-D"] = 0;
+        //page 0 row 0
+        BForceLookup["地獄使者白髮-D"] = 0;
+        BForceLookup["夏日麻花辮(女)-D"] = 0;
+        BForceLookup["夏日灰髮(男)-D"] = 0;
+        BForceLookup["活潑小紅帽髮型-D"] = 0;
+        BForceLookup["酷帥大野狼髮型-D"] = 0;
+        //page 0 row 3
+        BForceLookup["深海刑警髮型-D"] = 0;
+        BForceLookup["幼稚園生髮型(女)"] = 0;
+        BForceLookup["幼稚園生髮型(男)"] = 0;
+        BForceLookup["宴會髮型(女)-D"] = 0;
+        BForceLookup["宴會髮型(男)-D"] = 0;
+        //page 0 row 4
+        BForceLookup["童話學園髮型(女)-D"] = 0;
+        BForceLookup["童話學園髮型(男)-D"] = 0;
+        BForceLookup["時尚韓服髮型(男)-D"] = 0;
+        BForceLookup["時尚韓服髮型(女)-D"] = 0;
+        BForceLookup["惡魔靈魂髮型-D"] = 0;
+        //page 0 row 5
+        BForceLookup["禦寒髮型-D"] = 0;
+        BForceLookup["高階騎士髮型-D"] = 0;
+        BForceLookup["紫晶銀月髮型-D"] = 0;
+        BForceLookup["王后新娘髮型-D"] = 0;
+        BForceLookup["國王新郎髮型-D"] = 0;
+        //page 0 row 6
+        BForceLookup["月兔髮型(男)-D"] = 0;
+        BForceLookup["月兔髮型(女)-D"] = 0;
+        BForceLookup["魔法夏卡爾髮型-D"] = 0;
+        BForceLookup["魔法肯恩髮型-D"] = 0;
+        BForceLookup["水手泳裝髮型(男)-D"] = 0;
+
+        //page 3 row 1
+        BForceLookup["水手泳裝髮型(女)-D"] = 0;
+        BForceLookup["秋日休閒髮型(男)-D"] = 0;
+        BForceLookup["秋日休閒髮型(女)-D"] = 0;
+        BForceLookup["星夢戀人短髮-D"] = 0;
+        BForceLookup["星夢戀人長髮-D"] = 0;
+        //page 3 row 0
+        BForceLookup["不完整的童話髮型-D"] = 0;
+        BForceLookup["光輝童話髮型-D"] = 0;
+        BForceLookup["亮白羽絨衣髮型-D"] = 0;
+        BForceLookup["個性羽絨衣髮型-D"] = 0;
+        BForceLookup["黑色童話髮型-D"] = 0;
+        //page 3 row 3
+        BForceLookup["兔子管家髮型-D"] = 0;
+        BForceLookup["飛魚髮型-D"] = 0;
+        BForceLookup["道士髮型-D"] = 0;
+        BForceLookup["皇牌玩家髮型-D"] = 0;
+        BForceLookup["藍海水母髮型(女)-D"] = 0;
+        //page 3 row 4
+        BForceLookup["藍海水母髮型(男)-D"] = 0;
+        BForceLookup["傳說的人魚髮型-D"] = 0;
+        BForceLookup["森林冒險家髮型-D"] = 0;
+        BForceLookup["日之光輝髮型-D"] = 0;
+        BForceLookup["舞動少年Cap帽(女)-D"] = 0;
+        //page 3 row 5
+        BForceLookup["舞動少年Cap帽(男)-D"] = 0;
+        BForceLookup["高級守護者髮型-D"] = 0;
+        BForceLookup["溫馨約會長髮-D"] = 0;
+        BForceLookup["溫馨約會短髮-D"] = 0;
+        BForceLookup["典雅韓式髮型(女)-D"] = 0;
+        //page 3 row 6
+        BForceLookup["典雅韓底髮型(男)-D"] = 0;
+        BForceLookup["淡雅韓底髮型(女)-D"] = 0;
+        BForceLookup["淡雅韓底髮型(男)-D"] = 0;
+        BForceLookup["守護妖精髮型-D"] = 0;
+        BForceLookup["女王護衛髮型-D"] = 0;
+        //page 4 row 1
+        BForceLookup["冰雪女王髮型-D"] = 0;
+        BForceLookup["柔白雪花髮型-D"] = 0;
+        BForceLookup["甜美淑女髮型-D"] = 0;
+        BForceLookup["白髮女巫髮型-D"] = 0;
+        BForceLookup["黑女巫髮型-D"] = 0;
+        //page 4 row 0
+        BForceLookup["萬聖節奸笑南瓜-D"] = 0;
+        BForceLookup["萬聖節大笑南瓜-D"] = 0;
+        BForceLookup["查理的明星髮型-D"] = 0;
+        BForceLookup["查理的藍色精靈髮型"] = 0;
+        BForceLookup["查理的魅影髮型-D"] = 0;
+        //page 4 row 3
+        BForceLookup["查理的貴族髮型-D"] = 0;
+        BForceLookup["查理的橙色陽光髮型"] = 0;
+        BForceLookup["查理的冬季精靈髮型"] = 0;
+        BForceLookup["查理的白虎髮型-D"] = 0;
+        BForceLookup["查理的浪漫髮型-D"] = 0;
+        //page 4 row 4
+        BForceLookup["查理的麒麟髮型-D"] = 0;
+        BForceLookup["浪漫提琴手的髮型(女)"] = 0;
+        BForceLookup["浪漫提琴手的髮型(男)"] = 0;
+        BForceLookup["冷艷吸血鬼髮型-D"] = 0;
+        BForceLookup["清新活力髮型(女)-P"] = 0;
+        //page 4 row 5
+        BForceLookup["清新活力髮型(男)-P"] = 0;
+        BForceLookup["闇影修行者髮型"] = 0;
+        BForceLookup["莉莉的糖果恆星髮型"] = 0;
+        BForceLookup["莉莉的糖果極光髮型"] = 0;
+        BForceLookup["莉莉的狂野學園髮型"] = 0;
+        //page 4 row 6
+        BForceLookup["莉莉的暗黑殺手髮型"] = 0;
+        BForceLookup["莉莉的秋天精靈髮型"] = 0;
+        BForceLookup["莉莉的聖龍王髮王"] = 0;
+        BForceLookup["莉莉的甜蜜布丁髮型"] = 0;
+        BForceLookup["莉莉的活力少年髮型"] = 0;
+
+        //page 5 row 1
+        BForceLookup["莉莉的戰鬥士髮型"] = 0;
+        BForceLookup["莉莉的高尚貴族髮型"] = 0;
+        BForceLookup["莉莉的皇族黑夜髮型"] = 0;
+        BForceLookup["深幽婚禮頭紗(女)"] = 0;
+        BForceLookup["粉橙潮女髮型"] = 0;
+        //page 5 row 0
+        BForceLookup["粉橙潮男髮型-D"] = 0;
+        BForceLookup["閃亮少女髮型-D"] = 0;
+        BForceLookup["閃亮少男髮型-D"] = 0;
+        BForceLookup["甜蜜布丁髮型"] = 0;
+        BForceLookup["糖果極光髮型"] = 0;
+        //page 5 row 3
+        BForceLookup["韓國貴族校服髮型(女)"] = 0;
+        BForceLookup["韓國貴族校服髮型(男)"] = 0;
+        BForceLookup["韓國偶像校服髮型(女)"] = 0;
+        BForceLookup["韓國偶像校服髮型(男)"] = 0;
+        BForceLookup["暗黑魅力髮型-D"] = 0;
+        //page 5 row 4
+        BForceLookup["光之魅力髮型-D"] = 0;
+        BForceLookup["綠焰髮型"] = 0;
+        BForceLookup["皇家騎士團髮型-D"] = 0;
+        BForceLookup["橘色陽光髮型(女)"] = 0;
+        BForceLookup["橘色陽光髮型(男)"] = 0;
+        //page 5 row 5
+        BForceLookup["摩登少女髮型-D"] = 0;
+        BForceLookup["摩登少年髮型-D"] = 0;
+        BForceLookup["浪漫少女髮型-D"] = 0;
+        BForceLookup["浪漫少年髮型-D"] = 0;
+        BForceLookup["白色情人節Cap帽(男)"] = 0;
+        //page 5 row 6
+        BForceLookup["白色情人節Cap帽(女)"] = 0;
+        BForceLookup["清爽春風髮型(女)"] = 0;
+        BForceLookup["清爽春風髮型(男)"] = 0;
+        BForceLookup["天空之國髮型-D(男)"] = 0;
+        BForceLookup["天空之國髮型-D(女)"] = 0;
+
+        //page 6 row 1
+        BForceLookup["異世界髮型-D"] = 0;
+        BForceLookup["異世甲髮型-D"] = 0;
+        BForceLookup["布拉基的髮型-D"] = 0;
+        BForceLookup["聖戰女神髮型-D"] = 0;
+        BForceLookup["凡賽堤髮型-D"] = 0;
+        //page 6 row 0
+        BForceLookup["黃金火焰髮型"] = 0;
+        BForceLookup["聖光烈焰髮型"] = 0;
+        BForceLookup["真 ᛫ 女神白焰髮型"] = 0;
+        BForceLookup["安琪公主的頭髮"] = 0;
+        BForceLookup["安琪道路的頭髮"] = 0;
+        //page 6 row 3
+        BForceLookup["魔鬼國王的頭髮"] = 0;
+        BForceLookup["魔鬼道路的頭髮"] = 0;
+        BForceLookup["極限藍焰髮型"] = 0;
+        BForceLookup["傳說的火焰髮型"] = 0;
+        BForceLookup["Dr Hell面貝"] = 0;
+    }
+    #endregion B_Hair Force
+
+    #region B_Hair Luck
+    void B_Luck()
+    {
+        //page 1 row 1
+        BLuckLookup["時尚休閒髮型"] = 20;
+        BLuckLookup["夏日野餐髮型(女)-D"] = 15;
+        BLuckLookup["夏日野餐髮型(男)-D"] = 15;
+        BLuckLookup["夏日時尚髮型(女)"] = 20;
+        BLuckLookup["夏日時尚髮型(男)"] = 20;
+        //page 1 row 0
+        BLuckLookup["悠閒夏日髮型(女)"] = 20;
+        BLuckLookup["悠閒夏日髮型(男)"] = 20;
+        BLuckLookup["祭典浴衣髮型(女)-D"] = 10;
+        BLuckLookup["祭典浴衣髮型(男)-D"] = 10;
+        BLuckLookup["春雨櫻花髮型(女)-D"] = 10;
+        //page 1 row 3
+        BLuckLookup["春雨櫻花髮型(男)-D"] = 10;
+        BLuckLookup["活潑的莉莉髮型-D"] = 10;
+        BLuckLookup["貴族少爺路易髮型-D"] = 10;
+        BLuckLookup["巧克力馬卡龍髮型-D"] = 10;
+        BLuckLookup["啦啦隊長髮型(女)-D"] = 10;
+        //page 1 row 4
+        BLuckLookup["啦啦隊長髮型(男)-D"] = 10;
+        BLuckLookup["花樣新衣髮型(女)-D"] = 15;
+        BLuckLookup["花樣新衣髮型(男)-D"] = 20;
+        BLuckLookup["禦寒時尚髮型(男)-D"] = 20;
+        BLuckLookup["禦寒時尚髮型(女)-D"] = 20;
+        //page 1 row 5
+        BLuckLookup["雪之精靈髮型-D"] = 20;
+        BLuckLookup["王國公主髮型-D"] = 20;
+        BLuckLookup["王國公主髮飾"] = 10;
+        BLuckLookup["伊諾梅爾髮型-D"] = 20;
+        BLuckLookup["Ms. Black髮型-D"] = 15;
+        //page 1 row 6
+        BLuckLookup["Mr. Black髮型-D"] = 15;
+        BLuckLookup["幽靈獵人髮型(女)-D"] = 10;
+        BLuckLookup["幽靈獵人髮型(男)-D"] = 10;
+        BLuckLookup["深秋約會髮型(女)-D"] = 10;
+        BLuckLookup["深秋約會髮型(男)-D"] = 10;
+
+        //page 0 row 1
+        BLuckLookup["普拉莉絲髮型(女)-D"] = 15;
+        BLuckLookup["普拉莉絲髮型(男)-D"] = 15;
+        BLuckLookup["夏夜髮型(女)-D"] = 20;
+        BLuckLookup["夏夜髮型(男)-D"] = 20;
+        BLuckLookup["森之精靈髮型-D"] = 20;
+        //page 0 row 0
+        BLuckLookup["地獄使者白髮-D"] = 20;
+        BLuckLookup["夏日麻花辮(女)-D"] = 10;
+        BLuckLookup["夏日灰髮(男)-D"] = 10;
+        BLuckLookup["活潑小紅帽髮型-D"] = 10;
+        BLuckLookup["酷帥大野狼髮型-D"] = 10;
+        //page 0 row 3
+        BLuckLookup["深海刑警髮型-D"] = 20;
+        BLuckLookup["幼稚園生髮型(女)"] = 10;
+        BLuckLookup["幼稚園生髮型(男)"] = 10;
+        BLuckLookup["宴會髮型(女)-D"] = 10;
+        BLuckLookup["宴會髮型(男)-D"] = 10;
+        //page 0 row 4
+        BLuckLookup["童話學園髮型(女)-D"] = 10;
+        BLuckLookup["童話學園髮型(男)-D"] = 10;
+        BLuckLookup["時尚韓服髮型(男)-D"] = 10;
+        BLuckLookup["時尚韓服髮型(女)-D"] = 10;
+        BLuckLookup["惡魔靈魂髮型-D"] = 0;
+        //page 0 row 5
+        BLuckLookup["禦寒髮型-D"] = 20;
+        BLuckLookup["高階騎士髮型-D"] = 20;
+        BLuckLookup["紫晶銀月髮型-D"] = 20;
+        BLuckLookup["王后新娘髮型-D"] = 10;
+        BLuckLookup["國王新郎髮型-D"] = 10;
+        //page 0 row 6
+        BLuckLookup["月兔髮型(男)-D"] = 10;
+        BLuckLookup["月兔髮型(女)-D"] = 10;
+        BLuckLookup["魔法夏卡爾髮型-D"] = 20;
+        BLuckLookup["魔法肯恩髮型-D"] = 20;
+        BLuckLookup["水手泳裝髮型(男)-D"] = 20;
+
+        //page 3 row 1
+        BLuckLookup["水手泳裝髮型(女)-D"] = 20;
+        BLuckLookup["秋日休閒髮型(男)-D"] = 20;
+        BLuckLookup["秋日休閒髮型(女)-D"] = 20;
+        BLuckLookup["星夢戀人短髮-D"] = 0;
+        BLuckLookup["星夢戀人長髮-D"] = 0;
+        //page 3 row 0
+        BLuckLookup["不完整的童話髮型-D"] = 20;
+        BLuckLookup["光輝童話髮型-D"] = 20;
+        BLuckLookup["亮白羽絨衣髮型-D"] = 40;
+        BLuckLookup["個性羽絨衣髮型-D"] = 40;
+        BLuckLookup["黑色童話髮型-D"] = 20;
+        //page 3 row 3
+        BLuckLookup["兔子管家髮型-D"] = 20;
+        BLuckLookup["飛魚髮型-D"] = 20;
+        BLuckLookup["道士髮型-D"] = 0;
+        BLuckLookup["皇牌玩家髮型-D"] = 50;
+        BLuckLookup["藍海水母髮型(女)-D"] = 0;
+        //page 3 row 4
+        BLuckLookup["藍海水母髮型(男)-D"] = 0;
+        BLuckLookup["傳說的人魚髮型-D"] = 50;
+        BLuckLookup["森林冒險家髮型-D"] = 50;
+        BLuckLookup["日之光輝髮型-D"] = 0;
+        BLuckLookup["舞動少年Cap帽(女)-D"] = 0;
+        //page 3 row 5
+        BLuckLookup["舞動少年Cap帽(男)-D"] = 0;
+        BLuckLookup["高級守護者髮型-D"] = 0;
+        BLuckLookup["溫馨約會長髮-D"] = 0;
+        BLuckLookup["溫馨約會短髮-D"] = 0;
+        BLuckLookup["典雅韓式髮型(女)-D"] = 0;
+        //page 3 row 6
+        BLuckLookup["典雅韓底髮型(男)-D"] = 0;
+        BLuckLookup["淡雅韓底髮型(女)-D"] = 0;
+        BLuckLookup["淡雅韓底髮型(男)-D"] = 0;
+        BLuckLookup["守護妖精髮型-D"] = 20;
+        BLuckLookup["女王護衛髮型-D"] = 20;
+        //page 4 row 1
+        BLuckLookup["冰雪女王髮型-D"] = 20;
+        BLuckLookup["柔白雪花髮型-D"] = 0;
+        BLuckLookup["甜美淑女髮型-D"] = 0;
+        BLuckLookup["白髮女巫髮型-D"] = 50;
+        BLuckLookup["黑女巫髮型-D"] = 50;
+        //page 4 row 0
+        BLuckLookup["萬聖節奸笑南瓜-D"] = 30;
+        BLuckLookup["萬聖節大笑南瓜-D"] = 30;
+        BLuckLookup["查理的明星髮型-D"] = 20;
+        BLuckLookup["查理的藍色精靈髮型"] = 20;
+        BLuckLookup["查理的魅影髮型-D"] = 20;
+        //page 4 row 3
+        BLuckLookup["查理的貴族髮型-D"] = 20;
+        BLuckLookup["查理的橙色陽光髮型"] = 20;
+        BLuckLookup["查理的冬季精靈髮型"] = 20;
+        BLuckLookup["查理的白虎髮型-D"] = 20;
+        BLuckLookup["查理的浪漫髮型-D"] = 20;
+        //page 4 row 4
+        BLuckLookup["查理的麒麟髮型-D"] = 20;
+        BLuckLookup["浪漫提琴手的髮型(女)"] = 0;
+        BLuckLookup["浪漫提琴手的髮型(男)"] = 0;
+        BLuckLookup["冷艷吸血鬼髮型-D"] = 20;
+        BLuckLookup["清新活力髮型(女)-P"] = 0;
+        //page 4 row 5
+        BLuckLookup["清新活力髮型(男)-P"] = 0;
+        BLuckLookup["闇影修行者髮型"] = 0;
+        BLuckLookup["莉莉的糖果恆星髮型"] = 20;
+        BLuckLookup["莉莉的糖果極光髮型"] = 20;
+        BLuckLookup["莉莉的狂野學園髮型"] = 20;
+        //page 4 row 6
+        BLuckLookup["莉莉的暗黑殺手髮型"] = 20;
+        BLuckLookup["莉莉的秋天精靈髮型"] = 20;
+        BLuckLookup["莉莉的聖龍王髮王"] = 20;
+        BLuckLookup["莉莉的甜蜜布丁髮型"] = 20;
+        BLuckLookup["莉莉的活力少年髮型"] = 20;
+
+        //page 5 row 1
+        BLuckLookup["莉莉的戰鬥士髮型"] = 20;
+        BLuckLookup["莉莉的高尚貴族髮型"] = 20;
+        BLuckLookup["莉莉的皇族黑夜髮型"] = 20;
+        BLuckLookup["深幽婚禮頭紗(女)"] = 0;
+        BLuckLookup["粉橙潮女髮型"] = 0;
+        //page 5 row 0
+        BLuckLookup["粉橙潮男髮型-D"] = 0;
+        BLuckLookup["閃亮少女髮型-D"] = 0;
+        BLuckLookup["閃亮少男髮型-D"] = 0;
+        BLuckLookup["甜蜜布丁髮型"] = 0;
+        BLuckLookup["糖果極光髮型"] = 0;
+        //page 5 row 3
+        BLuckLookup["韓國貴族校服髮型(女)"] = 0;
+        BLuckLookup["韓國貴族校服髮型(男)"] = 0;
+        BLuckLookup["韓國偶像校服髮型(女)"] = 0;
+        BLuckLookup["韓國偶像校服髮型(男)"] = 0;
+        BLuckLookup["暗黑魅力髮型-D"] = 0;
+        //page 5 row 4
+        BLuckLookup["光之魅力髮型-D"] = 0;
+        BLuckLookup["綠焰髮型"] = 0;
+        BLuckLookup["皇家騎士團髮型-D"] = 0;
+        BLuckLookup["橘色陽光髮型(女)"] = 0;
+        BLuckLookup["橘色陽光髮型(男)"] = 0;
+        //page 5 row 5
+        BLuckLookup["摩登少女髮型-D"] = 0;
+        BLuckLookup["摩登少年髮型-D"] = 0;
+        BLuckLookup["浪漫少女髮型-D"] = 0;
+        BLuckLookup["浪漫少年髮型-D"] = 0;
+        BLuckLookup["白色情人節Cap帽(男)"] = 0;
+        //page 5 row 6
+        BLuckLookup["白色情人節Cap帽(女)"] = 0;
+        BLuckLookup["清爽春風髮型(女)"] = 0;
+        BLuckLookup["清爽春風髮型(男)"] = 0;
+        BLuckLookup["天空之國髮型-D(男)"] = 0;
+        BLuckLookup["天空之國髮型-D(女)"] = 0;
+
+        //page 6 row 1
+        BLuckLookup["異世界髮型-D"] = 0;
+        BLuckLookup["異世甲髮型-D"] = 0;
+        BLuckLookup["布拉基的髮型-D"] = 0;
+        BLuckLookup["聖戰女神髮型-D"] = 0;
+        BLuckLookup["凡賽堤髮型-D"] = 0;
+        //page 6 row 0
+        BLuckLookup["黃金火焰髮型"] = 0;
+        BLuckLookup["聖光烈焰髮型"] = 0;
+        BLuckLookup["真 ᛫ 女神白焰髮型"] = 0;
+        BLuckLookup["安琪公主的頭髮"] = 0;
+        BLuckLookup["安琪道路的頭髮"] = 0;
+        //page 6 row 3
+        BLuckLookup["魔鬼國王的頭髮"] = 0;
+        BLuckLookup["魔鬼道路的頭髮"] = 0;
+        BLuckLookup["極限藍焰髮型"] = 0;
+        BLuckLookup["傳說的火焰髮型"] = 0;
+        BLuckLookup["Dr Hell面貝"] = 0;
+    }
+    #endregion B_Hair Luck
 }
 
