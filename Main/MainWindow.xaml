@@ -1,0 +1,110 @@
+﻿<Window x:Class="Main.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Main"
+        mc:Ignorable="d"
+        Title="Calculator" Height="450" Width="850" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="404" Margin="10,5,0,0" VerticalAlignment="Top" Width="300">
+            <Label Content="最高速度:" HorizontalAlignment="Left" Margin="7,35,0,0" VerticalAlignment="Top"/>
+            <Label Content="加速度:" HorizontalAlignment="Left" Margin="7,55,0,0" VerticalAlignment="Top"/>
+            <Label Content="力量:" HorizontalAlignment="Left" Margin="7,75,0,0" VerticalAlignment="Top"/>
+            <Label Content="控制:" HorizontalAlignment="Left" Margin="7,95,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="SpeedLabel" Content=" " HorizontalAlignment="Left" Margin="78,35,0,0" VerticalAlignment="Top" RenderTransformOrigin="16.308,7.077"/>
+            <Label x:Name="AccelerationLabel" Content=" " HorizontalAlignment="Left" Margin="78,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="16.308,7.077"/>
+            <Label x:Name="PowerLabel" Content=" " HorizontalAlignment="Left" Margin="78,75,0,0" VerticalAlignment="Top" RenderTransformOrigin="16.308,7.077"/>
+            <Label x:Name="ControlLabel" Content=" " HorizontalAlignment="Left" Margin="78,95,0,0" VerticalAlignment="Top" RenderTransformOrigin="16.308,7.077"/>
+            <TextBlock HorizontalAlignment="Left" Margin="14,10,0,0" TextWrapping="Wrap" Text="角色: " VerticalAlignment="Top"/>
+            <ComboBox x:Name="CharComboBox" HorizontalAlignment="Left" Margin="56,8,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged"/>
+            <RadioButton x:Name="CharModeButton" Content="角色模式" HorizontalAlignment="Left" Margin="20,135,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.134,0.467" Checked="ModeButton_Checked"/>
+            <RadioButton x:Name="AvatarModeButton" Content="Avatar 模式" HorizontalAlignment="Left" Margin="150,135,0,0" VerticalAlignment="Top" Checked="ModeButton_Checked"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="75" Margin="425,5,0,0" VerticalAlignment="Top" Width="392">
+            <RadioButton x:Name="HairRadioButton" Content="髮型" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="35" Margin="0,0,0,0" Checked="GearSelectionRadioButton_Checked"/>
+            <RadioButton x:Name="TopRadioButton" Content="上衣" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="35" Margin="55,0,0,0" Checked="GearSelectionRadioButton_Checked"/>
+            <RadioButton x:Name="BottomRadioButton" Content="褲子" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="35" Margin="110,0,0,0" Checked="GearSelectionRadioButton_Checked"/>
+            <RadioButton x:Name="ShoesRadioButton" Content="鞋子" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="35" Margin="165,0,0,0" Checked="GearSelectionRadioButton_Checked"/>
+            <RadioButton x:Name="HatRadioButton" Content="頭部" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="35" Margin="220,0,0,0" Checked="GearSelectionRadioButton_Checked"/>
+            <RadioButton x:Name="FaceRadioButton" Content="臉部" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="35" Margin="275,0,0,0" Checked="GearSelectionRadioButton_Checked"/>
+            <RadioButton x:Name="HandRadioButton" Content="手部" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="35" Margin="339,0,0,0" Checked="GearSelectionRadioButton_Checked"/>
+            <RadioButton x:Name="BackRadioButton" Content="背部" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="35" Margin="0,40,0,0" Checked="GearSelectionRadioButton_Checked"/>
+            <RadioButton x:Name="NeckRadioButton" Content="頸部" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="35" Margin="55,40,0,0" Checked="GearSelectionRadioButton_Checked"/>
+            <RadioButton x:Name="PetRadioButton" Content="寵物" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="35" Margin="110,40,0,0" Checked="GearSelectionRadioButton_Checked"/>
+            <RadioButton x:Name="SpecialRadioButton" Content="特別" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="35" Margin="165,40,0,0" Checked="GearSelectionRadioButton_Checked"/>
+            <RadioButton x:Name="WristRadioButton" Content="手腕" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="35" Margin="220,40,0,0" Checked="GearSelectionRadioButton_Checked"/>
+            <RadioButton x:Name="AcceleratorRadioButton" Content="推進器" HorizontalAlignment="Left" VerticalAlignment="Top" Width="59" Height="35" Margin="275,40,0,0" Checked="GearSelectionRadioButton_Checked"/>
+            <RadioButton x:Name="TailRadioButton" Content="尾巴" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="35" Margin="339,40,0,0" Checked="GearSelectionRadioButton_Checked"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="331" Margin="311,79,0,0" VerticalAlignment="Top" Width="100">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="99*"/>
+                <ColumnDefinition Width="0*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <CheckBox x:Name="SpeedCheckBox" Content="最高速度" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Height="30" Width="92"/>
+            <CheckBox x:Name="AccelerationCheckBox" Content="加速度" HorizontalAlignment="Left" Margin="5,35,0,0" VerticalAlignment="Top" Height="29" Width="92"/>
+            <CheckBox x:Name="PowerCheckBox" Content="力量" HorizontalAlignment="Left" Margin="5,65,0,0" VerticalAlignment="Top" Height="29" Width="92"/>
+            <CheckBox x:Name="ControlCheckBox" Content="控制" HorizontalAlignment="Left" Margin="5,95,0,0" VerticalAlignment="Top" Height="29" Width="92"/>
+            <CheckBox x:Name="RageDurationCheckBox" Content="憤怒持續" HorizontalAlignment="Left" Margin="5,125,0,0" VerticalAlignment="Top" Height="29" Width="92"/>
+            <CheckBox x:Name="RageChargeCheckBox" Content="憤怒累積" HorizontalAlignment="Left" Margin="5,155,0,0" VerticalAlignment="Top" Height="29" Width="92"/>
+            <CheckBox x:Name="MaxEnergyCheckBox" Content="最大體力值" HorizontalAlignment="Left" Margin="5,185,0,0" VerticalAlignment="Top" Height="29" Width="92"/>
+            <CheckBox x:Name="MaxSprintCheckBox" Content="最高衝刺" HorizontalAlignment="Left" Margin="5,215,0,0" VerticalAlignment="Top" Height="29" Width="92"/>
+            <CheckBox x:Name="ForceCheckBox" Content="推進力" HorizontalAlignment="Left" Margin="5,245,0,0" VerticalAlignment="Top" Height="29" Width="92"/>
+            <CheckBox x:Name="LuckCheckBox" Content="幸運" HorizontalAlignment="Left" Margin="5,275,0,0" VerticalAlignment="Top" Height="29" Width="92"/>
+            <CheckBox x:Name="AvatarCheckBox" Content="Avatar模式" HorizontalAlignment="Left" Margin="5,305,0,0" VerticalAlignment="Top" Height="29" Width="92"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="30" Margin="505,85,0,0" VerticalAlignment="Top" Width="275">
+            <RadioButton x:Name="RarityCRadioButton" Content="C級" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="40" Height="30" Checked="RaritySelectionRadioButton_Checked"/>
+            <RadioButton x:Name="RarityBRadioButton" Content="B級" HorizontalAlignment="Left" Margin="45,0,0,0" VerticalAlignment="Top" Width="40" Height="30" Checked="RaritySelectionRadioButton_Checked"/>
+            <RadioButton x:Name="RarityARadioButton" Content="A級" HorizontalAlignment="Left" Margin="90,0,0,0" VerticalAlignment="Top" Width="40" Height="30" Checked="RaritySelectionRadioButton_Checked"/>
+            <RadioButton x:Name="RaritySRadioButton" Content="S級" HorizontalAlignment="Left" Margin="135,0,0,0" VerticalAlignment="Top" Width="40" Height="30" Checked="RaritySelectionRadioButton_Checked"/>
+            <RadioButton x:Name="RaritySSRadioButton" Content="SS級" HorizontalAlignment="Left" Margin="180,0,0,0" VerticalAlignment="Top" Width="50" Height="30" Checked="RaritySelectionRadioButton_Checked"/>
+            <RadioButton x:Name="RaritySSSRadioButton" Content="SSS級" HorizontalAlignment="Left" Margin="225,0,0,0" VerticalAlignment="Top" Width="60" Height="30" Checked="RaritySelectionRadioButton_Checked"/>
+        </Grid>
+
+        <Grid HorizontalAlignment="Left" Height="215" Margin="412,154,0,0" VerticalAlignment="Top" Width="280">
+            <Label Content="裝備能力值" HorizontalAlignment="Left" Margin="2,10,0,0" VerticalAlignment="Top" Height="26" Width="73"/>
+            <Label Content="最高速度:" HorizontalAlignment="Left" Margin="2,30,0,0" VerticalAlignment="Top" Height="26" Width="61"/>
+            <Label Content="加速度:" HorizontalAlignment="Left" Margin="2,50,0,0" VerticalAlignment="Top" Height="26" Width="49"/>
+            <Label Content="力量:" HorizontalAlignment="Left" Margin="2,70,0,0" VerticalAlignment="Top" Height="26" Width="37"/>
+            <Label Content="控制:" HorizontalAlignment="Left" Margin="2,90,0,0" VerticalAlignment="Top" Height="26" Width="37"/>
+            <Label Content="憤怒持續:" HorizontalAlignment="Left" Margin="2,110,0,0" VerticalAlignment="Top" Height="26" Width="61"/>
+            <Label Content="憤怒累積:" HorizontalAlignment="Left" Margin="2,130,0,0" VerticalAlignment="Top" Height="26" Width="61"/>
+            <Label Content="最大體力值:" HorizontalAlignment="Left" Margin="2,150,0,0" VerticalAlignment="Top" Height="26" Width="73"/>
+            <Label Content="最高衝刺:" HorizontalAlignment="Left" Margin="2,170,0,0" VerticalAlignment="Top" Height="26" Width="61"/>
+            <Label Content="幸運:" HorizontalAlignment="Left" Margin="2,190,0,0" VerticalAlignment="Top" Height="26" Width="37"/>
+            <Label x:Name="GSpeedLabel" Content=" " HorizontalAlignment="Left" Margin="80,30,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="GAccelerationLabel" Content=" " HorizontalAlignment="Left" Margin="80,50,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="GPowerLabel" Content=" " HorizontalAlignment="Left" Margin="80,70,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="GControlLabel" Content=" " HorizontalAlignment="Left" Margin="80,90,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="GRageDurationLabel" Content=" " HorizontalAlignment="Left" Margin="80,110,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="GRageChargeLabel" Content=" " HorizontalAlignment="Left" Margin="80,130,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="GEnergyLabel" Content=" " HorizontalAlignment="Left" Margin="80,150,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="GForceLabel" Content=" " HorizontalAlignment="Left" Margin="80,170,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="GLuckLabel" Content=" " HorizontalAlignment="Left" Margin="80,190,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="255" Margin="15,156,0,0" VerticalAlignment="Top" Width="296">
+            <Label Content="髮型: " HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top"/>
+            <Label Content="上衣: " HorizontalAlignment="Left" Margin="0,30,0,0" VerticalAlignment="Top"/>
+            <Label Content="褲子: " HorizontalAlignment="Left" Margin="0,60,0,0" VerticalAlignment="Top"/>
+            <Label Content="鞋子: " HorizontalAlignment="Left" Margin="0,90,0,0" VerticalAlignment="Top"/>
+            <Label Content="頭部: " HorizontalAlignment="Left" Margin="0,120,0,0" VerticalAlignment="Top"/>
+            <Label Content="臉部: " HorizontalAlignment="Left" Margin="0,150,0,0" VerticalAlignment="Top"/>
+            <Label Content="手部: " HorizontalAlignment="Left" Margin="0,180,0,0" VerticalAlignment="Top"/>
+            <Label Content="背部: " HorizontalAlignment="Left" Margin="150,0,0,0" VerticalAlignment="Top"/>
+            <Label Content="頸部: " HorizontalAlignment="Left" Margin="150,30,0,0" VerticalAlignment="Top"/>
+            <Label Content="寵物: " HorizontalAlignment="Left" Margin="150,60,0,0" VerticalAlignment="Top"/>
+            <Label Content="特別: " HorizontalAlignment="Left" Margin="150,90,0,0" VerticalAlignment="Top"/>
+            <Label Content="手腕: " HorizontalAlignment="Left" Margin="150,120,0,0" VerticalAlignment="Top"/>
+            <Label Content="推進器: " HorizontalAlignment="Left" Margin="150,150,0,0" VerticalAlignment="Top"/>
+            <Label Content="尾巴: " HorizontalAlignment="Left" Margin="150,180,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Button Name="EquipButton" Content="裝備" HorizontalAlignment="Left" Margin="588,115,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="0.253,-0.25" Height="31"/>
+        <Button Name="TakeOffButton" Content="取下" HorizontalAlignment="Left" Margin="22,373,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="0.253,-0.25" Height="31"/>
+        <ComboBox Name="ItemComboBox" HorizontalAlignment="Left" Margin="413,120,0,0" VerticalAlignment="Top" Width="130" SelectionChanged="ItemComboBox_SelectionChanged"/>
+
+
+    </Grid>
+</Window>
