@@ -11,6 +11,7 @@ class HairClass : Gears
     {
         C_Hair();
         B_Hair();
+        SS_Hair();
     }
 
     void C_Hair()
@@ -2775,7 +2776,13 @@ class HairClass : Gears
 
     void SS_Hair()
     {
-
+        SS_Rarity();
+        SS_Speed();
+        SS_Mode();
+        SS_Speed();
+        SS_Acceleration();
+        SS_Power();
+        SS_Control();
     }
 
     #region SS_Hair Stats

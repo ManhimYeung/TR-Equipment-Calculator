@@ -65,7 +65,7 @@
             <RadioButton x:Name="RaritySSSRadioButton" Content="SSS級" HorizontalAlignment="Left" Margin="225,0,0,0" VerticalAlignment="Top" Width="60" Height="30" Checked="RaritySelectionRadioButton_Checked"/>
         </Grid>
 
-        <Grid HorizontalAlignment="Left" Height="215" Margin="412,154,0,0" VerticalAlignment="Top" Width="280">
+        <Grid HorizontalAlignment="Left" Height="233" Margin="410,155,0,0" VerticalAlignment="Top" Width="280">
             <Label Content="裝備能力值" HorizontalAlignment="Left" Margin="2,10,0,0" VerticalAlignment="Top" Height="26" Width="73"/>
             <Label Content="最高速度:" HorizontalAlignment="Left" Margin="2,30,0,0" VerticalAlignment="Top" Height="26" Width="61"/>
             <Label Content="加速度:" HorizontalAlignment="Left" Margin="2,50,0,0" VerticalAlignment="Top" Height="26" Width="49"/>
@@ -76,6 +76,7 @@
             <Label Content="最大體力值:" HorizontalAlignment="Left" Margin="2,150,0,0" VerticalAlignment="Top" Height="26" Width="73"/>
             <Label Content="最高衝刺:" HorizontalAlignment="Left" Margin="2,170,0,0" VerticalAlignment="Top" Height="26" Width="61"/>
             <Label Content="幸運:" HorizontalAlignment="Left" Margin="2,190,0,0" VerticalAlignment="Top" Height="26" Width="37"/>
+            <Label Content="Avatar模式:" HorizontalAlignment="Left" Margin="2,210,0,0" VerticalAlignment="Top" Height="26" Width="70"/>
             <Label x:Name="GSpeedLabel" Content=" " HorizontalAlignment="Left" Margin="80,30,0,0" VerticalAlignment="Top"/>
             <Label x:Name="GAccelerationLabel" Content=" " HorizontalAlignment="Left" Margin="80,50,0,0" VerticalAlignment="Top"/>
             <Label x:Name="GPowerLabel" Content=" " HorizontalAlignment="Left" Margin="80,70,0,0" VerticalAlignment="Top"/>
@@ -85,6 +86,7 @@
             <Label x:Name="GEnergyLabel" Content=" " HorizontalAlignment="Left" Margin="80,150,0,0" VerticalAlignment="Top"/>
             <Label x:Name="GForceLabel" Content=" " HorizontalAlignment="Left" Margin="80,170,0,0" VerticalAlignment="Top"/>
             <Label x:Name="GLuckLabel" Content=" " HorizontalAlignment="Left" Margin="80,190,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="GAvatarLabel" Content=" " HorizontalAlignment="Left" Margin="80,210,0,0" VerticalAlignment="Top"/>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="255" Margin="15,156,0,0" VerticalAlignment="Top" Width="296">
             <Label Content="髮型: " HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top"/>

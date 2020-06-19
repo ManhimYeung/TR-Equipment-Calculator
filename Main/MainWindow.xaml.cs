@@ -167,25 +167,33 @@ namespace Main
 
         public void ItemsSelectionInComboBox()
         {
-
             if (gearOption == GearOptions.HairOption)
             {
-                if (rarityLevel == RarityLevels.C)
-                    ItemComboBox.ItemsSource = hairItem.CRarityLookup.Keys;
-                else if (rarityLevel == RarityLevels.B)
-                    ItemComboBox.ItemsSource = hairItem.BRarityLookup.Keys;
-                else if (rarityLevel == RarityLevels.A)
-                    ItemComboBox.ItemsSource = hairItem.ARarityLookup.Keys;
-                else if (rarityLevel == RarityLevels.S)
-                    ItemComboBox.ItemsSource = hairItem.SRarityLookup.Keys;
-                else if (rarityLevel == RarityLevels.SS)
-                    ItemComboBox.ItemsSource = hairItem.SSRarityLookup.Keys;
-                else if (rarityLevel == RarityLevels.SSS)
-                    ItemComboBox.ItemsSource = hairItem.SSSRarityLookup.Keys;
+                switch (rarityLevel)
+                {
+                    case (RarityLevels.C):
+                        ItemComboBox.ItemsSource = hairItem.CRarityLookup.Keys;
+                        break;
+                    case (RarityLevels.B):
+                        ItemComboBox.ItemsSource = hairItem.BRarityLookup.Keys;
+                        break;
+                    case (RarityLevels.A):
+                        ItemComboBox.ItemsSource = hairItem.ARarityLookup.Keys;
+                        break;
+                    case (RarityLevels.S):
+                        ItemComboBox.ItemsSource = hairItem.SRarityLookup.Keys;
+                        break;
+                    case (RarityLevels.SS):
+                        ItemComboBox.ItemsSource = hairItem.SSRarityLookup.Keys;
+                        break;
+                    case (RarityLevels.SSS):
+                        ItemComboBox.ItemsSource = hairItem.SSSRarityLookup.Keys;
+                        break;
+                }
             }
-
         }
 
+        //shows all stats of each item
         private void ItemComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             switch (gearOption)
@@ -194,7 +202,7 @@ namespace Main
                     switch (rarityLevel)
                     {
                         case (RarityLevels.C):
-                            if (hairItem.BSpeedLookup.ContainsKey(ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()) == true)
+                            if (hairItem.CSpeedLookup.ContainsKey(ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()) == true)
                             {
                                 GSpeedLabel.Content = hairItem.CSpeedLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
                                 GAccelerationLabel.Content = hairItem.CAccelerationLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
@@ -231,12 +239,12 @@ namespace Main
                         case (RarityLevels.S):
                             break;
                         case (RarityLevels.SS):
-                            if (hairItem.BSpeedLookup.ContainsKey(ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()) == true)
+                            if (hairItem.SSSpeedLookup.ContainsKey(ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()) == true)
                             {
                                 GSpeedLabel.Content = hairItem.SSSpeedLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
-                                GAccelerationLabel.Content = hairItem.BAccelerationLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
-                                GPowerLabel.Content = hairItem.BPowerLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
-                                GControlLabel.Content = hairItem.BControlLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
+                                GAccelerationLabel.Content = hairItem.SSAccelerationLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
+                                GPowerLabel.Content = hairItem.SSPowerLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
+                                GControlLabel.Content = hairItem.SSControlLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
                             }
                             else
                                 MessageBox.Show("SS Level Hair Error.");
