@@ -12,6 +12,7 @@
             <Label Content="加速度:" HorizontalAlignment="Left" Margin="7,55,0,0" VerticalAlignment="Top"/>
             <Label Content="力量:" HorizontalAlignment="Left" Margin="7,75,0,0" VerticalAlignment="Top"/>
             <Label Content="控制:" HorizontalAlignment="Left" Margin="7,95,0,0" VerticalAlignment="Top"/>
+            <Label Content="最大體力:" HorizontalAlignment="Left" Margin="150,35,0,0" VerticalAlignment="Top"/>
             <Label x:Name="SpeedLabel" Content=" " HorizontalAlignment="Left" Margin="78,35,0,0" VerticalAlignment="Top" RenderTransformOrigin="16.308,7.077"/>
             <Label x:Name="AccelerationLabel" Content=" " HorizontalAlignment="Left" Margin="78,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="16.308,7.077"/>
             <Label x:Name="PowerLabel" Content=" " HorizontalAlignment="Left" Margin="78,75,0,0" VerticalAlignment="Top" RenderTransformOrigin="16.308,7.077"/>

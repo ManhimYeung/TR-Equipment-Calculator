@@ -13,26 +13,26 @@ class HairClass : Gears
         B_Hair();
     }
 
-    public void C_Hair()
+    void C_Hair()
     {
-        C_RarityIndex();
-        C_ModeIndex();
-        C_SpeedIndex();
-        C_AccIndex();
-        C_PowerIndex();
-        C_ControlIndex();
-        C_RageDurationIndex();
-        C_RageChargeIndex();
-        C_MaxEnergyIndex();
-        C_MaxSprintIndex();
-        C_ForceIndex();
-        C_LuckIndex();
+        C_Rarity();
+        C_Mode();
+        C_Speed();
+        C_Acceleration();
+        C_Power();
+        C_Control();
+        C_RageDuration();
+        C_RageCharge();
+        C_MaxEnergy();
+        C_MaxSprint();
+        C_Force();
+        C_Luck();
     }
 
     #region C_Hair Stats
 
     #region C_Hair Rarity
-    void C_RarityIndex()
+    void C_Rarity()
     {
         CRarityLookup["守護者髮型-D"] = 1;
         CRarityLookup["新手訓練髮型(女)"] = 1;
@@ -49,7 +49,7 @@ class HairClass : Gears
     #endregion C_Hair Rarity
 
     #region C_Hair Avatar Mode
-    void C_ModeIndex()
+    void C_Mode()
     {
         //page 1 row 1
         CModeLookup["守護者髮型-D"] = false;
@@ -69,7 +69,7 @@ class HairClass : Gears
     #endregion
 
     #region C_Hair Speed
-    void C_SpeedIndex()
+    void C_Speed()
     {
         CSpeedLookup["守護者髮型-D"] = 0;
         CSpeedLookup["新手訓練髮型(女)"] = 0;
@@ -86,7 +86,7 @@ class HairClass : Gears
     #endregion C_Hair Speed
 
     #region C_Hair Acceleration
-    void C_AccIndex()
+    void C_Acceleration()
     {
         CAccelerationLookup["守護者髮型-D"] = 0;
         CAccelerationLookup["新手訓練髮型(女)"] = 0;
@@ -103,7 +103,7 @@ class HairClass : Gears
     #endregion C_Hair Acceleration
 
     #region C_Hair Power
-    public void C_PowerIndex()
+    public void C_Power()
     {
         CPowerLookup["守護者髮型-D"] = 0;
         CPowerLookup["新手訓練髮型(女)"] = 0;
@@ -120,7 +120,7 @@ class HairClass : Gears
     #endregion C_Hair Power
 
     #region C_Hair Control
-    void C_ControlIndex()
+    void C_Control()
     {
         CControlLookup["守護者髮型-D"] = 0;
         CControlLookup["新手訓練髮型(女)"] = 0;
@@ -137,7 +137,7 @@ class HairClass : Gears
     #endregion C_Hair Control
 
     #region C_Hair Rage Duration
-    void C_RageDurationIndex()
+    void C_RageDuration()
     {
         CRageDurationLookup["守護者髮型-D"] = 3;
         CRageDurationLookup["新手訓練髮型(女)"] = 0;
@@ -166,7 +166,7 @@ class HairClass : Gears
     #endregion Rage Duration
 
     #region C_Hair Rage Charge
-    void C_RageChargeIndex()
+    void C_RageCharge()
     {
         CRageChargeLookup["守護者髮型-D"] = 3;
         CRageChargeLookup["新手訓練髮型(女)"] = 0;
@@ -183,7 +183,7 @@ class HairClass : Gears
     #endregion C_Hair Rage Charge
 
     #region C_Hair Max Energy
-    void C_MaxEnergyIndex()
+    void C_MaxEnergy()
     {
         CMaxEnergyLookup["守護者髮型-D"] = 0;
         CMaxEnergyLookup["新手訓練髮型(女)"] = 0;
@@ -200,7 +200,7 @@ class HairClass : Gears
     #endregion C_Hair Max Energy
 
     #region C_Hair Max Sprint
-    void C_MaxSprintIndex()
+    void C_MaxSprint()
     {
         CMaxSprintLookup["守護者髮型-D"] = 0;
         CMaxSprintLookup["新手訓練髮型(女)"] = 0;
@@ -217,7 +217,7 @@ class HairClass : Gears
     #endregion C_Hair Max Sprint
 
     #region C_Hair Force
-    void C_ForceIndex()
+    void C_Force()
     {
         CForceLookup["守護者髮型-D"] = 0;
         CForceLookup["新手訓練髮型(女)"] = 0;
@@ -234,7 +234,7 @@ class HairClass : Gears
     #endregion C_Hair Force
 
     #region C_Hair Luck
-    void C_LuckIndex()
+    void C_Luck()
     {
         CLuckLookup["守護者髮型-D"] = 0;
         CLuckLookup["新手訓練髮型(女)"] = 0;
@@ -252,21 +252,25 @@ class HairClass : Gears
 
     #endregion C_Hair Stats
 
-    public void B_Hair()
+    void B_Hair()
     {
-        B_RarityIndex();
-        B_ModeIndex();
+        B_Rarity();
+        B_Mode();
         B_Speed();
         B_Acceleration();
         B_Power();
         B_Control();
         B_RageDuration();
         B_RageCharge();
-        B_MaxEnergyIndex();
+        B_MaxEnergy();
+        B_Force();
+        B_Luck();
     }
 
+    #region B_Hair Stats
+
     #region B_Hair Rarity
-    void B_RarityIndex()
+    void B_Rarity()
     {
         //page 1 row 1
         BRarityLookup["時尚休閒髮型"] = 2;
@@ -474,7 +478,7 @@ class HairClass : Gears
     #endregion B_Hair Rarity
 
     #region B_Hair Mode
-    void B_ModeIndex()
+    void B_Mode()
     {
         //page 1 row 1
         BModeLookup["時尚休閒髮型"] = false;
@@ -1936,7 +1940,7 @@ class HairClass : Gears
     #endregion B_Hair Rage Charge
 
     #region B_Hair Max Energy
-    void B_MaxEnergyIndex()
+    void B_MaxEnergy()
     {
         //page 1 row 1
         BMaxEnergyLookup["時尚休閒髮型"] = 0;
@@ -2766,5 +2770,186 @@ class HairClass : Gears
         BLuckLookup["Dr Hell面貝"] = 0;
     }
     #endregion B_Hair Luck
+
+    #endregion B_Hair Stats
+
+    void SS_Hair()
+    {
+
+    }
+
+    #region SS_Hair Stats
+
+    #region SS_Hair Rarity
+    void SS_Rarity()
+    {
+        SSRarityLookup["梅賽德斯髮型-D"] = 5;
+        SSRarityLookup["化裝舞會髮型"] = 5;
+        SSRarityLookup["宮廷遠征使者髮型"] = 5;
+        SSRarityLookup["暮色夢夜髮型(男)"] = 5;
+        SSRarityLookup["暮色夢夜髮型(男)"] = 5;
+
+        SSRarityLookup["日蝕髮型-D"] = 5;
+        SSRarityLookup["黑金天使髮型-D"] = 5;
+        SSRarityLookup["晨曦破曉髮型-D"] = 5;
+        SSRarityLookup["夜幕降臨髮型-D"] = 5;
+        SSRarityLookup["混沌大師髮型-D"] = 5;
+
+        SSRarityLookup["挑戰者髮型-D"] = 5;
+        SSRarityLookup["璀璨的光芒髮型-D"] = 5;
+        SSRarityLookup["皇家騎士髮型-D"] = 5;
+        SSRarityLookup["不祥的暗黑髮型-D"] = 5;
+        SSRarityLookup["皇家護衛髮型(男)-D"] = 5;
+
+        SSRarityLookup["皇家護衛髮型(女)-D"] = 5;
+        SSRarityLookup["覺醒 ‧ 馭龍頭盔-D"] = 5;
+        SSRarityLookup["克羅諾斯的髮型-D"] = 5;
+        SSRarityLookup["極 ‧ 馭龍騎士頭盔-D"] = 5;
+    }
+    #endregion SS_Hair Rarity
+
+    #region SS_Hair Avatar Mode
+    void SS_Mode()
+    {
+        SSModeLookup["梅賽德斯髮型-D"] = false;
+        SSModeLookup["化裝舞會髮型"] = false;
+        SSModeLookup["宮廷遠征使者髮型"] = false;
+        SSModeLookup["暮色夢夜髮型(男)"] = false;
+        SSModeLookup["暮色夢夜髮型(男)"] = false;
+          
+        SSModeLookup["日蝕髮型-D"] = false;
+        SSModeLookup["黑金天使髮型-D"] = false;
+        SSModeLookup["晨曦破曉髮型-D"] = false;
+        SSModeLookup["夜幕降臨髮型-D"] = false;
+        SSModeLookup["混沌大師髮型-D"] = false;
+          
+        SSModeLookup["挑戰者髮型-D"] = false;
+        SSModeLookup["璀璨的光芒髮型-D"] = false;
+        SSModeLookup["皇家騎士髮型-D"] = false;
+        SSModeLookup["不祥的暗黑髮型-D"] = false;
+        SSModeLookup["皇家護衛髮型(男)-D"] = false;
+          
+        SSModeLookup["皇家護衛髮型(女)-D"] = false;
+        SSModeLookup["覺醒 ‧ 馭龍頭盔-D"] = false;
+        SSModeLookup["克羅諾斯的髮型-D"] = false;
+        SSModeLookup["極 ‧ 馭龍騎士頭盔-D"] = false;
+    }
+    #endregion SS_Hair Avatar Mode
+
+    #region SS_Hair Speed
+    void SS_Speed()
+    {
+        SSSpeedLookup["梅賽德斯髮型-D"] = 0;
+        SSSpeedLookup["化裝舞會髮型"] = 0;
+        SSSpeedLookup["宮廷遠征使者髮型"] = 1;
+        SSSpeedLookup["暮色夢夜髮型(男)"] = 1;
+        SSSpeedLookup["暮色夢夜髮型(男)"] = 1;
+          
+        SSSpeedLookup["日蝕髮型-D"] = 1;
+        SSSpeedLookup["黑金天使髮型-D"] = 0;
+        SSSpeedLookup["晨曦破曉髮型-D"] = 0;
+        SSSpeedLookup["夜幕降臨髮型-D"] = 0;
+        SSSpeedLookup["混沌大師髮型-D"] = 1;
+          
+        SSSpeedLookup["挑戰者髮型-D"] = 0;
+        SSSpeedLookup["璀璨的光芒髮型-D"] = 1;
+        SSSpeedLookup["皇家騎士髮型-D"] = 0;
+        SSSpeedLookup["不祥的暗黑髮型-D"] = 1;
+        SSSpeedLookup["皇家護衛髮型(男)-D"] = 0;
+          
+        SSSpeedLookup["皇家護衛髮型(女)-D"] = 0;
+        SSSpeedLookup["覺醒 ‧ 馭龍頭盔-D"] = 0;
+        SSSpeedLookup["克羅諾斯的髮型-D"] = 1;
+        SSSpeedLookup["極 ‧ 馭龍騎士頭盔-D"] = 0;
+    }
+    #endregion SS_Hair Speed
+
+    #region SS_Hair Acceleration
+    void SS_Acceleration()
+    {
+        SSAccelerationLookup["梅賽德斯髮型-D"] = 1;
+        SSAccelerationLookup["化裝舞會髮型"] = 1;
+        SSAccelerationLookup["宮廷遠征使者髮型"] = 0;
+        SSAccelerationLookup["暮色夢夜髮型(男)"] = 0;
+        SSAccelerationLookup["暮色夢夜髮型(男)"] = 0;
+
+        SSAccelerationLookup["日蝕髮型-D"] = 0;
+        SSAccelerationLookup["黑金天使髮型-D"] = 0;
+        SSAccelerationLookup["晨曦破曉髮型-D"] = 0;
+        SSAccelerationLookup["夜幕降臨髮型-D"] = 1;
+        SSAccelerationLookup["混沌大師髮型-D"] = 0;
+
+        SSAccelerationLookup["挑戰者髮型-D"] = 0;
+        SSAccelerationLookup["璀璨的光芒髮型-D"] = 0;
+        SSAccelerationLookup["皇家騎士髮型-D"] = 0;
+        SSAccelerationLookup["不祥的暗黑髮型-D"] = 0;
+        SSAccelerationLookup["皇家護衛髮型(男)-D"] = 0;
+
+        SSAccelerationLookup["皇家護衛髮型(女)-D"] = 0;
+        SSAccelerationLookup["覺醒 ‧ 馭龍頭盔-D"] = 0;
+        SSAccelerationLookup["克羅諾斯的髮型-D"] = 0;
+        SSAccelerationLookup["極 ‧ 馭龍騎士頭盔-D"] = 2;
+    }
+    #endregion SS_Hair Acceleration
+
+    #region SS_Hair Power
+    void SS_Power()
+    {
+        SSPowerLookup["梅賽德斯髮型-D"] = 0;
+        SSPowerLookup["化裝舞會髮型"] = 0;
+        SSPowerLookup["宮廷遠征使者髮型"] = 0;
+        SSPowerLookup["暮色夢夜髮型(男)"] = 0;
+        SSPowerLookup["暮色夢夜髮型(男)"] = 0;
+          
+        SSPowerLookup["日蝕髮型-D"] = 0;
+        SSPowerLookup["黑金天使髮型-D"] = 1;
+        SSPowerLookup["晨曦破曉髮型-D"] = 0;
+        SSPowerLookup["夜幕降臨髮型-D"] = 0;
+        SSPowerLookup["混沌大師髮型-D"] = 0;
+          
+        SSPowerLookup["挑戰者髮型-D"] = 0;
+        SSPowerLookup["璀璨的光芒髮型-D"] = 1;
+        SSPowerLookup["皇家騎士髮型-D"] = 1;
+        SSPowerLookup["不祥的暗黑髮型-D"] = 2;
+        SSPowerLookup["皇家護衛髮型(男)-D"] = 0;
+          
+        SSPowerLookup["皇家護衛髮型(女)-D"] = 0;
+        SSPowerLookup["覺醒 ‧ 馭龍頭盔-D"] = 1;
+        SSPowerLookup["克羅諾斯的髮型-D"] = 0;
+        SSPowerLookup["極 ‧ 馭龍騎士頭盔-D"] = 0;
+    }
+    #endregion SS_Hair Power
+
+    #region SS_Hair Control
+    void SS_Control()
+    {
+        SSControlLookup["梅賽德斯髮型-D"] = 0;
+        SSControlLookup["化裝舞會髮型"] = 0;
+        SSControlLookup["宮廷遠征使者髮型"] = 0;
+        SSControlLookup["暮色夢夜髮型(男)"] = 0;
+        SSControlLookup["暮色夢夜髮型(男)"] = 0;
+          
+        SSControlLookup["日蝕髮型-D"] = 0;
+        SSControlLookup["黑金天使髮型-D"] = 0;
+        SSControlLookup["晨曦破曉髮型-D"] = 1;
+        SSControlLookup["夜幕降臨髮型-D"] = 0;
+        SSControlLookup["混沌大師髮型-D"] = 0;
+          
+        SSControlLookup["挑戰者髮型-D"] = 1;
+        SSControlLookup["璀璨的光芒髮型-D"] = 0;
+        SSControlLookup["皇家騎士髮型-D"] = 0;
+        SSControlLookup["不祥的暗黑髮型-D"] = 0;
+        SSControlLookup["皇家護衛髮型(男)-D"] = 1;
+          
+        SSControlLookup["皇家護衛髮型(女)-D"] = 1;
+        SSControlLookup["覺醒 ‧ 馭龍頭盔-D"] = 1;
+        SSControlLookup["克羅諾斯的髮型-D"] = 0;
+        SSControlLookup["極 ‧ 馭龍騎士頭盔-D"] = 0;
+    }
+    #endregion SS_Hair Control
+
+    #endregion SS_Hair Stats
+
+
 }
 

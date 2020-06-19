@@ -207,7 +207,7 @@ namespace Main
                                 GLuckLabel.Content = hairItem.CLuckLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
                             }
                             else
-                                MessageBox.Show("C Hair Error");
+                                MessageBox.Show("C Level Hair Error.");
                             break;
 
                         case (RarityLevels.B):
@@ -224,7 +224,25 @@ namespace Main
                                 GLuckLabel.Content = hairItem.BLuckLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
                             }
                             else
-                                MessageBox.Show("B Hair Error");
+                                MessageBox.Show("B Level Hair Error.");
+                            break;
+                        case (RarityLevels.A):
+                            break;
+                        case (RarityLevels.S):
+                            break;
+                        case (RarityLevels.SS):
+                            if (hairItem.BSpeedLookup.ContainsKey(ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()) == true)
+                            {
+                                GSpeedLabel.Content = hairItem.SSSpeedLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
+                                GAccelerationLabel.Content = hairItem.BAccelerationLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
+                                GPowerLabel.Content = hairItem.BPowerLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
+                                GControlLabel.Content = hairItem.BControlLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
+                            }
+                            else
+                                MessageBox.Show("SS Level Hair Error.");
+                                break;
+                        case (RarityLevels.SSS):
+                            MessageBox.Show("SSS Level Hair items do not exist.");
                             break;
                     }
                     break;
