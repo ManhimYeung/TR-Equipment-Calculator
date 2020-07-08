@@ -218,8 +218,10 @@ namespace Main
                                 GRageDurationLabel.Content = hairItem.CRageDurationLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
                                 GRageChargeLabel.Content = hairItem.CRageChargeLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
                                 GEnergyLabel.Content = hairItem.CMaxEnergyLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
+                                GMaxSprintLabel.Content = hairItem.CMaxSprintLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
                                 GForceLabel.Content = hairItem.CForceLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
                                 GLuckLabel.Content = hairItem.CLuckLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
+                                GAvatarLabel.Content = hairItem.CModeLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
                             }
                             else
                                 MessageBox.Show("C Level Hair Error.");
@@ -235,8 +237,10 @@ namespace Main
                                 GRageDurationLabel.Content = hairItem.BRageDurationLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
                                 GRageChargeLabel.Content = hairItem.BRageChargeLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
                                 GEnergyLabel.Content = hairItem.BMaxEnergyLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
+                                GMaxSprintLabel.Content = hairItem.BMaxSprintLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
                                 GForceLabel.Content = hairItem.BForceLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
                                 GLuckLabel.Content = hairItem.BLuckLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
+                                GAvatarLabel.Content = hairItem.BModeLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
                             }
                             else
                                 MessageBox.Show("B Level Hair Error.");
@@ -252,12 +256,21 @@ namespace Main
                                 GAccelerationLabel.Content = hairItem.SSAccelerationLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
                                 GPowerLabel.Content = hairItem.SSPowerLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
                                 GControlLabel.Content = hairItem.SSControlLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
+                                GRageDurationLabel.Content = hairItem.SSRageDurationLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
+                                GRageChargeLabel.Content = hairItem.SSRageChargeLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
+                                GEnergyLabel.Content = hairItem.SSMaxEnergyLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
+                                GMaxSprintLabel.Content = hairItem.SSMaxSprintLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
+                                GForceLabel.Content = hairItem.SSForceLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
+                                GLuckLabel.Content = hairItem.SSLuckLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
+                                GAvatarLabel.Content = hairItem.SSModeLookup[ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()];
                             }
                             else
                                 MessageBox.Show("SS Level Hair Error.");
                                 break;
                         case (RarityLevels.SSS):
                             MessageBox.Show("SSS Level Hair items do not exist.");
+                            break;
+                        default:
                             break;
                     }
                     break;
