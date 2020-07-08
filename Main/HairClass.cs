@@ -264,6 +264,7 @@ class HairClass : Gears
         B_RageDuration();
         B_RageCharge();
         B_MaxEnergy();
+        B_MaxSprint();
         B_Force();
         B_Luck();
     }
@@ -2777,12 +2778,17 @@ class HairClass : Gears
     void SS_Hair()
     {
         SS_Rarity();
-        SS_Speed();
         SS_Mode();
         SS_Speed();
         SS_Acceleration();
         SS_Power();
         SS_Control();
+        SS_RageDuration();
+        SS_RageCharge();
+        SS_MaxEnergy();
+        SS_MaxSprint();
+        SS_Force();
+        SS_Luck();
     }
 
     #region SS_Hair Stats
@@ -3039,6 +3045,7 @@ class HairClass : Gears
     }
     #endregion SS_Hair Max Energy
 
+    #region SS_Hair Max Sprint
     void SS_MaxSprint()
     {
         SSMaxSprintLookup["梅賽德斯髮型-D"] = 0;
@@ -3064,6 +3071,63 @@ class HairClass : Gears
         SSMaxSprintLookup["克羅諾斯的髮型-D"] = 0;
         SSMaxSprintLookup["極 ‧ 馭龍騎士頭盔-D"] = 0;
     }
+    #endregion SS_Hair Max Sprint
+
+    #region SS_Hair Force
+    void SS_Force()
+    {
+        SSForceLookup["梅賽德斯髮型-D"] = 0;
+        SSForceLookup["化裝舞會髮型"] = 0;
+        SSForceLookup["宮廷遠征使者髮型"] = 0;
+        SSForceLookup["暮色夢夜髮型(男)"] = 0;
+        SSForceLookup["暮色夢夜髮型(女)"] = 0;
+          
+        SSForceLookup["日蝕髮型-D"] = 0;
+        SSForceLookup["黑金天使髮型-D"] = 0;
+        SSForceLookup["晨曦破曉髮型-D"] = 0;
+        SSForceLookup["夜幕降臨髮型-D"] = 0;
+        SSForceLookup["混沌大師髮型-D"] = 0;
+          
+        SSForceLookup["挑戰者髮型-D"] = 0;
+        SSForceLookup["璀璨的光芒髮型-D"] = 0;
+        SSForceLookup["皇家騎士髮型-D"] = 0;
+        SSForceLookup["不祥的暗黑髮型-D"] = 0;
+        SSForceLookup["皇家護衛髮型(男)-D"] = 0;
+          
+        SSForceLookup["皇家護衛髮型(女)-D"] = 0;
+        SSForceLookup["覺醒 ‧ 馭龍頭盔-D"] = 0;
+        SSForceLookup["克羅諾斯的髮型-D"] = 0;
+        SSForceLookup["極 ‧ 馭龍騎士頭盔-D"] = 0;
+    }
+    #endregion SS_Hair Force
+
+    #region SS_Hair Luck
+    void SS_Luck()
+    {
+        SSForceLookup["梅賽德斯髮型-D"] = 80;
+        SSForceLookup["化裝舞會髮型"] = 80;
+        SSForceLookup["宮廷遠征使者髮型"] = 80;
+        SSForceLookup["暮色夢夜髮型(男)"] = 80;
+        SSForceLookup["暮色夢夜髮型(女)"] = 80;
+
+        SSForceLookup["日蝕髮型-D"] = 80;
+        SSForceLookup["黑金天使髮型-D"] = 80;
+        SSForceLookup["晨曦破曉髮型-D"] = 80;
+        SSForceLookup["夜幕降臨髮型-D"] = 80;
+        SSForceLookup["混沌大師髮型-D"] = 80;
+
+        SSForceLookup["挑戰者髮型-D"] = 0;
+        SSForceLookup["璀璨的光芒髮型-D"] = 50;
+        SSForceLookup["皇家騎士髮型-D"] = 80;
+        SSForceLookup["不祥的暗黑髮型-D"] = 50;
+        SSForceLookup["皇家護衛髮型(男)-D"] = 0;
+
+        SSForceLookup["皇家護衛髮型(女)-D"] = 0;
+        SSForceLookup["覺醒 ‧ 馭龍頭盔-D"] = 0;
+        SSForceLookup["克羅諾斯的髮型-D"] = 80;
+        SSForceLookup["極 ‧ 馭龍騎士頭盔-D"] = 0;
+    }
+    #endregion SS_Hair Luck
 
     #endregion SS_Hair Stats
 
