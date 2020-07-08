@@ -167,29 +167,36 @@ namespace Main
 
         public void ItemsSelectionInComboBox()
         {
-            if (gearOption == GearOptions.HairOption)
+            switch (gearOption)
             {
-                switch (rarityLevel)
-                {
-                    case (RarityLevels.C):
-                        ItemComboBox.ItemsSource = hairItem.CRarityLookup.Keys;
+                case (GearOptions.HairOption):
+                    {
+                        switch (rarityLevel)
+                        {
+                            case (RarityLevels.C):
+                                ItemComboBox.ItemsSource = hairItem.CRarityLookup.Keys;
+                                break;
+                            case (RarityLevels.B):
+                                ItemComboBox.ItemsSource = hairItem.BRarityLookup.Keys;
+                                break;
+                            case (RarityLevels.A):
+                                ItemComboBox.ItemsSource = hairItem.ARarityLookup.Keys;
+                                break;
+                            case (RarityLevels.S):
+                                ItemComboBox.ItemsSource = hairItem.SRarityLookup.Keys;
+                                break;
+                            case (RarityLevels.SS):
+                                ItemComboBox.ItemsSource = hairItem.SSRarityLookup.Keys;
+                                break;
+                            case (RarityLevels.SSS):
+                                ItemComboBox.ItemsSource = hairItem.SSSRarityLookup.Keys;
+                                break;
+                        }
                         break;
-                    case (RarityLevels.B):
-                        ItemComboBox.ItemsSource = hairItem.BRarityLookup.Keys;
-                        break;
-                    case (RarityLevels.A):
-                        ItemComboBox.ItemsSource = hairItem.ARarityLookup.Keys;
-                        break;
-                    case (RarityLevels.S):
-                        ItemComboBox.ItemsSource = hairItem.SRarityLookup.Keys;
-                        break;
-                    case (RarityLevels.SS):
-                        ItemComboBox.ItemsSource = hairItem.SSRarityLookup.Keys;
-                        break;
-                    case (RarityLevels.SSS):
-                        ItemComboBox.ItemsSource = hairItem.SSSRarityLookup.Keys;
-                        break;
-                }
+                    }
+
+                case (GearOptions.FaceOption):
+                    break;
             }
         }
 
