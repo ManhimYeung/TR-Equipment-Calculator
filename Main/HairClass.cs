@@ -11,6 +11,8 @@ class HairClass : Gears
     {
         C_Hair();
         B_Hair();
+        A_Hair();
+        S_Hair();
         SS_Hair();
     }
 
@@ -151,18 +153,6 @@ class HairClass : Gears
         CRageDurationLookup["愛坡的頭髮"] = 0;
         CRageDurationLookup["墮落的頭髮"] = 0;
         CRageDurationLookup["魔鬼的頭髮"] = 0;
-
-        int RageDurationItem1 = CRageDurationLookup["守護者髮型-D"];
-        int RageDurationItem2 = CRageDurationLookup["新手訓練髮型(女)"];
-        int RageDurationItem3 = CRageDurationLookup["新手訓練髮型(男)"];
-        int RageDurationItem4 = CRageDurationLookup["新手冰涼布丁髮型"];
-        int RageDurationItem5 = CRageDurationLookup["春季髮型(女)"];
-        int RageDurationItem6 = CRageDurationLookup["春季髮型(男)"];
-        int RageDurationItem7 = CRageDurationLookup["紫色煙火髮型-D"];
-        int RageDurationItem8 = CRageDurationLookup["安琪的頭髮"];
-        int RageDurationItem9 = CRageDurationLookup["愛坡的頭髮"];
-        int RageDurationItem10 = CRageDurationLookup["墮落的頭髮"];
-        int RageDurationItem11 = CRageDurationLookup["魔鬼的頭髮"];
     }
     #endregion Rage Duration
 
@@ -2774,6 +2764,233 @@ class HairClass : Gears
     #endregion B_Hair Luck
 
     #endregion B_Hair Stats
+
+    void A_Hair()
+    {
+        A_Rarity();
+        A_Mode();
+        A_Speed();
+        A_Acceleration();
+        A_Power();
+        A_Control();
+        A_RageDuration();
+        A_RageCharge();
+        A_MaxEnergy();
+        A_MaxSprint();
+        A_Force();
+        A_Luck();
+    }
+    #region A_Hair Stats
+    void A_Rarity()
+    {
+        //page 1
+        ARarityLookup["十鬼夜行髮型-D"] = 3;
+        ARarityLookup["白魔法髮型-D"] = 3;
+        ARarityLookup["黑魔法髮型-D"] = 3;
+        ARarityLookup["神諭聖光髮型-D"] = 3;
+        ARarityLookup["魔龍貴族髮型-D"] = 3;
+
+        ARarityLookup["幻想獨角獸髮型-D"] = 3;
+        ARarityLookup["外星兔髮型-D"] = 3;
+        ARarityLookup["湛藍海軍學員髮型-D"] = 3;
+        ARarityLookup["棉花糖睡衣髮型(女)-D"] = 3;
+        ARarityLookup["棉花糖睡衣髮型(男)-D"] = 3;
+
+        ARarityLookup["西洋棋國王髮型-D"] = 3;
+        ARarityLookup["靈獸髮型-D"] = 3;
+        ARarityLookup["西洋棋士兵髮型-D"] = 3;
+        ARarityLookup["網球手髮型-D"] = 3;
+        ARarityLookup["西洋棋城堡髮型-D"] = 3;
+
+        ARarityLookup["西洋棋騎士髮型-D"] = 3;
+        ARarityLookup["舞台偶像髮型(女)-D"] = 3;
+        ARarityLookup["舞台偶像髮型(男)-D"] = 3;
+        ARarityLookup["西洋棋主教髮型-D"] = 3;
+        ARarityLookup["西洋棋皇后髮型-D"] = 3;
+
+        ARarityLookup["懶人訓練髮型-D"] = 3;
+        ARarityLookup["菁英訓練髮型-D"] = 3;
+        ARarityLookup["世界髮型-D"] = 3;
+        ARarityLookup["正義髮型-D"] = 3;
+        ARarityLookup["白夜叉髮型-D"] = 3;
+
+        ARarityLookup["月亮髮型-D"] = 3;
+        ARarityLookup["惡魔髮型-D"] = 3;
+        ARarityLookup["惡魔騎士髮型-D"] = 3;
+        ARarityLookup["天使騎士髮型-D"] = 3;
+        ARarityLookup["命運髮型-D"] = 3;
+        //page 2
+        ARarityLookup["戀人髮型-D"] = 3;
+        ARarityLookup["夢想兔子髮型-D"] = 3;
+        ARarityLookup["力量髮型-D"] = 3;
+        ARarityLookup["太陽髮型-D"] = 3;
+        ARarityLookup["皇帝髮型-D"] = 3;
+
+        ARarityLookup["死神髮型-D"] = 3;
+        ARarityLookup["星星髮型-D"] = 3;
+        ARarityLookup["蘭斯洛特的髮型-D"] = 3;
+        ARarityLookup["梅林的髮型-D"] = 3;
+        ARarityLookup["亞瑟的髮型-D"] = 3;
+
+        ARarityLookup["女祭司髮型-D"] = 3;
+        ARarityLookup["別西卜髮型-D"] = 3;
+        ARarityLookup["卡麥爾髮型-D"] = 3;
+        ARarityLookup["Dr.Hell髮型-D"] = 3;
+        ARarityLookup["安德烈的貴族髮型-D"] = 3;
+
+        ARarityLookup["安德原的閃亮髮型-D"] = 3;
+        ARarityLookup["安德原的時尚髮型-D"] = 3;
+        ARarityLookup["安德原的猴子髮型-D"] = 3;
+        ARarityLookup["安德原的派對髮型-D"] = 3;
+        ARarityLookup["安德原的耀日髮型-D"] = 3;
+
+        ARarityLookup["安德原的緋紅髮型-D"] = 3;
+        ARarityLookup["安德原的高傲髮型-D"] = 3;
+        ARarityLookup["安德原的陽光髮型-D"] = 3;
+        ARarityLookup["安德原的黝黑髮型-D"] = 3;
+        ARarityLookup["莉莉絲的髮型-D"] = 3;
+
+        ARarityLookup["加百列髮型-D"] = 3;
+        ARarityLookup["寶物獵人髮型"] = 3;
+        ARarityLookup["摩洛髮型-D"] = 3;
+        ARarityLookup["烏列爾髮型-D"] = 3;
+        ARarityLookup["威力隆髮型-D"] = 3;
+        //page 3
+        ARarityLookup["白燐髮型-D"] = 3;
+        ARarityLookup["米迦勒髮型-D"] = 3;
+        ARarityLookup["彼列髮型-D"] = 3;
+        ARarityLookup["炫紫鑄造者髮型-D"] = 3;
+        ARarityLookup["純白鑄造者髮型-D"] = 3;
+
+        ARarityLookup["暗黑鑄造者髮型-D"] = 3;
+        ARarityLookup["蒼藍鑄造者髮型-D"] = 3;
+        ARarityLookup["赤紅鑄造者髮型-D"] = 3;
+        ARarityLookup["妮克斯的髮型"] = 3;
+        ARarityLookup["拉貴爾髮型-D"] = 3;
+
+        ARarityLookup["普路托髮型-D"] = 3;
+        ARarityLookup["闇影龍戰士頭盔-D"] = 3;
+        ARarityLookup["霜雪龍戰士頭盔-D"] = 3;
+        ARarityLookup["赤焰龍戰士頭盔-D"] = 3;
+        ARarityLookup["夜煞黑燐之厄運 ‧ 破局"] = 3;
+
+        ARarityLookup["拉斐爾髮型-D"] = 3;
+        ARarityLookup["貝斯塔的髮型-D"] = 3;
+        ARarityLookup["月之永恆髮型-D"] = 3;
+        ARarityLookup["青燐髮型-D"] = 3;
+        ARarityLookup["赫梅拉髮型-D"] = 3;
+
+        ARarityLookup["大師級守護者髮型-D"] = 3;
+        ARarityLookup["奧羅拉的髮型-D"] = 3;
+        ARarityLookup["紅燐髮型-D"] = 3;
+        ARarityLookup["青春歲月校服髮型A-D"] = 3;
+        ARarityLookup["甜蜜約會髮型A"] = 3;
+
+        ARarityLookup["燦爛雪花髮型-D"] = 3;
+        ARarityLookup["幻彩甜夢髮型-D"] = 3;
+        ARarityLookup["翱翔機師髮型-D"] = 3;
+        ARarityLookup["奇妙魔術師髮型-D"] = 3;
+        ARarityLookup["貴族主僕髮型-D"] = 3;
+        //page 4
+        ARarityLookup["童話主廚髮型-D"] = 3;
+        ARarityLookup["幽靈教主髮型-D"] = 3;
+        ARarityLookup["莉莉的情人節Cap帽"] = 3;
+        ARarityLookup["藍色精靈髮型-D"] = 3;
+        ARarityLookup["優雅婚禮髮型-D"] = 3;
+
+        ARarityLookup["狂野初中生髮型-D"] = 3;
+        ARarityLookup["天忍聖守 ‧ 訣"] = 3;
+        ARarityLookup["暗黑殺手髮型-D"] = 3;
+        ARarityLookup["麒麟的神豔"] = 3;
+        ARarityLookup["糖果恆星髮型-D"] = 3;
+
+        ARarityLookup["聖亳王之怒 ‧ 起始"] = 3;
+        ARarityLookup["玄武之靈羽"] = 3;
+        ARarityLookup["朱雀之髮冠"] = 3;
+        ARarityLookup["白虎之牙"] = 3;
+        ARarityLookup["青龍的風聲"] = 3;
+
+        ARarityLookup["冬天妖精髮型"] = 3;
+        ARarityLookup["雷之子索爾髮型-D"] = 3;
+        ARarityLookup["暗黑貴族魔法髮型"] = 3;
+        ARarityLookup["Dr.Hell 黑色面具"] = 3;
+        ARarityLookup["Ark魔鬼的王冠"] = 3;
+
+        ARarityLookup["Ark天使的王冠"] = 3;
+        ARarityLookup["黑色火焰髮型"] = 3;
+        ARarityLookup["泰國校服女生髮型-D"] = 3;
+        ARarityLookup["泰國校服男生髮型-D"] = 3;
+
+    }
+
+    void A_Mode()
+    {
+
+    }
+
+    void A_Speed()
+    {
+
+    }
+
+    void A_Acceleration()
+    {
+
+    }
+
+    void A_Power()
+    {
+
+    }
+
+    void A_Control()
+    {
+
+    }
+
+    void A_RageDuration()
+    {
+
+    }
+
+    void A_RageCharge()
+    {
+
+    }
+
+    void A_MaxEnergy()
+    {
+
+    }
+
+    void A_MaxSprint()
+    {
+
+    }
+
+    void A_Force()
+    {
+
+    }
+
+    void A_Luck()
+    {
+
+    }
+    #endregion A_Hair Stats
+
+    void S_Hair()
+    {
+        //Page 1
+
+        //Page 2
+
+        //Page 3
+
+        //Page 4
+
+    }
+
 
     void SS_Hair()
     {
