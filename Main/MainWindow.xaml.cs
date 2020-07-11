@@ -246,8 +246,16 @@ namespace Main
                                 MessageBox.Show("B Level Hair Error.");
                             break;
                         case (RarityLevels.A):
+                            if (hairItem.ASpeedLookup.ContainsKey(ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()) == true)
+                            {
+
+                            }
                             break;
                         case (RarityLevels.S):
+                            if (hairItem.SSSpeedLookup.ContainsKey(ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()) == true)
+                            {
+
+                            }
                             break;
                         case (RarityLevels.SS):
                             if (hairItem.SSSpeedLookup.ContainsKey(ItemComboBox.Items[ItemComboBox.SelectedIndex].ToString()) == true)

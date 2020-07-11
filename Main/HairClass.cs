@@ -2925,7 +2925,143 @@ class HairClass : Gears
 
     void A_Mode()
     {
-
+        //page 1
+        AModeLookup["十鬼夜行髮型-D"] = false;
+        AModeLookup["白魔法髮型-D"] = false;
+        AModeLookup["黑魔法髮型-D"] = false;
+        AModeLookup["神諭聖光髮型-D"] = false;
+        AModeLookup["魔龍貴族髮型-D"] = false;
+         
+        AModeLookup["幻想獨角獸髮型-D"] = false;
+        AModeLookup["外星兔髮型-D"] = false;
+        AModeLookup["湛藍海軍學員髮型-D"] = false;
+        AModeLookup["棉花糖睡衣髮型(女)-D"] = false;
+        AModeLookup["棉花糖睡衣髮型(男)-D"] = false;
+         
+        AModeLookup["西洋棋國王髮型-D"] = false;
+        AModeLookup["靈獸髮型-D"] = false;
+        AModeLookup["西洋棋士兵髮型-D"] = false;
+        AModeLookup["網球手髮型-D"] = false;
+        AModeLookup["西洋棋城堡髮型-D"] = false;
+         
+        AModeLookup["西洋棋騎士髮型-D"] = false;
+        AModeLookup["舞台偶像髮型(女)-D"] = false;
+        AModeLookup["舞台偶像髮型(男)-D"] = false;
+        AModeLookup["西洋棋主教髮型-D"] = false;
+        AModeLookup["西洋棋皇后髮型-D"] = false;
+         
+        AModeLookup["懶人訓練髮型-D"] = false;
+        AModeLookup["菁英訓練髮型-D"] = false;
+        AModeLookup["世界髮型-D"] = false;
+        AModeLookup["正義髮型-D"] = false;
+        AModeLookup["白夜叉髮型-D"] = false;
+         
+        AModeLookup["月亮髮型-D"] = false;
+        AModeLookup["惡魔髮型-D"] = false;
+        AModeLookup["惡魔騎士髮型-D"] = false;
+        AModeLookup["天使騎士髮型-D"] = false;
+        AModeLookup["命運髮型-D"] = false;
+        //page 2
+        AModeLookup["戀人髮型-D"] = false;
+        AModeLookup["夢想兔子髮型-D"] = false;
+        AModeLookup["力量髮型-D"] = false;
+        AModeLookup["太陽髮型-D"] = false;
+        AModeLookup["皇帝髮型-D"] = false;
+         
+        AModeLookup["死神髮型-D"] = false;
+        AModeLookup["星星髮型-D"] = false;
+        AModeLookup["蘭斯洛特的髮型-D"] = false;
+        AModeLookup["梅林的髮型-D"] = false;
+        AModeLookup["亞瑟的髮型-D"] = false;
+         
+        AModeLookup["女祭司髮型-D"] = false;
+        AModeLookup["別西卜髮型-D"] = false;
+        AModeLookup["卡麥爾髮型-D"] = false;
+        AModeLookup["Dr.Hell髮型-D"] = false;
+        AModeLookup["安德烈的貴族髮型-D"] = false;
+         
+        AModeLookup["安德原的閃亮髮型-D"] = false;
+        AModeLookup["安德原的時尚髮型-D"] = false;
+        AModeLookup["安德原的猴子髮型-D"] = false;
+        AModeLookup["安德原的派對髮型-D"] = false;
+        AModeLookup["安德原的耀日髮型-D"] = false;
+         
+        AModeLookup["安德原的緋紅髮型-D"] = false;
+        AModeLookup["安德原的高傲髮型-D"] = false;
+        AModeLookup["安德原的陽光髮型-D"] = false;
+        AModeLookup["安德原的黝黑髮型-D"] = false;
+        AModeLookup["莉莉絲的髮型-D"] = false;
+         
+        AModeLookup["加百列髮型-D"] = false;
+        AModeLookup["寶物獵人髮型"] = false;
+        AModeLookup["摩洛髮型-D"] = false;
+        AModeLookup["烏列爾髮型-D"] = false;
+        AModeLookup["威力隆髮型-D"] = false;
+        //page 3
+        AModeLookup["白燐髮型-D"] = false;
+        AModeLookup["米迦勒髮型-D"] = false;
+        AModeLookup["彼列髮型-D"] = false;
+        AModeLookup["炫紫鑄造者髮型-D"] = false;
+        AModeLookup["純白鑄造者髮型-D"] = false;
+         
+        AModeLookup["暗黑鑄造者髮型-D"] = false;
+        AModeLookup["蒼藍鑄造者髮型-D"] = false;
+        AModeLookup["赤紅鑄造者髮型-D"] = false;
+        AModeLookup["妮克斯的髮型"] = false;
+        AModeLookup["拉貴爾髮型-D"] = false;
+         
+        AModeLookup["普路托髮型-D"] = false;
+        AModeLookup["闇影龍戰士頭盔-D"] = false;
+        AModeLookup["霜雪龍戰士頭盔-D"] = false;
+        AModeLookup["赤焰龍戰士頭盔-D"] = false;
+        AModeLookup["夜煞黑燐之厄運 ‧ 破局"] = false;
+         
+        AModeLookup["拉斐爾髮型-D"] = false;
+        AModeLookup["貝斯塔的髮型-D"] = false;
+        AModeLookup["月之永恆髮型-D"] = false;
+        AModeLookup["青燐髮型-D"] = false;
+        AModeLookup["赫梅拉髮型-D"] = false;
+         
+        AModeLookup["大師級守護者髮型-D"] = false;
+        AModeLookup["奧羅拉的髮型-D"] = false;
+        AModeLookup["紅燐髮型-D"] = false;
+        AModeLookup["青春歲月校服髮型A-D"] = false;
+        AModeLookup["甜蜜約會髮型A"] = false;
+         
+        AModeLookup["燦爛雪花髮型-D"] = false;
+        AModeLookup["幻彩甜夢髮型-D"] = false;
+        AModeLookup["翱翔機師髮型-D"] = false;
+        AModeLookup["奇妙魔術師髮型-D"] = false;
+        AModeLookup["貴族主僕髮型-D"] = false;
+        //page 4
+        AModeLookup["童話主廚髮型-D"] = false;
+        AModeLookup["幽靈教主髮型-D"] = false;
+        AModeLookup["莉莉的情人節Cap帽"] = false;
+        AModeLookup["藍色精靈髮型-D"] = false;
+        AModeLookup["優雅婚禮髮型-D"] = false;
+         
+        AModeLookup["狂野初中生髮型-D"] = false;
+        AModeLookup["天忍聖守 ‧ 訣"] = false;
+        AModeLookup["暗黑殺手髮型-D"] = false;
+        AModeLookup["麒麟的神豔"] = false;
+        AModeLookup["糖果恆星髮型-D"] = false;
+         
+        AModeLookup["聖亳王之怒 ‧ 起始"] = false;
+        AModeLookup["玄武之靈羽"] = false;
+        AModeLookup["朱雀之髮冠"] = false;
+        AModeLookup["白虎之牙"] = false;
+        AModeLookup["青龍的風聲"] = false;
+         
+        AModeLookup["冬天妖精髮型"] = false;
+        AModeLookup["雷之子索爾髮型-D"] = false;
+        AModeLookup["暗黑貴族魔法髮型"] = false;
+        AModeLookup["Dr.Hell 黑色面具"] = false;
+        AModeLookup["Ark魔鬼的王冠"] = false;
+         
+        AModeLookup["Ark天使的王冠"] = false;
+        AModeLookup["黑色火焰髮型"] = false;
+        AModeLookup["泰國校服女生髮型-D"] = false;
+        AModeLookup["泰國校服男生髮型-D"] = false;
     }
 
     void A_Speed()
