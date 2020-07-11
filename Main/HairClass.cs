@@ -2838,16 +2838,16 @@ class HairClass : Gears
         ARarityLookup["Dr.Hell髮型-D"] = 3;
         ARarityLookup["安德烈的貴族髮型-D"] = 3;
 
-        ARarityLookup["安德原的閃亮髮型-D"] = 3;
-        ARarityLookup["安德原的時尚髮型-D"] = 3;
-        ARarityLookup["安德原的猴子髮型-D"] = 3;
-        ARarityLookup["安德原的派對髮型-D"] = 3;
-        ARarityLookup["安德原的耀日髮型-D"] = 3;
+        ARarityLookup["安德烈的閃亮髮型-D"] = 3;
+        ARarityLookup["安德烈的時尚髮型-D"] = 3;
+        ARarityLookup["安德烈的猴子髮型-D"] = 3;
+        ARarityLookup["安德烈的派對髮型-D"] = 3;
+        ARarityLookup["安德烈的耀日髮型-D"] = 3;
 
-        ARarityLookup["安德原的緋紅髮型-D"] = 3;
-        ARarityLookup["安德原的高傲髮型-D"] = 3;
-        ARarityLookup["安德原的陽光髮型-D"] = 3;
-        ARarityLookup["安德原的黝黑髮型-D"] = 3;
+        ARarityLookup["安德烈的緋紅髮型-D"] = 3;
+        ARarityLookup["安德烈的高傲髮型-D"] = 3;
+        ARarityLookup["安德烈的陽光髮型-D"] = 3;
+        ARarityLookup["安德烈的黝黑髮型-D"] = 3;
         ARarityLookup["莉莉絲的髮型-D"] = 3;
 
         ARarityLookup["加百列髮型-D"] = 3;
@@ -2980,16 +2980,16 @@ class HairClass : Gears
         AModeLookup["Dr.Hell髮型-D"] = false;
         AModeLookup["安德烈的貴族髮型-D"] = false;
          
-        AModeLookup["安德原的閃亮髮型-D"] = false;
-        AModeLookup["安德原的時尚髮型-D"] = false;
-        AModeLookup["安德原的猴子髮型-D"] = false;
-        AModeLookup["安德原的派對髮型-D"] = false;
-        AModeLookup["安德原的耀日髮型-D"] = false;
+        AModeLookup["安德烈的閃亮髮型-D"] = false;
+        AModeLookup["安德烈的時尚髮型-D"] = false;
+        AModeLookup["安德烈的猴子髮型-D"] = false;
+        AModeLookup["安德烈的派對髮型-D"] = false;
+        AModeLookup["安德烈的耀日髮型-D"] = false;
          
-        AModeLookup["安德原的緋紅髮型-D"] = false;
-        AModeLookup["安德原的高傲髮型-D"] = false;
-        AModeLookup["安德原的陽光髮型-D"] = false;
-        AModeLookup["安德原的黝黑髮型-D"] = false;
+        AModeLookup["安德烈的緋紅髮型-D"] = false;
+        AModeLookup["安德烈的高傲髮型-D"] = false;
+        AModeLookup["安德烈的陽光髮型-D"] = false;
+        AModeLookup["安德烈的黝黑髮型-D"] = false;
         AModeLookup["莉莉絲的髮型-D"] = false;
          
         AModeLookup["加百列髮型-D"] = false;
@@ -3121,16 +3121,16 @@ class HairClass : Gears
         ASpeedLookup["Dr.Hell髮型-D"] = 0;
         ASpeedLookup["安德烈的貴族髮型-D"] = 0;
          
-        ASpeedLookup["安德原的閃亮髮型-D"] = 0;
-        ASpeedLookup["安德原的時尚髮型-D"] = 0;
-        ASpeedLookup["安德原的猴子髮型-D"] = 0;
-        ASpeedLookup["安德原的派對髮型-D"] = 0;
-        ASpeedLookup["安德原的耀日髮型-D"] = 0;
+        ASpeedLookup["安德烈的閃亮髮型-D"] = 0;
+        ASpeedLookup["安德烈的時尚髮型-D"] = 0;
+        ASpeedLookup["安德烈的猴子髮型-D"] = 0;
+        ASpeedLookup["安德烈的派對髮型-D"] = 0;
+        ASpeedLookup["安德烈的耀日髮型-D"] = 0;
                                        
-        ASpeedLookup["安德原的緋紅髮型-D"] = 0;
-        ASpeedLookup["安德原的高傲髮型-D"] = 0;
-        ASpeedLookup["安德原的陽光髮型-D"] = 0;
-        ASpeedLookup["安德原的黝黑髮型-D"] = 0;
+        ASpeedLookup["安德烈的緋紅髮型-D"] = 0;
+        ASpeedLookup["安德烈的高傲髮型-D"] = 0;
+        ASpeedLookup["安德烈的陽光髮型-D"] = 0;
+        ASpeedLookup["安德烈的黝黑髮型-D"] = 0;
         ASpeedLookup["莉莉絲的髮型-D"] = 0;
          
         ASpeedLookup["加百列髮型-D"] = 0;
@@ -3262,16 +3262,16 @@ class HairClass : Gears
         AAccelerationLookup["Dr.Hell髮型-D"] = 0;
         AAccelerationLookup["安德烈的貴族髮型-D"] = 0;
          
-        AAccelerationLookup["安德原的閃亮髮型-D"] = 0;
-        AAccelerationLookup["安德原的時尚髮型-D"] = 0;
-        AAccelerationLookup["安德原的猴子髮型-D"] = 0;
-        AAccelerationLookup["安德原的派對髮型-D"] = 0;
-        AAccelerationLookup["安德原的耀日髮型-D"] = 0;
+        AAccelerationLookup["安德烈的閃亮髮型-D"] = 0;
+        AAccelerationLookup["安德烈的時尚髮型-D"] = 0;
+        AAccelerationLookup["安德烈的猴子髮型-D"] = 0;
+        AAccelerationLookup["安德烈的派對髮型-D"] = 0;
+        AAccelerationLookup["安德烈的耀日髮型-D"] = 0;
          
-        AAccelerationLookup["安德原的緋紅髮型-D"] = 0;
-        AAccelerationLookup["安德原的高傲髮型-D"] = 0;
-        AAccelerationLookup["安德原的陽光髮型-D"] = 0;
-        AAccelerationLookup["安德原的黝黑髮型-D"] = 0;
+        AAccelerationLookup["安德烈的緋紅髮型-D"] = 0;
+        AAccelerationLookup["安德烈的高傲髮型-D"] = 0;
+        AAccelerationLookup["安德烈的陽光髮型-D"] = 0;
+        AAccelerationLookup["安德烈的黝黑髮型-D"] = 0;
         AAccelerationLookup["莉莉絲的髮型-D"] = 0;
          
         AAccelerationLookup["加百列髮型-D"] = 0;
@@ -3403,16 +3403,16 @@ class HairClass : Gears
         APowerLookup["Dr.Hell髮型-D"] = 0;
         APowerLookup["安德烈的貴族髮型-D"] = 0;
          
-        APowerLookup["安德原的閃亮髮型-D"] = 0;
-        APowerLookup["安德原的時尚髮型-D"] = 0;
-        APowerLookup["安德原的猴子髮型-D"] = 0;
-        APowerLookup["安德原的派對髮型-D"] = 0;
-        APowerLookup["安德原的耀日髮型-D"] = 0;
+        APowerLookup["安德烈的閃亮髮型-D"] = 0;
+        APowerLookup["安德烈的時尚髮型-D"] = 0;
+        APowerLookup["安德烈的猴子髮型-D"] = 0;
+        APowerLookup["安德烈的派對髮型-D"] = 0;
+        APowerLookup["安德烈的耀日髮型-D"] = 0;
          
-        APowerLookup["安德原的緋紅髮型-D"] = 0;
-        APowerLookup["安德原的高傲髮型-D"] = 0;
-        APowerLookup["安德原的陽光髮型-D"] = 0;
-        APowerLookup["安德原的黝黑髮型-D"] = 0;
+        APowerLookup["安德烈的緋紅髮型-D"] = 0;
+        APowerLookup["安德烈的高傲髮型-D"] = 0;
+        APowerLookup["安德烈的陽光髮型-D"] = 0;
+        APowerLookup["安德烈的黝黑髮型-D"] = 0;
         APowerLookup["莉莉絲的髮型-D"] = 0;
          
         APowerLookup["加百列髮型-D"] = 0;
@@ -3544,16 +3544,16 @@ class HairClass : Gears
         AControlLookup["Dr.Hell髮型-D"] = 0;
         AControlLookup["安德烈的貴族髮型-D"] = 0;
          
-        AControlLookup["安德原的閃亮髮型-D"] = 0;
-        AControlLookup["安德原的時尚髮型-D"] = 0;
-        AControlLookup["安德原的猴子髮型-D"] = 0;
-        AControlLookup["安德原的派對髮型-D"] = 0;
-        AControlLookup["安德原的耀日髮型-D"] = 0;
+        AControlLookup["安德烈的閃亮髮型-D"] = 0;
+        AControlLookup["安德烈的時尚髮型-D"] = 0;
+        AControlLookup["安德烈的猴子髮型-D"] = 0;
+        AControlLookup["安德烈的派對髮型-D"] = 0;
+        AControlLookup["安德烈的耀日髮型-D"] = 0;
          
-        AControlLookup["安德原的緋紅髮型-D"] = 0;
-        AControlLookup["安德原的高傲髮型-D"] = 0;
-        AControlLookup["安德原的陽光髮型-D"] = 0;
-        AControlLookup["安德原的黝黑髮型-D"] = 0;
+        AControlLookup["安德烈的緋紅髮型-D"] = 0;
+        AControlLookup["安德烈的高傲髮型-D"] = 0;
+        AControlLookup["安德烈的陽光髮型-D"] = 0;
+        AControlLookup["安德烈的黝黑髮型-D"] = 0;
         AControlLookup["莉莉絲的髮型-D"] = 0;
          
         AControlLookup["加百列髮型-D"] = 0;
@@ -3630,7 +3630,143 @@ class HairClass : Gears
 
     void A_RageDuration()
     {
-
+        //page 1
+        ARageDurationLookup["十鬼夜行髮型-D"] = 8;
+        ARageDurationLookup["白魔法髮型-D"] = 0;
+        ARageDurationLookup["黑魔法髮型-D"] = 0;
+        ARageDurationLookup["神諭聖光髮型-D"] = 15;
+        ARageDurationLookup["魔龍貴族髮型-D"] = 8;
+         
+        ARageDurationLookup["幻想獨角獸髮型-D"] = 10;
+        ARageDurationLookup["外星兔髮型-D"] = 5;
+        ARageDurationLookup["湛藍海軍學員髮型-D"] = 8;
+        ARageDurationLookup["棉花糖睡衣髮型(女)-D"] = 8;
+        ARageDurationLookup["棉花糖睡衣髮型(男)-D"] = 8;
+         
+        ARageDurationLookup["西洋棋國王髮型-D"] = 10;
+        ARageDurationLookup["靈獸髮型-D"] = 5;
+        ARageDurationLookup["西洋棋士兵髮型-D"] = 10;
+        ARageDurationLookup["網球手髮型-D"] = 8;
+        ARageDurationLookup["西洋棋城堡髮型-D"] = 10;
+         
+        ARageDurationLookup["西洋棋騎士髮型-D"] = 10;
+        ARageDurationLookup["舞台偶像髮型(女)-D"] = 10;
+        ARageDurationLookup["舞台偶像髮型(男)-D"] = 10;
+        ARageDurationLookup["西洋棋主教髮型-D"] = 10;
+        ARageDurationLookup["西洋棋皇后髮型-D"] = 10;
+         
+        ARageDurationLookup["懶人訓練髮型-D"] = 8;
+        ARageDurationLookup["菁英訓練髮型-D"] = 8;
+        ARageDurationLookup["世界髮型-D"] = 10;
+        ARageDurationLookup["正義髮型-D"] = 10;
+        ARageDurationLookup["白夜叉髮型-D"] = 8;
+         
+        ARageDurationLookup["月亮髮型-D"] = 10;
+        ARageDurationLookup["惡魔髮型-D"] = 10;
+        ARageDurationLookup["惡魔騎士髮型-D"] = 8;
+        ARageDurationLookup["天使騎士髮型-D"] = 8;
+        ARageDurationLookup["命運髮型-D"] = 10;
+        //page 2
+        ARageDurationLookup["戀人髮型-D"] = 10;
+        ARageDurationLookup["夢想兔子髮型-D"] = 5;
+        ARageDurationLookup["力量髮型-D"] = 10;
+        ARageDurationLookup["太陽髮型-D"] = 10;
+        ARageDurationLookup["皇帝髮型-D"] = 10;
+         
+        ARageDurationLookup["死神髮型-D"] = 10;
+        ARageDurationLookup["星星髮型-D"] = 10;
+        ARageDurationLookup["蘭斯洛特的髮型-D"] = 5;
+        ARageDurationLookup["梅林的髮型-D"] = 10;
+        ARageDurationLookup["亞瑟的髮型-D"] = 8;
+         
+        ARageDurationLookup["女祭司髮型-D"] = 10;
+        ARageDurationLookup["別西卜髮型-D"] = 10;
+        ARageDurationLookup["卡麥爾髮型-D"] = 10;
+        ARageDurationLookup["Dr.Hell髮型-D"] = 5;
+        ARageDurationLookup["安德烈的貴族髮型-D"] = 0;
+         
+        ARageDurationLookup["安德烈的閃亮髮型-D"] = 0;
+        ARageDurationLookup["安德烈的時尚髮型-D"] = 0;
+        ARageDurationLookup["安德烈的猴子髮型-D"] = 0;
+        ARageDurationLookup["安德烈的派對髮型-D"] = 0;
+        ARageDurationLookup["安德烈的耀日髮型-D"] = 0;
+         
+        ARageDurationLookup["安德烈的緋紅髮型-D"] = 0;
+        ARageDurationLookup["安德烈的高傲髮型-D"] = 0;
+        ARageDurationLookup["安德烈的陽光髮型-D"] = 0;
+        ARageDurationLookup["安德烈的黝黑髮型-D"] = 0;
+        ARageDurationLookup["莉莉絲的髮型-D"] = 10;
+         
+        ARageDurationLookup["加百列髮型-D"] = 10;
+        ARageDurationLookup["寶物獵人髮型"] = 10;
+        ARageDurationLookup["摩洛髮型-D"] = 10;
+        ARageDurationLookup["烏列爾髮型-D"] = 10;
+        ARageDurationLookup["威力隆髮型-D"] = 10;
+        //page 3
+        ARageDurationLookup["白燐髮型-D"] = 5;
+        ARageDurationLookup["米迦勒髮型-D"] = 10;
+        ARageDurationLookup["彼列髮型-D"] = 10;
+        ARageDurationLookup["炫紫鑄造者髮型-D"] = 5;
+        ARageDurationLookup["純白鑄造者髮型-D"] = 5;
+         
+        ARageDurationLookup["暗黑鑄造者髮型-D"] = 5;
+        ARageDurationLookup["蒼藍鑄造者髮型-D"] = 5;
+        ARageDurationLookup["赤紅鑄造者髮型-D"] = 5;
+        ARageDurationLookup["妮克斯的髮型"] = 5;
+        ARageDurationLookup["拉貴爾髮型-D"] = 10;
+         
+        ARageDurationLookup["普路托髮型-D"] = 10;
+        ARageDurationLookup["闇影龍戰士頭盔-D"] = 10;
+        ARageDurationLookup["霜雪龍戰士頭盔-D"] = 10;
+        ARageDurationLookup["赤焰龍戰士頭盔-D"] = 10;
+        ARageDurationLookup["夜煞黑燐之厄運 ‧ 破局"] = 5;
+         
+        ARageDurationLookup["拉斐爾髮型-D"] = 10;
+        ARageDurationLookup["貝斯塔的髮型-D"] = 5;
+        ARageDurationLookup["月之永恆髮型-D"] = 10;
+        ARageDurationLookup["青燐髮型-D"] = 5;
+        ARageDurationLookup["赫梅拉髮型-D"] = 5;
+         
+        ARageDurationLookup["大師級守護者髮型-D"] = 10;
+        ARageDurationLookup["奧羅拉的髮型-D"] = 5;
+        ARageDurationLookup["紅燐髮型-D"] = 5;
+        ARageDurationLookup["青春歲月校服髮型A-D"] = 5;
+        ARageDurationLookup["甜蜜約會髮型A"] = 5;
+         
+        ARageDurationLookup["燦爛雪花髮型-D"] = 10;
+        ARageDurationLookup["幻彩甜夢髮型-D"] = 5;
+        ARageDurationLookup["翱翔機師髮型-D"] = 5;
+        ARageDurationLookup["奇妙魔術師髮型-D"] = 5;
+        ARageDurationLookup["貴族主僕髮型-D"] = 5;
+        //page 4
+        ARageDurationLookup["童話主廚髮型-D"] = 5;
+        ARageDurationLookup["幽靈教主髮型-D"] = 10;
+        ARageDurationLookup["莉莉的情人節Cap帽"] = 8;
+        ARageDurationLookup["藍色精靈髮型-D"] = 10;
+        ARageDurationLookup["優雅婚禮髮型-D"] = 5;
+         
+        ARageDurationLookup["狂野初中生髮型-D"] = 10;
+        ARageDurationLookup["天忍聖守 ‧ 訣"] = 5;
+        ARageDurationLookup["暗黑殺手髮型-D"] = 5;
+        ARageDurationLookup["麒麟的神豔"] = 5;
+        ARageDurationLookup["糖果恆星髮型-D"] = 10;
+         
+        ARageDurationLookup["聖亳王之怒 ‧ 起始"] = 5;
+        ARageDurationLookup["玄武之靈羽"] = 5;
+        ARageDurationLookup["朱雀之髮冠"] = 5;
+        ARageDurationLookup["白虎之牙"] = 5;
+        ARageDurationLookup["青龍的風聲"] = 5;
+         
+        ARageDurationLookup["冬天妖精髮型"] = 0;
+        ARageDurationLookup["雷之子索爾髮型-D"] = 10;
+        ARageDurationLookup["暗黑貴族魔法髮型"] = 0;
+        ARageDurationLookup["Dr.Hell 黑色面具"] = 0;
+        ARageDurationLookup["Ark魔鬼的王冠"] = 0;
+         
+        ARageDurationLookup["Ark天使的王冠"] = 0;
+        ARageDurationLookup["黑色火焰髮型"] = 5;
+        ARageDurationLookup["泰國校服女生髮型-D"] = 10;
+        ARageDurationLookup["泰國校服男生髮型-D"] = 10;
     }
 
     void A_RageCharge()
