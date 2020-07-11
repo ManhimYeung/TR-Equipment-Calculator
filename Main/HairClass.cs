@@ -3066,7 +3066,143 @@ class HairClass : Gears
 
     void A_Speed()
     {
-
+        //page 1
+        ASpeedLookup["十鬼夜行髮型-D"] = 0;
+        ASpeedLookup["白魔法髮型-D"] = 0;
+        ASpeedLookup["黑魔法髮型-D"] = 0;
+        ASpeedLookup["神諭聖光髮型-D"] = 0;
+        ASpeedLookup["魔龍貴族髮型-D"] = 0;
+         
+        ASpeedLookup["幻想獨角獸髮型-D"] = 0;
+        ASpeedLookup["外星兔髮型-D"] = 0;
+        ASpeedLookup["湛藍海軍學員髮型-D"] = 0;
+        ASpeedLookup["棉花糖睡衣髮型(女)-D"] = 0;
+        ASpeedLookup["棉花糖睡衣髮型(男)-D"] = 0;
+         
+        ASpeedLookup["西洋棋國王髮型-D"] = 0;
+        ASpeedLookup["靈獸髮型-D"] = 0;
+        ASpeedLookup["西洋棋士兵髮型-D"] = 0;
+        ASpeedLookup["網球手髮型-D"] = 0;
+        ASpeedLookup["西洋棋城堡髮型-D"] = 0;
+         
+        ASpeedLookup["西洋棋騎士髮型-D"] = 0;
+        ASpeedLookup["舞台偶像髮型(女)-D"] = 0;
+        ASpeedLookup["舞台偶像髮型(男)-D"] = 0;
+        ASpeedLookup["西洋棋主教髮型-D"] = 0;
+        ASpeedLookup["西洋棋皇后髮型-D"] = 0;
+         
+        ASpeedLookup["懶人訓練髮型-D"] = 0;
+        ASpeedLookup["菁英訓練髮型-D"] = 0;
+        ASpeedLookup["世界髮型-D"] = 0;
+        ASpeedLookup["正義髮型-D"] = 0;
+        ASpeedLookup["白夜叉髮型-D"] = 0;
+         
+        ASpeedLookup["月亮髮型-D"] = 0;
+        ASpeedLookup["惡魔髮型-D"] = 0;
+        ASpeedLookup["惡魔騎士髮型-D"] = 0;
+        ASpeedLookup["天使騎士髮型-D"] = 0;
+        ASpeedLookup["命運髮型-D"] = 0;
+        //page 2
+        ASpeedLookup["戀人髮型-D"] = 0;
+        ASpeedLookup["夢想兔子髮型-D"] = 0;
+        ASpeedLookup["力量髮型-D"] = 0;
+        ASpeedLookup["太陽髮型-D"] = 0;
+        ASpeedLookup["皇帝髮型-D"] = 0;
+         
+        ASpeedLookup["死神髮型-D"] = 0;
+        ASpeedLookup["星星髮型-D"] = 0;
+        ASpeedLookup["蘭斯洛特的髮型-D"] = 0;
+        ASpeedLookup["梅林的髮型-D"] = 0;
+        ASpeedLookup["亞瑟的髮型-D"] = 0;
+         
+        ASpeedLookup["女祭司髮型-D"] = 0;
+        ASpeedLookup["別西卜髮型-D"] = 0;
+        ASpeedLookup["卡麥爾髮型-D"] = 0;
+        ASpeedLookup["Dr.Hell髮型-D"] = 0;
+        ASpeedLookup["安德烈的貴族髮型-D"] = 0;
+         
+        ASpeedLookup["安德原的閃亮髮型-D"] = 0;
+        ASpeedLookup["安德原的時尚髮型-D"] = 0;
+        ASpeedLookup["安德原的猴子髮型-D"] = 0;
+        ASpeedLookup["安德原的派對髮型-D"] = 0;
+        ASpeedLookup["安德原的耀日髮型-D"] = 0;
+                                       
+        ASpeedLookup["安德原的緋紅髮型-D"] = 0;
+        ASpeedLookup["安德原的高傲髮型-D"] = 0;
+        ASpeedLookup["安德原的陽光髮型-D"] = 0;
+        ASpeedLookup["安德原的黝黑髮型-D"] = 0;
+        ASpeedLookup["莉莉絲的髮型-D"] = 0;
+         
+        ASpeedLookup["加百列髮型-D"] = 0;
+        ASpeedLookup["寶物獵人髮型"] = 0;
+        ASpeedLookup["摩洛髮型-D"] = 0;
+        ASpeedLookup["烏列爾髮型-D"] = 0;
+        ASpeedLookup["威力隆髮型-D"] = 0;
+        //page 3
+        ASpeedLookup["白燐髮型-D"] = 0;
+        ASpeedLookup["米迦勒髮型-D"] = 0;
+        ASpeedLookup["彼列髮型-D"] = 0;
+        ASpeedLookup["炫紫鑄造者髮型-D"] = 0;
+        ASpeedLookup["純白鑄造者髮型-D"] = 0;
+         
+        ASpeedLookup["暗黑鑄造者髮型-D"] = 0;
+        ASpeedLookup["蒼藍鑄造者髮型-D"] = 0;
+        ASpeedLookup["赤紅鑄造者髮型-D"] = 0;
+        ASpeedLookup["妮克斯的髮型"] = 0;
+        ASpeedLookup["拉貴爾髮型-D"] = 0;
+         
+        ASpeedLookup["普路托髮型-D"] = 0;
+        ASpeedLookup["闇影龍戰士頭盔-D"] = 0;
+        ASpeedLookup["霜雪龍戰士頭盔-D"] = 0;
+        ASpeedLookup["赤焰龍戰士頭盔-D"] = 1;
+        ASpeedLookup["夜煞黑燐之厄運 ‧ 破局"] = 0;
+         
+        ASpeedLookup["拉斐爾髮型-D"] = 0;
+        ASpeedLookup["貝斯塔的髮型-D"] = 0;
+        ASpeedLookup["月之永恆髮型-D"] = 0;
+        ASpeedLookup["青燐髮型-D"] = 0;
+        ASpeedLookup["赫梅拉髮型-D"] = 0;
+         
+        ASpeedLookup["大師級守護者髮型-D"] = 0;
+        ASpeedLookup["奧羅拉的髮型-D"] = 0;
+        ASpeedLookup["紅燐髮型-D"] = 0;
+        ASpeedLookup["青春歲月校服髮型A-D"] = 0;
+        ASpeedLookup["甜蜜約會髮型A"] = 0;
+         
+        ASpeedLookup["燦爛雪花髮型-D"] = 0;
+        ASpeedLookup["幻彩甜夢髮型-D"] = 0;
+        ASpeedLookup["翱翔機師髮型-D"] = 0;
+        ASpeedLookup["奇妙魔術師髮型-D"] 0;
+        ASpeedLookup["貴族主僕髮型-D"] = 0;
+        //page 4
+        ASpeedLookup["童話主廚髮型-D"] = 0;
+        ASpeedLookup["幽靈教主髮型-D"] = 0;
+        ASpeedLookup["莉莉的情人節Cap帽"] = 0;
+        ASpeedLookup["藍色精靈髮型-D"] = 0;
+        ASpeedLookup["優雅婚禮髮型-D"] = 0;
+         
+        ASpeedLookup["狂野初中生髮型-D"] = 0;
+        ASpeedLookup["天忍聖守 ‧ 訣"] = 0;
+        ASpeedLookup["暗黑殺手髮型-D"] = 0;
+        ASpeedLookup["麒麟的神豔"] = 0;
+        ASpeedLookup["糖果恆星髮型-D"] = 0;
+         
+        ASpeedLookup["聖亳王之怒 ‧ 起始"] = 0;
+        ASpeedLookup["玄武之靈羽"] = 0;
+        ASpeedLookup["朱雀之髮冠"] = 0;
+        ASpeedLookup["白虎之牙"] = 0;
+        ASpeedLookup["青龍的風聲"] = 0;
+         
+        ASpeedLookup["冬天妖精髮型"] = 0;
+        ASpeedLookup["雷之子索爾髮型-D"] = 0;
+        ASpeedLookup["暗黑貴族魔法髮型"] = 0;
+        ASpeedLookup["Dr.Hell 黑色面具"] = 0;
+        ASpeedLookup["Ark魔鬼的王冠"] = 0;
+         
+        ASpeedLookup["Ark天使的王冠"] = 0;
+        ASpeedLookup["黑色火焰髮型"] = 0;
+        ASpeedLookup["泰國校服女生髮型-D"] = 1;
+        ASpeedLookup["泰國校服男生髮型-D"] = 1;
     }
 
     void A_Acceleration()
