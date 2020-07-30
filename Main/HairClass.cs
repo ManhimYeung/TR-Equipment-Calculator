@@ -3941,57 +3941,1410 @@ class HairClass : Gears
 
     void S_Mode()
     {
-
+        //Page 1
+        SModeLookup["百鬼夜行髮型-D"] = 4;
+        SModeLookup["白魔法髮型-D"] = 4;
+        SModeLookup["黑魔法髮型-D"] = 4;
+        SModeLookup["黑白天鵝髮型-D"] = 4;
+        SModeLookup["遠航探險家髮型-D"] = 4;
+         
+        SModeLookup["閃耀星空髮型-D"] = 4;
+        SModeLookup["失憶患者髮型-D"] = 4;
+        SModeLookup["惡夢醫生髮型-D"] = 4;
+        SModeLookup["夏日校服髮型-D"] = 4;
+        SModeLookup["柏勒洛豐髮型-D"] = 4;
+         
+        SModeLookup["中華旗袍髮型(男)-D"] = 4;
+        SModeLookup["中華旗袍髮型(女)-D"] = 4;
+        SModeLookup["勝利女神髮型-D"] = 4;
+        SModeLookup["懶人髮型-D"] = 4;
+        SModeLookup["菁英髮型-D"] = 4;
+         
+        SModeLookup["愚者髮型-D"] = 4;
+        SModeLookup["灰姑娘髮型-D"] = 4;
+        SModeLookup["野獸之王髮型-D"] = 4;
+        SModeLookup["九尾狐影月髮型-D"] = 4;
+        SModeLookup["九尾狐陽焰髮型-D"] = 4;
+         
+        SModeLookup["白雪公主髮型-D"] = 4;
+        SModeLookup["惡魔貴族髮型"] = 4;
+        SModeLookup["天使貴族髮型"] = 4;
+        SModeLookup["垂鐘花髮型-D"] = 4;
+        SModeLookup["茉莉髮型-D"] = 4;
+         
+        SModeLookup["玫瑰妖精髮型-D"] = 4;
+        SModeLookup["鈴蘭髮型-D"] = 4;
+        SModeLookup["白衣患者髮型-D"] = 4;
+        SModeLookup["惡夢博士髮型-D"] = 4;
+        SModeLookup["夢幻髮型-D"] = 4;
+        //Page 2
+        SModeLookup["茶花髮型-D"] = 4;
+        SModeLookup["雛菊髮型-D"] = 4;
+        SModeLookup["勿忘草髮型-D"] = 4;
+        SModeLookup["玫瑰騎士髮型-D"] = 4;
+        SModeLookup["雪狼髮型-D"] = 4;
+         
+        SModeLookup["水仙髮型-D"] = 4;
+        SModeLookup["安圖莎的髮型-D"] = 4;
+        SModeLookup["棉花髮型-D"] = 4;
+        SModeLookup["塔羅小丑的散漫-D"] = 4;
+        SModeLookup["翠菊髮型-D"] = 4;
+         
+        SModeLookup["海芋髮型-D"] = 4;
+        SModeLookup["龍膽髮型-D"] = 4;
+        SModeLookup["魔法艾洛髮型-D"] = 4;
+        SModeLookup["向日葵髮型-D"] = 4;
+        SModeLookup["幽藍天鵝髮型-D"] = 4;
+         
+        SModeLookup["安德烈的魅力髮型-D"] = 4;
+        SModeLookup["羊咩咩髮型-D"] = 4;
+        SModeLookup["馬拉高髮型-D"] = 4;
+        SModeLookup["蛇寶寶髮型-D"] = 4;
+        SModeLookup["小龍兒髮型-D"] = 4;
+         
+        SModeLookup["純潔白燐髮型-D"] = 4;
+        SModeLookup["小雪兔髮型-D"] = 4;
+        SModeLookup["夢幻鑄造者髮型-D"] = 4;
+        SModeLookup["叛胖虎髮型-D"] = 4;
+        SModeLookup["黑鳳凰頭盔-D"] = 4;
+         
+        SModeLookup["牛奶仔髮型-D"] = 4;
+        SModeLookup["闇影龍騎士頭盔-D"] = 4;
+        SModeLookup["霜雪龍騎士頭盔-D"] = 4;
+        SModeLookup["赤焰龍騎士頭盔-D"] = 4;
+        SModeLookup["榮譽騎士髮型-D"] = 4;
+        //Page 3
+        SModeLookup["吱吱鼠髮型-D"] = 4;
+        SModeLookup["豬太郎髮型-D"] = 4;
+        SModeLookup["夜煞黑燐之厄運 ‧ 壞滅"] = 4;
+        SModeLookup["路西法的墮落-D"] = 4;
+        SModeLookup["汪汪狗髮型-D"] = 4;
+         
+        SModeLookup["跍跍雞髮型-D"] = 4;
+        SModeLookup["頑皮猴髮型-D"] = 4;
+        SModeLookup["優雅青燐髮型-D"] = 4;
+        SModeLookup["宙斯髮型-D"] = 4;
+        SModeLookup["雅典娜髮型-D"] = 4;
+         
+        SModeLookup["秀麗紅燐髮型-D"] = 4;
+        SModeLookup["赫密斯髮型-D"] = 4;
+        SModeLookup["青春歲月校服髮型S-D"] = 4;
+        SModeLookup["阿芙蘿黛蒂髮型-D"] = 4;
+        SModeLookup["甜蜜約會髮型S"] = 4;
+         
+        SModeLookup["阿瑞斯髮型-D"] = 4;
+        SModeLookup["赫拉的髮型-D"] = 4;
+        SModeLookup["星空奇夢髮型-D"] = 4;
+        SModeLookup["赫淮斯托斯髮型-D"] = 4;
+        SModeLookup["翱翔機師髮型S-D"] = 4;
+         
+        SModeLookup["查理的辮子髮型-D"] = 4;
+        SModeLookup["阿提密斯髮型-D"] = 4;
+        SModeLookup["夢幻魔利師髮型-D"] = 4;
+        SModeLookup["帝奧尼索斯髮型-D"] = 4;
+        SModeLookup["皇窒主僕髮型-D"] = 4;
+         
+        SModeLookup["波塞頓髮型-D"] = 4;
+        SModeLookup["五星童話主廚髮型-D"] = 4;
+        SModeLookup["狄密特髮型-D"] = 4;
+        SModeLookup["莉莉的命運髮型"] = 4;
+        SModeLookup["阿波羅髮型-D"] = 4;
+        //Page 4
+        SModeLookup["夢想雨衣髮型-D"] = 4;
+        SModeLookup["華麗婚禮髮型-D"] = 4;
+        SModeLookup["狂野高中生髮型-D"] = 4;
+        SModeLookup["天御聖守 ‧ 訣"] = 4;
+        SModeLookup["麒麟的神豔 ‧ 神蹟"] = 4;
+         
+        SModeLookup["聖亳王之怒 ‧ 終焉"] = 4;
+        SModeLookup["玄武之靈羽 ‧ 神威"] = 4;
+        SModeLookup["極光髮型"] = 4;
+        SModeLookup["朱雀之髮冠 ‧ 究極"] = 4;
+        SModeLookup["白虎之牙 ‧ 真打"] = 4;
+         
+        SModeLookup["青龍的風聲 ‧ 極-D"] = 4;
+        SModeLookup["冰封精靈髮型"] = 4;
+        SModeLookup["星之碎片魔法髮型"] = 4;
     }
 
     void S_Speed()
     {
-
+        //Page 1
+        SSpeedLookup["百鬼夜行髮型-D"] = 4;
+        SSpeedLookup["白魔法髮型-D"] = 4;
+        SSpeedLookup["黑魔法髮型-D"] = 4;
+        SSpeedLookup["黑白天鵝髮型-D"] = 4;
+        SSpeedLookup["遠航探險家髮型-D"] = 4;
+         
+        SSpeedLookup["閃耀星空髮型-D"] = 4;
+        SSpeedLookup["失憶患者髮型-D"] = 4;
+        SSpeedLookup["惡夢醫生髮型-D"] = 4;
+        SSpeedLookup["夏日校服髮型-D"] = 4;
+        SSpeedLookup["柏勒洛豐髮型-D"] = 4;
+         
+        SSpeedLookup["中華旗袍髮型(男)-D"] = 4;
+        SSpeedLookup["中華旗袍髮型(女)-D"] = 4;
+        SSpeedLookup["勝利女神髮型-D"] = 4;
+        SSpeedLookup["懶人髮型-D"] = 4;
+        SSpeedLookup["菁英髮型-D"] = 4;
+         
+        SSpeedLookup["愚者髮型-D"] = 4;
+        SSpeedLookup["灰姑娘髮型-D"] = 4;
+        SSpeedLookup["野獸之王髮型-D"] = 4;
+        SSpeedLookup["九尾狐影月髮型-D"] = 4;
+        SSpeedLookup["九尾狐陽焰髮型-D"] = 4;
+         
+        SSpeedLookup["白雪公主髮型-D"] = 4;
+        SSpeedLookup["惡魔貴族髮型"] = 4;
+        SSpeedLookup["天使貴族髮型"] = 4;
+        SSpeedLookup["垂鐘花髮型-D"] = 4;
+        SSpeedLookup["茉莉髮型-D"] = 4;
+         
+        SSpeedLookup["玫瑰妖精髮型-D"] = 4;
+        SSpeedLookup["鈴蘭髮型-D"] = 4;
+        SSpeedLookup["白衣患者髮型-D"] = 4;
+        SSpeedLookup["惡夢博士髮型-D"] = 4;
+        SSpeedLookup["夢幻髮型-D"] = 4;
+        //Page 2
+        SSpeedLookup["茶花髮型-D"] = 4;
+        SSpeedLookup["雛菊髮型-D"] = 4;
+        SSpeedLookup["勿忘草髮型-D"] = 4;
+        SSpeedLookup["玫瑰騎士髮型-D"] = 4;
+        SSpeedLookup["雪狼髮型-D"] = 4;
+         
+        SSpeedLookup["水仙髮型-D"] = 4;
+        SSpeedLookup["安圖莎的髮型-D"] = 4;
+        SSpeedLookup["棉花髮型-D"] = 4;
+        SSpeedLookup["塔羅小丑的散漫-D"] = 4;
+        SSpeedLookup["翠菊髮型-D"] = 4;
+         
+        SSpeedLookup["海芋髮型-D"] = 4;
+        SSpeedLookup["龍膽髮型-D"] = 4;
+        SSpeedLookup["魔法艾洛髮型-D"] = 4;
+        SSpeedLookup["向日葵髮型-D"] = 4;
+        SSpeedLookup["幽藍天鵝髮型-D"] = 4;
+         
+        SSpeedLookup["安德烈的魅力髮型-D"] = 4;
+        SSpeedLookup["羊咩咩髮型-D"] = 4;
+        SSpeedLookup["馬拉高髮型-D"] = 4;
+        SSpeedLookup["蛇寶寶髮型-D"] = 4;
+        SSpeedLookup["小龍兒髮型-D"] = 4;
+         
+        SSpeedLookup["純潔白燐髮型-D"] = 4;
+        SSpeedLookup["小雪兔髮型-D"] = 4;
+        SSpeedLookup["夢幻鑄造者髮型-D"] = 4;
+        SSpeedLookup["叛胖虎髮型-D"] = 4;
+        SSpeedLookup["黑鳳凰頭盔-D"] = 4;
+         
+        SSpeedLookup["牛奶仔髮型-D"] = 4;
+        SSpeedLookup["闇影龍騎士頭盔-D"] = 4;
+        SSpeedLookup["霜雪龍騎士頭盔-D"] = 4;
+        SSpeedLookup["赤焰龍騎士頭盔-D"] = 4;
+        SSpeedLookup["榮譽騎士髮型-D"] = 4;
+        //Page 3
+        SSpeedLookup["吱吱鼠髮型-D"] = 4;
+        SSpeedLookup["豬太郎髮型-D"] = 4;
+        SSpeedLookup["夜煞黑燐之厄運 ‧ 壞滅"] = 4;
+        SSpeedLookup["路西法的墮落-D"] = 4;
+        SSpeedLookup["汪汪狗髮型-D"] = 4;
+         
+        SSpeedLookup["跍跍雞髮型-D"] = 4;
+        SSpeedLookup["頑皮猴髮型-D"] = 4;
+        SSpeedLookup["優雅青燐髮型-D"] = 4;
+        SSpeedLookup["宙斯髮型-D"] = 4;
+        SSpeedLookup["雅典娜髮型-D"] = 4;
+         
+        SSpeedLookup["秀麗紅燐髮型-D"] = 4;
+        SSpeedLookup["赫密斯髮型-D"] = 4;
+        SSpeedLookup["青春歲月校服髮型S-D"] = 4;
+        SSpeedLookup["阿芙蘿黛蒂髮型-D"] = 4;
+        SSpeedLookup["甜蜜約會髮型S"] = 4;
+         
+        SSpeedLookup["阿瑞斯髮型-D"] = 4;
+        SSpeedLookup["赫拉的髮型-D"] = 4;
+        SSpeedLookup["星空奇夢髮型-D"] = 4;
+        SSpeedLookup["赫淮斯托斯髮型-D"] = 4;
+        SSpeedLookup["翱翔機師髮型S-D"] = 4;
+         
+        SSpeedLookup["查理的辮子髮型-D"] = 4;
+        SSpeedLookup["阿提密斯髮型-D"] = 4;
+        SSpeedLookup["夢幻魔利師髮型-D"] = 4;
+        SSpeedLookup["帝奧尼索斯髮型-D"] = 4;
+        SSpeedLookup["皇窒主僕髮型-D"] = 4;
+         
+        SSpeedLookup["波塞頓髮型-D"] = 4;
+        SSpeedLookup["五星童話主廚髮型-D"] = 4;
+        SSpeedLookup["狄密特髮型-D"] = 4;
+        SSpeedLookup["莉莉的命運髮型"] = 4;
+        SSpeedLookup["阿波羅髮型-D"] = 4;
+        //Page 4
+        SSpeedLookup["夢想雨衣髮型-D"] = 4;
+        SSpeedLookup["華麗婚禮髮型-D"] = 4;
+        SSpeedLookup["狂野高中生髮型-D"] = 4;
+        SSpeedLookup["天御聖守 ‧ 訣"] = 4;
+        SSpeedLookup["麒麟的神豔 ‧ 神蹟"] = 4;
+         
+        SSpeedLookup["聖亳王之怒 ‧ 終焉"] = 4;
+        SSpeedLookup["玄武之靈羽 ‧ 神威"] = 4;
+        SSpeedLookup["極光髮型"] = 4;
+        SSpeedLookup["朱雀之髮冠 ‧ 究極"] = 4;
+        SSpeedLookup["白虎之牙 ‧ 真打"] = 4;
+         
+        SSpeedLookup["青龍的風聲 ‧ 極-D"] = 4;
+        SSpeedLookup["冰封精靈髮型"] = 4;
+        SSpeedLookup["星之碎片魔法髮型"] = 4;
     }
 
     void S_Acceleration()
     {
-
+        //Page 1
+        SAccelerationLookup["百鬼夜行髮型-D"] = 4;
+        SAccelerationLookup["白魔法髮型-D"] = 4;
+        SAccelerationLookup["黑魔法髮型-D"] = 4;
+        SAccelerationLookup["黑白天鵝髮型-D"] = 4;
+        SAccelerationLookup["遠航探險家髮型-D"] = 4;
+         
+        SAccelerationLookup["閃耀星空髮型-D"] = 4;
+        SAccelerationLookup["失憶患者髮型-D"] = 4;
+        SAccelerationLookup["惡夢醫生髮型-D"] = 4;
+        SAccelerationLookup["夏日校服髮型-D"] = 4;
+        SAccelerationLookup["柏勒洛豐髮型-D"] = 4;
+         
+        SAccelerationLookup["中華旗袍髮型(男)-D"] = 4;
+        SAccelerationLookup["中華旗袍髮型(女)-D"] = 4;
+        SAccelerationLookup["勝利女神髮型-D"] = 4;
+        SAccelerationLookup["懶人髮型-D"] = 4;
+        SAccelerationLookup["菁英髮型-D"] = 4;
+         
+        SAccelerationLookup["愚者髮型-D"] = 4;
+        SAccelerationLookup["灰姑娘髮型-D"] = 4;
+        SAccelerationLookup["野獸之王髮型-D"] = 4;
+        SAccelerationLookup["九尾狐影月髮型-D"] = 4;
+        SAccelerationLookup["九尾狐陽焰髮型-D"] = 4;
+         
+        SAccelerationLookup["白雪公主髮型-D"] = 4;
+        SAccelerationLookup["惡魔貴族髮型"] = 4;
+        SAccelerationLookup["天使貴族髮型"] = 4;
+        SAccelerationLookup["垂鐘花髮型-D"] = 4;
+        SAccelerationLookup["茉莉髮型-D"] = 4;
+         
+        SAccelerationLookup["玫瑰妖精髮型-D"] = 4;
+        SAccelerationLookup["鈴蘭髮型-D"] = 4;
+        SAccelerationLookup["白衣患者髮型-D"] = 4;
+        SAccelerationLookup["惡夢博士髮型-D"] = 4;
+        SAccelerationLookup["夢幻髮型-D"] = 4;
+        //Page 2
+        SAccelerationLookup["茶花髮型-D"] = 4;
+        SAccelerationLookup["雛菊髮型-D"] = 4;
+        SAccelerationLookup["勿忘草髮型-D"] = 4;
+        SAccelerationLookup["玫瑰騎士髮型-D"] = 4;
+        SAccelerationLookup["雪狼髮型-D"] = 4;
+         
+        SAccelerationLookup["水仙髮型-D"] = 4;
+        SAccelerationLookup["安圖莎的髮型-D"] = 4;
+        SAccelerationLookup["棉花髮型-D"] = 4;
+        SAccelerationLookup["塔羅小丑的散漫-D"] = 4;
+        SAccelerationLookup["翠菊髮型-D"] = 4;
+         
+        SAccelerationLookup["海芋髮型-D"] = 4;
+        SAccelerationLookup["龍膽髮型-D"] = 4;
+        SAccelerationLookup["魔法艾洛髮型-D"] = 4;
+        SAccelerationLookup["向日葵髮型-D"] = 4;
+        SAccelerationLookup["幽藍天鵝髮型-D"] = 4;
+         
+        SAccelerationLookup["安德烈的魅力髮型-D"] = 4;
+        SAccelerationLookup["羊咩咩髮型-D"] = 4;
+        SAccelerationLookup["馬拉高髮型-D"] = 4;
+        SAccelerationLookup["蛇寶寶髮型-D"] = 4;
+        SAccelerationLookup["小龍兒髮型-D"] = 4;
+         
+        SAccelerationLookup["純潔白燐髮型-D"] = 4;
+        SAccelerationLookup["小雪兔髮型-D"] = 4;
+        SAccelerationLookup["夢幻鑄造者髮型-D"] = 4;
+        SAccelerationLookup["叛胖虎髮型-D"] = 4;
+        SAccelerationLookup["黑鳳凰頭盔-D"] = 4;
+         
+        SAccelerationLookup["牛奶仔髮型-D"] = 4;
+        SAccelerationLookup["闇影龍騎士頭盔-D"] = 4;
+        SAccelerationLookup["霜雪龍騎士頭盔-D"] = 4;
+        SAccelerationLookup["赤焰龍騎士頭盔-D"] = 4;
+        SAccelerationLookup["榮譽騎士髮型-D"] = 4;
+        //Page 3
+        SAccelerationLookup["吱吱鼠髮型-D"] = 4;
+        SAccelerationLookup["豬太郎髮型-D"] = 4;
+        SAccelerationLookup["夜煞黑燐之厄運 ‧ 壞滅"] = 4;
+        SAccelerationLookup["路西法的墮落-D"] = 4;
+        SAccelerationLookup["汪汪狗髮型-D"] = 4;
+         
+        SAccelerationLookup["跍跍雞髮型-D"] = 4;
+        SAccelerationLookup["頑皮猴髮型-D"] = 4;
+        SAccelerationLookup["優雅青燐髮型-D"] = 4;
+        SAccelerationLookup["宙斯髮型-D"] = 4;
+        SAccelerationLookup["雅典娜髮型-D"] = 4;
+         
+        SAccelerationLookup["秀麗紅燐髮型-D"] = 4;
+        SAccelerationLookup["赫密斯髮型-D"] = 4;
+        SAccelerationLookup["青春歲月校服髮型S-D"] = 4;
+        SAccelerationLookup["阿芙蘿黛蒂髮型-D"] = 4;
+        SAccelerationLookup["甜蜜約會髮型S"] = 4;
+         
+        SAccelerationLookup["阿瑞斯髮型-D"] = 4;
+        SAccelerationLookup["赫拉的髮型-D"] = 4;
+        SAccelerationLookup["星空奇夢髮型-D"] = 4;
+        SAccelerationLookup["赫淮斯托斯髮型-D"] = 4;
+        SAccelerationLookup["翱翔機師髮型S-D"] = 4;
+         
+        SAccelerationLookup["查理的辮子髮型-D"] = 4;
+        SAccelerationLookup["阿提密斯髮型-D"] = 4;
+        SAccelerationLookup["夢幻魔利師髮型-D"] = 4;
+        SAccelerationLookup["帝奧尼索斯髮型-D"] = 4;
+        SAccelerationLookup["皇窒主僕髮型-D"] = 4;
+         
+        SAccelerationLookup["波塞頓髮型-D"] = 4;
+        SAccelerationLookup["五星童話主廚髮型-D"] = 4;
+        SAccelerationLookup["狄密特髮型-D"] = 4;
+        SAccelerationLookup["莉莉的命運髮型"] = 4;
+        SAccelerationLookup["阿波羅髮型-D"] = 4;
+        //Page 4
+        SAccelerationLookup["夢想雨衣髮型-D"] = 4;
+        SAccelerationLookup["華麗婚禮髮型-D"] = 4;
+        SAccelerationLookup["狂野高中生髮型-D"] = 4;
+        SAccelerationLookup["天御聖守 ‧ 訣"] = 4;
+        SAccelerationLookup["麒麟的神豔 ‧ 神蹟"] = 4;
+         
+        SAccelerationLookup["聖亳王之怒 ‧ 終焉"] = 4;
+        SAccelerationLookup["玄武之靈羽 ‧ 神威"] = 4;
+        SAccelerationLookup["極光髮型"] = 4;
+        SAccelerationLookup["朱雀之髮冠 ‧ 究極"] = 4;
+        SAccelerationLookup["白虎之牙 ‧ 真打"] = 4;
+         
+        SAccelerationLookup["青龍的風聲 ‧ 極-D"] = 4;
+        SAccelerationLookup["冰封精靈髮型"] = 4;
+        SAccelerationLookup["星之碎片魔法髮型"] = 4;
     }
 
     void S_Power()
     {
-
+        //Page 1
+        SPowerLookup["百鬼夜行髮型-D"] = 4;
+        SPowerLookup["白魔法髮型-D"] = 4;
+        SPowerLookup["黑魔法髮型-D"] = 4;
+        SPowerLookup["黑白天鵝髮型-D"] = 4;
+        SPowerLookup["遠航探險家髮型-D"] = 4;
+         
+        SPowerLookup["閃耀星空髮型-D"] = 4;
+        SPowerLookup["失憶患者髮型-D"] = 4;
+        SPowerLookup["惡夢醫生髮型-D"] = 4;
+        SPowerLookup["夏日校服髮型-D"] = 4;
+        SPowerLookup["柏勒洛豐髮型-D"] = 4;
+         
+        SPowerLookup["中華旗袍髮型(男)-D"] = 4;
+        SPowerLookup["中華旗袍髮型(女)-D"] = 4;
+        SPowerLookup["勝利女神髮型-D"] = 4;
+        SPowerLookup["懶人髮型-D"] = 4;
+        SPowerLookup["菁英髮型-D"] = 4;
+         
+        SPowerLookup["愚者髮型-D"] = 4;
+        SPowerLookup["灰姑娘髮型-D"] = 4;
+        SPowerLookup["野獸之王髮型-D"] = 4;
+        SPowerLookup["九尾狐影月髮型-D"] = 4;
+        SPowerLookup["九尾狐陽焰髮型-D"] = 4;
+         
+        SPowerLookup["白雪公主髮型-D"] = 4;
+        SPowerLookup["惡魔貴族髮型"] = 4;
+        SPowerLookup["天使貴族髮型"] = 4;
+        SPowerLookup["垂鐘花髮型-D"] = 4;
+        SPowerLookup["茉莉髮型-D"] = 4;
+         
+        SPowerLookup["玫瑰妖精髮型-D"] = 4;
+        SPowerLookup["鈴蘭髮型-D"] = 4;
+        SPowerLookup["白衣患者髮型-D"] = 4;
+        SPowerLookup["惡夢博士髮型-D"] = 4;
+        SPowerLookup["夢幻髮型-D"] = 4;
+        //Page 2
+        SPowerLookup["茶花髮型-D"] = 4;
+        SPowerLookup["雛菊髮型-D"] = 4;
+        SPowerLookup["勿忘草髮型-D"] = 4;
+        SPowerLookup["玫瑰騎士髮型-D"] = 4;
+        SPowerLookup["雪狼髮型-D"] = 4;
+         
+        SPowerLookup["水仙髮型-D"] = 4;
+        SPowerLookup["安圖莎的髮型-D"] = 4;
+        SPowerLookup["棉花髮型-D"] = 4;
+        SPowerLookup["塔羅小丑的散漫-D"] = 4;
+        SPowerLookup["翠菊髮型-D"] = 4;
+         
+        SPowerLookup["海芋髮型-D"] = 4;
+        SPowerLookup["龍膽髮型-D"] = 4;
+        SPowerLookup["魔法艾洛髮型-D"] = 4;
+        SPowerLookup["向日葵髮型-D"] = 4;
+        SPowerLookup["幽藍天鵝髮型-D"] = 4;
+         
+        SPowerLookup["安德烈的魅力髮型-D"] = 4;
+        SPowerLookup["羊咩咩髮型-D"] = 4;
+        SPowerLookup["馬拉高髮型-D"] = 4;
+        SPowerLookup["蛇寶寶髮型-D"] = 4;
+        SPowerLookup["小龍兒髮型-D"] = 4;
+         
+        SPowerLookup["純潔白燐髮型-D"] = 4;
+        SPowerLookup["小雪兔髮型-D"] = 4;
+        SPowerLookup["夢幻鑄造者髮型-D"] = 4;
+        SPowerLookup["叛胖虎髮型-D"] = 4;
+        SPowerLookup["黑鳳凰頭盔-D"] = 4;
+         
+        SPowerLookup["牛奶仔髮型-D"] = 4;
+        SPowerLookup["闇影龍騎士頭盔-D"] = 4;
+        SPowerLookup["霜雪龍騎士頭盔-D"] = 4;
+        SPowerLookup["赤焰龍騎士頭盔-D"] = 4;
+        SPowerLookup["榮譽騎士髮型-D"] = 4;
+        //Page 3
+        SPowerLookup["吱吱鼠髮型-D"] = 4;
+        SPowerLookup["豬太郎髮型-D"] = 4;
+        SPowerLookup["夜煞黑燐之厄運 ‧ 壞滅"] = 4;
+        SPowerLookup["路西法的墮落-D"] = 4;
+        SPowerLookup["汪汪狗髮型-D"] = 4;
+         
+        SPowerLookup["跍跍雞髮型-D"] = 4;
+        SPowerLookup["頑皮猴髮型-D"] = 4;
+        SPowerLookup["優雅青燐髮型-D"] = 4;
+        SPowerLookup["宙斯髮型-D"] = 4;
+        SPowerLookup["雅典娜髮型-D"] = 4;
+         
+        SPowerLookup["秀麗紅燐髮型-D"] = 4;
+        SPowerLookup["赫密斯髮型-D"] = 4;
+        SPowerLookup["青春歲月校服髮型S-D"] = 4;
+        SPowerLookup["阿芙蘿黛蒂髮型-D"] = 4;
+        SPowerLookup["甜蜜約會髮型S"] = 4;
+         
+        SPowerLookup["阿瑞斯髮型-D"] = 4;
+        SPowerLookup["赫拉的髮型-D"] = 4;
+        SPowerLookup["星空奇夢髮型-D"] = 4;
+        SPowerLookup["赫淮斯托斯髮型-D"] = 4;
+        SPowerLookup["翱翔機師髮型S-D"] = 4;
+         
+        SPowerLookup["查理的辮子髮型-D"] = 4;
+        SPowerLookup["阿提密斯髮型-D"] = 4;
+        SPowerLookup["夢幻魔利師髮型-D"] = 4;
+        SPowerLookup["帝奧尼索斯髮型-D"] = 4;
+        SPowerLookup["皇窒主僕髮型-D"] = 4;
+         
+        SPowerLookup["波塞頓髮型-D"] = 4;
+        SPowerLookup["五星童話主廚髮型-D"] = 4;
+        SPowerLookup["狄密特髮型-D"] = 4;
+        SPowerLookup["莉莉的命運髮型"] = 4;
+        SPowerLookup["阿波羅髮型-D"] = 4;
+        //Page 4
+        SPowerLookup["夢想雨衣髮型-D"] = 4;
+        SPowerLookup["華麗婚禮髮型-D"] = 4;
+        SPowerLookup["狂野高中生髮型-D"] = 4;
+        SPowerLookup["天御聖守 ‧ 訣"] = 4;
+        SPowerLookup["麒麟的神豔 ‧ 神蹟"] = 4;
+         
+        SPowerLookup["聖亳王之怒 ‧ 終焉"] = 4;
+        SPowerLookup["玄武之靈羽 ‧ 神威"] = 4;
+        SPowerLookup["極光髮型"] = 4;
+        SPowerLookup["朱雀之髮冠 ‧ 究極"] = 4;
+        SPowerLookup["白虎之牙 ‧ 真打"] = 4;
+         
+        SPowerLookup["青龍的風聲 ‧ 極-D"] = 4;
+        SPowerLookup["冰封精靈髮型"] = 4;
+        SPowerLookup["星之碎片魔法髮型"] = 4;
     }
 
     void S_Control()
     {
-
+        //Page 1
+        SControlLookup["百鬼夜行髮型-D"] = 4;
+        SControlLookup["白魔法髮型-D"] = 4;
+        SControlLookup["黑魔法髮型-D"] = 4;
+        SControlLookup["黑白天鵝髮型-D"] = 4;
+        SControlLookup["遠航探險家髮型-D"] = 4;
+         
+        SControlLookup["閃耀星空髮型-D"] = 4;
+        SControlLookup["失憶患者髮型-D"] = 4;
+        SControlLookup["惡夢醫生髮型-D"] = 4;
+        SControlLookup["夏日校服髮型-D"] = 4;
+        SControlLookup["柏勒洛豐髮型-D"] = 4;
+         
+        SControlLookup["中華旗袍髮型(男)-D"] = 4;
+        SControlLookup["中華旗袍髮型(女)-D"] = 4;
+        SControlLookup["勝利女神髮型-D"] = 4;
+        SControlLookup["懶人髮型-D"] = 4;
+        SControlLookup["菁英髮型-D"] = 4;
+         
+        SControlLookup["愚者髮型-D"] = 4;
+        SControlLookup["灰姑娘髮型-D"] = 4;
+        SControlLookup["野獸之王髮型-D"] = 4;
+        SControlLookup["九尾狐影月髮型-D"] = 4;
+        SControlLookup["九尾狐陽焰髮型-D"] = 4;
+         
+        SControlLookup["白雪公主髮型-D"] = 4;
+        SControlLookup["惡魔貴族髮型"] = 4;
+        SControlLookup["天使貴族髮型"] = 4;
+        SControlLookup["垂鐘花髮型-D"] = 4;
+        SControlLookup["茉莉髮型-D"] = 4;
+         
+        SControlLookup["玫瑰妖精髮型-D"] = 4;
+        SControlLookup["鈴蘭髮型-D"] = 4;
+        SControlLookup["白衣患者髮型-D"] = 4;
+        SControlLookup["惡夢博士髮型-D"] = 4;
+        SControlLookup["夢幻髮型-D"] = 4;
+        //Page 2
+        SControlLookup["茶花髮型-D"] = 4;
+        SControlLookup["雛菊髮型-D"] = 4;
+        SControlLookup["勿忘草髮型-D"] = 4;
+        SControlLookup["玫瑰騎士髮型-D"] = 4;
+        SControlLookup["雪狼髮型-D"] = 4;
+         
+        SControlLookup["水仙髮型-D"] = 4;
+        SControlLookup["安圖莎的髮型-D"] = 4;
+        SControlLookup["棉花髮型-D"] = 4;
+        SControlLookup["塔羅小丑的散漫-D"] = 4;
+        SControlLookup["翠菊髮型-D"] = 4;
+         
+        SControlLookup["海芋髮型-D"] = 4;
+        SControlLookup["龍膽髮型-D"] = 4;
+        SControlLookup["魔法艾洛髮型-D"] = 4;
+        SControlLookup["向日葵髮型-D"] = 4;
+        SControlLookup["幽藍天鵝髮型-D"] = 4;
+         
+        SControlLookup["安德烈的魅力髮型-D"] = 4;
+        SControlLookup["羊咩咩髮型-D"] = 4;
+        SControlLookup["馬拉高髮型-D"] = 4;
+        SControlLookup["蛇寶寶髮型-D"] = 4;
+        SControlLookup["小龍兒髮型-D"] = 4;
+         
+        SControlLookup["純潔白燐髮型-D"] = 4;
+        SControlLookup["小雪兔髮型-D"] = 4;
+        SControlLookup["夢幻鑄造者髮型-D"] = 4;
+        SControlLookup["叛胖虎髮型-D"] = 4;
+        SControlLookup["黑鳳凰頭盔-D"] = 4;
+         
+        SControlLookup["牛奶仔髮型-D"] = 4;
+        SControlLookup["闇影龍騎士頭盔-D"] = 4;
+        SControlLookup["霜雪龍騎士頭盔-D"] = 4;
+        SControlLookup["赤焰龍騎士頭盔-D"] = 4;
+        SControlLookup["榮譽騎士髮型-D"] = 4;
+        //Page 3
+        SControlLookup["吱吱鼠髮型-D"] = 4;
+        SControlLookup["豬太郎髮型-D"] = 4;
+        SControlLookup["夜煞黑燐之厄運 ‧ 壞滅"] = 4;
+        SControlLookup["路西法的墮落-D"] = 4;
+        SControlLookup["汪汪狗髮型-D"] = 4;
+         
+        SControlLookup["跍跍雞髮型-D"] = 4;
+        SControlLookup["頑皮猴髮型-D"] = 4;
+        SControlLookup["優雅青燐髮型-D"] = 4;
+        SControlLookup["宙斯髮型-D"] = 4;
+        SControlLookup["雅典娜髮型-D"] = 4;
+         
+        SControlLookup["秀麗紅燐髮型-D"] = 4;
+        SControlLookup["赫密斯髮型-D"] = 4;
+        SControlLookup["青春歲月校服髮型S-D"] = 4;
+        SControlLookup["阿芙蘿黛蒂髮型-D"] = 4;
+        SControlLookup["甜蜜約會髮型S"] = 4;
+         
+        SControlLookup["阿瑞斯髮型-D"] = 4;
+        SControlLookup["赫拉的髮型-D"] = 4;
+        SControlLookup["星空奇夢髮型-D"] = 4;
+        SControlLookup["赫淮斯托斯髮型-D"] = 4;
+        SControlLookup["翱翔機師髮型S-D"] = 4;
+         
+        SControlLookup["查理的辮子髮型-D"] = 4;
+        SControlLookup["阿提密斯髮型-D"] = 4;
+        SControlLookup["夢幻魔利師髮型-D"] = 4;
+        SControlLookup["帝奧尼索斯髮型-D"] = 4;
+        SControlLookup["皇窒主僕髮型-D"] = 4;
+         
+        SControlLookup["波塞頓髮型-D"] = 4;
+        SControlLookup["五星童話主廚髮型-D"] = 4;
+        SControlLookup["狄密特髮型-D"] = 4;
+        SControlLookup["莉莉的命運髮型"] = 4;
+        SControlLookup["阿波羅髮型-D"] = 4;
+        //Page 4
+        SControlLookup["夢想雨衣髮型-D"] = 4;
+        SControlLookup["華麗婚禮髮型-D"] = 4;
+        SControlLookup["狂野高中生髮型-D"] = 4;
+        SControlLookup["天御聖守 ‧ 訣"] = 4;
+        SControlLookup["麒麟的神豔 ‧ 神蹟"] = 4;
+         
+        SControlLookup["聖亳王之怒 ‧ 終焉"] = 4;
+        SControlLookup["玄武之靈羽 ‧ 神威"] = 4;
+        SControlLookup["極光髮型"] = 4;
+        SControlLookup["朱雀之髮冠 ‧ 究極"] = 4;
+        SControlLookup["白虎之牙 ‧ 真打"] = 4;
+         
+        SControlLookup["青龍的風聲 ‧ 極-D"] = 4;
+        SControlLookup["冰封精靈髮型"] = 4;
+        SControlLookup["星之碎片魔法髮型"] = 4;
     }
 
     void S_RageDuration()
     {
-
+        //Page 1
+        SRageDurationLookup["百鬼夜行髮型-D"] = 4;
+        SRageDurationLookup["白魔法髮型-D"] = 4;
+        SRageDurationLookup["黑魔法髮型-D"] = 4;
+        SRageDurationLookup["黑白天鵝髮型-D"] = 4;
+        SRageDurationLookup["遠航探險家髮型-D"] = 4;
+         
+        SRageDurationLookup["閃耀星空髮型-D"] = 4;
+        SRageDurationLookup["失憶患者髮型-D"] = 4;
+        SRageDurationLookup["惡夢醫生髮型-D"] = 4;
+        SRageDurationLookup["夏日校服髮型-D"] = 4;
+        SRageDurationLookup["柏勒洛豐髮型-D"] = 4;
+         
+        SRageDurationLookup["中華旗袍髮型(男)-D"] = 4;
+        SRageDurationLookup["中華旗袍髮型(女)-D"] = 4;
+        SRageDurationLookup["勝利女神髮型-D"] = 4;
+        SRageDurationLookup["懶人髮型-D"] = 4;
+        SRageDurationLookup["菁英髮型-D"] = 4;
+         
+        SRageDurationLookup["愚者髮型-D"] = 4;
+        SRageDurationLookup["灰姑娘髮型-D"] = 4;
+        SRageDurationLookup["野獸之王髮型-D"] = 4;
+        SRageDurationLookup["九尾狐影月髮型-D"] = 4;
+        SRageDurationLookup["九尾狐陽焰髮型-D"] = 4;
+         
+        SRageDurationLookup["白雪公主髮型-D"] = 4;
+        SRageDurationLookup["惡魔貴族髮型"] = 4;
+        SRageDurationLookup["天使貴族髮型"] = 4;
+        SRageDurationLookup["垂鐘花髮型-D"] = 4;
+        SRageDurationLookup["茉莉髮型-D"] = 4;
+         
+        SRageDurationLookup["玫瑰妖精髮型-D"] = 4;
+        SRageDurationLookup["鈴蘭髮型-D"] = 4;
+        SRageDurationLookup["白衣患者髮型-D"] = 4;
+        SRageDurationLookup["惡夢博士髮型-D"] = 4;
+        SRageDurationLookup["夢幻髮型-D"] = 4;
+        //Page 2
+        SRageDurationLookup["茶花髮型-D"] = 4;
+        SRageDurationLookup["雛菊髮型-D"] = 4;
+        SRageDurationLookup["勿忘草髮型-D"] = 4;
+        SRageDurationLookup["玫瑰騎士髮型-D"] = 4;
+        SRageDurationLookup["雪狼髮型-D"] = 4;
+         
+        SRageDurationLookup["水仙髮型-D"] = 4;
+        SRageDurationLookup["安圖莎的髮型-D"] = 4;
+        SRageDurationLookup["棉花髮型-D"] = 4;
+        SRageDurationLookup["塔羅小丑的散漫-D"] = 4;
+        SRageDurationLookup["翠菊髮型-D"] = 4;
+         
+        SRageDurationLookup["海芋髮型-D"] = 4;
+        SRageDurationLookup["龍膽髮型-D"] = 4;
+        SRageDurationLookup["魔法艾洛髮型-D"] = 4;
+        SRageDurationLookup["向日葵髮型-D"] = 4;
+        SRageDurationLookup["幽藍天鵝髮型-D"] = 4;
+         
+        SRageDurationLookup["安德烈的魅力髮型-D"] = 4;
+        SRageDurationLookup["羊咩咩髮型-D"] = 4;
+        SRageDurationLookup["馬拉高髮型-D"] = 4;
+        SRageDurationLookup["蛇寶寶髮型-D"] = 4;
+        SRageDurationLookup["小龍兒髮型-D"] = 4;
+         
+        SRageDurationLookup["純潔白燐髮型-D"] = 4;
+        SRageDurationLookup["小雪兔髮型-D"] = 4;
+        SRageDurationLookup["夢幻鑄造者髮型-D"] = 4;
+        SRageDurationLookup["叛胖虎髮型-D"] = 4;
+        SRageDurationLookup["黑鳳凰頭盔-D"] = 4;
+         
+        SRageDurationLookup["牛奶仔髮型-D"] = 4;
+        SRageDurationLookup["闇影龍騎士頭盔-D"] = 4;
+        SRageDurationLookup["霜雪龍騎士頭盔-D"] = 4;
+        SRageDurationLookup["赤焰龍騎士頭盔-D"] = 4;
+        SRageDurationLookup["榮譽騎士髮型-D"] = 4;
+        //Page 3
+        SRageDurationLookup["吱吱鼠髮型-D"] = 4;
+        SRageDurationLookup["豬太郎髮型-D"] = 4;
+        SRageDurationLookup["夜煞黑燐之厄運 ‧ 壞滅"] = 4;
+        SRageDurationLookup["路西法的墮落-D"] = 4;
+        SRageDurationLookup["汪汪狗髮型-D"] = 4;
+         
+        SRageDurationLookup["跍跍雞髮型-D"] = 4;
+        SRageDurationLookup["頑皮猴髮型-D"] = 4;
+        SRageDurationLookup["優雅青燐髮型-D"] = 4;
+        SRageDurationLookup["宙斯髮型-D"] = 4;
+        SRageDurationLookup["雅典娜髮型-D"] = 4;
+         
+        SRageDurationLookup["秀麗紅燐髮型-D"] = 4;
+        SRageDurationLookup["赫密斯髮型-D"] = 4;
+        SRageDurationLookup["青春歲月校服髮型S-D"] = 4;
+        SRageDurationLookup["阿芙蘿黛蒂髮型-D"] = 4;
+        SRageDurationLookup["甜蜜約會髮型S"] = 4;
+         
+        SRageDurationLookup["阿瑞斯髮型-D"] = 4;
+        SRageDurationLookup["赫拉的髮型-D"] = 4;
+        SRageDurationLookup["星空奇夢髮型-D"] = 4;
+        SRageDurationLookup["赫淮斯托斯髮型-D"] = 4;
+        SRageDurationLookup["翱翔機師髮型S-D"] = 4;
+         
+        SRageDurationLookup["查理的辮子髮型-D"] = 4;
+        SRageDurationLookup["阿提密斯髮型-D"] = 4;
+        SRageDurationLookup["夢幻魔利師髮型-D"] = 4;
+        SRageDurationLookup["帝奧尼索斯髮型-D"] = 4;
+        SRageDurationLookup["皇窒主僕髮型-D"] = 4;
+         
+        SRageDurationLookup["波塞頓髮型-D"] = 4;
+        SRageDurationLookup["五星童話主廚髮型-D"] = 4;
+        SRageDurationLookup["狄密特髮型-D"] = 4;
+        SRageDurationLookup["莉莉的命運髮型"] = 4;
+        SRageDurationLookup["阿波羅髮型-D"] = 4;
+        //Page 4
+        SRageDurationLookup["夢想雨衣髮型-D"] = 4;
+        SRageDurationLookup["華麗婚禮髮型-D"] = 4;
+        SRageDurationLookup["狂野高中生髮型-D"] = 4;
+        SRageDurationLookup["天御聖守 ‧ 訣"] = 4;
+        SRageDurationLookup["麒麟的神豔 ‧ 神蹟"] = 4;
+         
+        SRageDurationLookup["聖亳王之怒 ‧ 終焉"] = 4;
+        SRageDurationLookup["玄武之靈羽 ‧ 神威"] = 4;
+        SRageDurationLookup["極光髮型"] = 4;
+        SRageDurationLookup["朱雀之髮冠 ‧ 究極"] = 4;
+        SRageDurationLookup["白虎之牙 ‧ 真打"] = 4;
+         
+        SRageDurationLookup["青龍的風聲 ‧ 極-D"] = 4;
+        SRageDurationLookup["冰封精靈髮型"] = 4;
+        SRageDurationLookup["星之碎片魔法髮型"] = 4;
     }
 
     void S_RageCharge()
     {
-
+        //Page 1
+        SRageDurationLookup["百鬼夜行髮型-D"] = 4;
+        SRageDurationLookup["白魔法髮型-D"] = 4;
+        SRageDurationLookup["黑魔法髮型-D"] = 4;
+        SRageDurationLookup["黑白天鵝髮型-D"] = 4;
+        SRageDurationLookup["遠航探險家髮型-D"] = 4;
+         
+        SRageDurationLookup["閃耀星空髮型-D"] = 4;
+        SRageDurationLookup["失憶患者髮型-D"] = 4;
+        SRageDurationLookup["惡夢醫生髮型-D"] = 4;
+        SRageDurationLookup["夏日校服髮型-D"] = 4;
+        SRageDurationLookup["柏勒洛豐髮型-D"] = 4;
+         
+        SRageDurationLookup["中華旗袍髮型(男)-D"] = 4;
+        SRageDurationLookup["中華旗袍髮型(女)-D"] = 4;
+        SRageDurationLookup["勝利女神髮型-D"] = 4;
+        SRageDurationLookup["懶人髮型-D"] = 4;
+        SRageDurationLookup["菁英髮型-D"] = 4;
+         
+        SRageDurationLookup["愚者髮型-D"] = 4;
+        SRageDurationLookup["灰姑娘髮型-D"] = 4;
+        SRageDurationLookup["野獸之王髮型-D"] = 4;
+        SRageDurationLookup["九尾狐影月髮型-D"] = 4;
+        SRageDurationLookup["九尾狐陽焰髮型-D"] = 4;
+         
+        SRageDurationLookup["白雪公主髮型-D"] = 4;
+        SRageDurationLookup["惡魔貴族髮型"] = 4;
+        SRageDurationLookup["天使貴族髮型"] = 4;
+        SRageDurationLookup["垂鐘花髮型-D"] = 4;
+        SRageDurationLookup["茉莉髮型-D"] = 4;
+         
+        SRageDurationLookup["玫瑰妖精髮型-D"] = 4;
+        SRageDurationLookup["鈴蘭髮型-D"] = 4;
+        SRageDurationLookup["白衣患者髮型-D"] = 4;
+        SRageDurationLookup["惡夢博士髮型-D"] = 4;
+        SRageDurationLookup["夢幻髮型-D"] = 4;
+        //Page 2
+        SRageDurationLookup["茶花髮型-D"] = 4;
+        SRageDurationLookup["雛菊髮型-D"] = 4;
+        SRageDurationLookup["勿忘草髮型-D"] = 4;
+        SRageDurationLookup["玫瑰騎士髮型-D"] = 4;
+        SRageDurationLookup["雪狼髮型-D"] = 4;
+         
+        SRageDurationLookup["水仙髮型-D"] = 4;
+        SRageDurationLookup["安圖莎的髮型-D"] = 4;
+        SRageDurationLookup["棉花髮型-D"] = 4;
+        SRageDurationLookup["塔羅小丑的散漫-D"] = 4;
+        SRageDurationLookup["翠菊髮型-D"] = 4;
+         
+        SRageDurationLookup["海芋髮型-D"] = 4;
+        SRageDurationLookup["龍膽髮型-D"] = 4;
+        SRageDurationLookup["魔法艾洛髮型-D"] = 4;
+        SRageDurationLookup["向日葵髮型-D"] = 4;
+        SRageDurationLookup["幽藍天鵝髮型-D"] = 4;
+         
+        SRageDurationLookup["安德烈的魅力髮型-D"] = 4;
+        SRageDurationLookup["羊咩咩髮型-D"] = 4;
+        SRageDurationLookup["馬拉高髮型-D"] = 4;
+        SRageDurationLookup["蛇寶寶髮型-D"] = 4;
+        SRageDurationLookup["小龍兒髮型-D"] = 4;
+         
+        SRageDurationLookup["純潔白燐髮型-D"] = 4;
+        SRageDurationLookup["小雪兔髮型-D"] = 4;
+        SRageDurationLookup["夢幻鑄造者髮型-D"] = 4;
+        SRageDurationLookup["叛胖虎髮型-D"] = 4;
+        SRageDurationLookup["黑鳳凰頭盔-D"] = 4;
+         
+        SRageDurationLookup["牛奶仔髮型-D"] = 4;
+        SRageDurationLookup["闇影龍騎士頭盔-D"] = 4;
+        SRageDurationLookup["霜雪龍騎士頭盔-D"] = 4;
+        SRageDurationLookup["赤焰龍騎士頭盔-D"] = 4;
+        SRageDurationLookup["榮譽騎士髮型-D"] = 4;
+        //Page 3
+        SRageDurationLookup["吱吱鼠髮型-D"] = 4;
+        SRageDurationLookup["豬太郎髮型-D"] = 4;
+        SRageDurationLookup["夜煞黑燐之厄運 ‧ 壞滅"] = 4;
+        SRageDurationLookup["路西法的墮落-D"] = 4;
+        SRageDurationLookup["汪汪狗髮型-D"] = 4;
+         
+        SRageDurationLookup["跍跍雞髮型-D"] = 4;
+        SRageDurationLookup["頑皮猴髮型-D"] = 4;
+        SRageDurationLookup["優雅青燐髮型-D"] = 4;
+        SRageDurationLookup["宙斯髮型-D"] = 4;
+        SRageDurationLookup["雅典娜髮型-D"] = 4;
+         
+        SRageDurationLookup["秀麗紅燐髮型-D"] = 4;
+        SRageDurationLookup["赫密斯髮型-D"] = 4;
+        SRageDurationLookup["青春歲月校服髮型S-D"] = 4;
+        SRageDurationLookup["阿芙蘿黛蒂髮型-D"] = 4;
+        SRageDurationLookup["甜蜜約會髮型S"] = 4;
+         
+        SRageDurationLookup["阿瑞斯髮型-D"] = 4;
+        SRageDurationLookup["赫拉的髮型-D"] = 4;
+        SRageDurationLookup["星空奇夢髮型-D"] = 4;
+        SRageDurationLookup["赫淮斯托斯髮型-D"] = 4;
+        SRageDurationLookup["翱翔機師髮型S-D"] = 4;
+         
+        SRageDurationLookup["查理的辮子髮型-D"] = 4;
+        SRageDurationLookup["阿提密斯髮型-D"] = 4;
+        SRageDurationLookup["夢幻魔利師髮型-D"] = 4;
+        SRageDurationLookup["帝奧尼索斯髮型-D"] = 4;
+        SRageDurationLookup["皇窒主僕髮型-D"] = 4;
+         
+        SRageDurationLookup["波塞頓髮型-D"] = 4;
+        SRageDurationLookup["五星童話主廚髮型-D"] = 4;
+        SRageDurationLookup["狄密特髮型-D"] = 4;
+        SRageDurationLookup["莉莉的命運髮型"] = 4;
+        SRageDurationLookup["阿波羅髮型-D"] = 4;
+        //Page 4
+        SRageDurationLookup["夢想雨衣髮型-D"] = 4;
+        SRageDurationLookup["華麗婚禮髮型-D"] = 4;
+        SRageDurationLookup["狂野高中生髮型-D"] = 4;
+        SRageDurationLookup["天御聖守 ‧ 訣"] = 4;
+        SRageDurationLookup["麒麟的神豔 ‧ 神蹟"] = 4;
+         
+        SRageDurationLookup["聖亳王之怒 ‧ 終焉"] = 4;
+        SRageDurationLookup["玄武之靈羽 ‧ 神威"] = 4;
+        SRageDurationLookup["極光髮型"] = 4;
+        SRageDurationLookup["朱雀之髮冠 ‧ 究極"] = 4;
+        SRageDurationLookup["白虎之牙 ‧ 真打"] = 4;
+         
+        SRageDurationLookup["青龍的風聲 ‧ 極-D"] = 4;
+        SRageDurationLookup["冰封精靈髮型"] = 4;
+        SRageDurationLookup["星之碎片魔法髮型"] = 4;
     }
 
     void S_MaxEnergy()
     {
-
+        //Page 1
+        SRageDurationLookup["百鬼夜行髮型-D"] = 4;
+        SRageDurationLookup["白魔法髮型-D"] = 4;
+        SRageDurationLookup["黑魔法髮型-D"] = 4;
+        SRageDurationLookup["黑白天鵝髮型-D"] = 4;
+        SRageDurationLookup["遠航探險家髮型-D"] = 4;
+         
+        SRageDurationLookup["閃耀星空髮型-D"] = 4;
+        SRageDurationLookup["失憶患者髮型-D"] = 4;
+        SRageDurationLookup["惡夢醫生髮型-D"] = 4;
+        SRageDurationLookup["夏日校服髮型-D"] = 4;
+        SRageDurationLookup["柏勒洛豐髮型-D"] = 4;
+         
+        SRageDurationLookup["中華旗袍髮型(男)-D"] = 4;
+        SRageDurationLookup["中華旗袍髮型(女)-D"] = 4;
+        SRageDurationLookup["勝利女神髮型-D"] = 4;
+        SRageDurationLookup["懶人髮型-D"] = 4;
+        SRageDurationLookup["菁英髮型-D"] = 4;
+         
+        SRageDurationLookup["愚者髮型-D"] = 4;
+        SRageDurationLookup["灰姑娘髮型-D"] = 4;
+        SRageDurationLookup["野獸之王髮型-D"] = 4;
+        SRageDurationLookup["九尾狐影月髮型-D"] = 4;
+        SRageDurationLookup["九尾狐陽焰髮型-D"] = 4;
+         
+        SRageDurationLookup["白雪公主髮型-D"] = 4;
+        SRageDurationLookup["惡魔貴族髮型"] = 4;
+        SRageDurationLookup["天使貴族髮型"] = 4;
+        SRageDurationLookup["垂鐘花髮型-D"] = 4;
+        SRageDurationLookup["茉莉髮型-D"] = 4;
+         
+        SRageDurationLookup["玫瑰妖精髮型-D"] = 4;
+        SRageDurationLookup["鈴蘭髮型-D"] = 4;
+        SRageDurationLookup["白衣患者髮型-D"] = 4;
+        SRageDurationLookup["惡夢博士髮型-D"] = 4;
+        SRageDurationLookup["夢幻髮型-D"] = 4;
+        //Page 2
+        SRageDurationLookup["茶花髮型-D"] = 4;
+        SRageDurationLookup["雛菊髮型-D"] = 4;
+        SRageDurationLookup["勿忘草髮型-D"] = 4;
+        SRageDurationLookup["玫瑰騎士髮型-D"] = 4;
+        SRageDurationLookup["雪狼髮型-D"] = 4;
+         
+        SRageDurationLookup["水仙髮型-D"] = 4;
+        SRageDurationLookup["安圖莎的髮型-D"] = 4;
+        SRageDurationLookup["棉花髮型-D"] = 4;
+        SRageDurationLookup["塔羅小丑的散漫-D"] = 4;
+        SRageDurationLookup["翠菊髮型-D"] = 4;
+         
+        SRageDurationLookup["海芋髮型-D"] = 4;
+        SRageDurationLookup["龍膽髮型-D"] = 4;
+        SRageDurationLookup["魔法艾洛髮型-D"] = 4;
+        SRageDurationLookup["向日葵髮型-D"] = 4;
+        SRageDurationLookup["幽藍天鵝髮型-D"] = 4;
+         
+        SRageDurationLookup["安德烈的魅力髮型-D"] = 4;
+        SRageDurationLookup["羊咩咩髮型-D"] = 4;
+        SRageDurationLookup["馬拉高髮型-D"] = 4;
+        SRageDurationLookup["蛇寶寶髮型-D"] = 4;
+        SRageDurationLookup["小龍兒髮型-D"] = 4;
+         
+        SRageDurationLookup["純潔白燐髮型-D"] = 4;
+        SRageDurationLookup["小雪兔髮型-D"] = 4;
+        SRageDurationLookup["夢幻鑄造者髮型-D"] = 4;
+        SRageDurationLookup["叛胖虎髮型-D"] = 4;
+        SRageDurationLookup["黑鳳凰頭盔-D"] = 4;
+         
+        SRageDurationLookup["牛奶仔髮型-D"] = 4;
+        SRageDurationLookup["闇影龍騎士頭盔-D"] = 4;
+        SRageDurationLookup["霜雪龍騎士頭盔-D"] = 4;
+        SRageDurationLookup["赤焰龍騎士頭盔-D"] = 4;
+        SRageDurationLookup["榮譽騎士髮型-D"] = 4;
+        //Page 3
+        SRageDurationLookup["吱吱鼠髮型-D"] = 4;
+        SRageDurationLookup["豬太郎髮型-D"] = 4;
+        SRageDurationLookup["夜煞黑燐之厄運 ‧ 壞滅"] = 4;
+        SRageDurationLookup["路西法的墮落-D"] = 4;
+        SRageDurationLookup["汪汪狗髮型-D"] = 4;
+         
+        SRageDurationLookup["跍跍雞髮型-D"] = 4;
+        SRageDurationLookup["頑皮猴髮型-D"] = 4;
+        SRageDurationLookup["優雅青燐髮型-D"] = 4;
+        SRageDurationLookup["宙斯髮型-D"] = 4;
+        SRageDurationLookup["雅典娜髮型-D"] = 4;
+         
+        SRageDurationLookup["秀麗紅燐髮型-D"] = 4;
+        SRageDurationLookup["赫密斯髮型-D"] = 4;
+        SRageDurationLookup["青春歲月校服髮型S-D"] = 4;
+        SRageDurationLookup["阿芙蘿黛蒂髮型-D"] = 4;
+        SRageDurationLookup["甜蜜約會髮型S"] = 4;
+         
+        SRageDurationLookup["阿瑞斯髮型-D"] = 4;
+        SRageDurationLookup["赫拉的髮型-D"] = 4;
+        SRageDurationLookup["星空奇夢髮型-D"] = 4;
+        SRageDurationLookup["赫淮斯托斯髮型-D"] = 4;
+        SRageDurationLookup["翱翔機師髮型S-D"] = 4;
+         
+        SRageDurationLookup["查理的辮子髮型-D"] = 4;
+        SRageDurationLookup["阿提密斯髮型-D"] = 4;
+        SRageDurationLookup["夢幻魔利師髮型-D"] = 4;
+        SRageDurationLookup["帝奧尼索斯髮型-D"] = 4;
+        SRageDurationLookup["皇窒主僕髮型-D"] = 4;
+         
+        SRageDurationLookup["波塞頓髮型-D"] = 4;
+        SRageDurationLookup["五星童話主廚髮型-D"] = 4;
+        SRageDurationLookup["狄密特髮型-D"] = 4;
+        SRageDurationLookup["莉莉的命運髮型"] = 4;
+        SRageDurationLookup["阿波羅髮型-D"] = 4;
+        //Page 4
+        SRageDurationLookup["夢想雨衣髮型-D"] = 4;
+        SRageDurationLookup["華麗婚禮髮型-D"] = 4;
+        SRageDurationLookup["狂野高中生髮型-D"] = 4;
+        SRageDurationLookup["天御聖守 ‧ 訣"] = 4;
+        SRageDurationLookup["麒麟的神豔 ‧ 神蹟"] = 4;
+         
+        SRageDurationLookup["聖亳王之怒 ‧ 終焉"] = 4;
+        SRageDurationLookup["玄武之靈羽 ‧ 神威"] = 4;
+        SRageDurationLookup["極光髮型"] = 4;
+        SRageDurationLookup["朱雀之髮冠 ‧ 究極"] = 4;
+        SRageDurationLookup["白虎之牙 ‧ 真打"] = 4;
+         
+        SRageDurationLookup["青龍的風聲 ‧ 極-D"] = 4;
+        SRageDurationLookup["冰封精靈髮型"] = 4;
+        SRageDurationLookup["星之碎片魔法髮型"] = 4;
     }
 
     void S_MaxSprint()
     {
-
+        //Page 1
+        SMaxSprintLookup["百鬼夜行髮型-D"] = 4;
+        SMaxSprintLookup["白魔法髮型-D"] = 4;
+        SMaxSprintLookup["黑魔法髮型-D"] = 4;
+        SMaxSprintLookup["黑白天鵝髮型-D"] = 4;
+        SMaxSprintLookup["遠航探險家髮型-D"] = 4;
+         
+        SMaxSprintLookup["閃耀星空髮型-D"] = 4;
+        SMaxSprintLookup["失憶患者髮型-D"] = 4;
+        SMaxSprintLookup["惡夢醫生髮型-D"] = 4;
+        SMaxSprintLookup["夏日校服髮型-D"] = 4;
+        SMaxSprintLookup["柏勒洛豐髮型-D"] = 4;
+         
+        SMaxSprintLookup["中華旗袍髮型(男)-D"] = 4;
+        SMaxSprintLookup["中華旗袍髮型(女)-D"] = 4;
+        SMaxSprintLookup["勝利女神髮型-D"] = 4;
+        SMaxSprintLookup["懶人髮型-D"] = 4;
+        SMaxSprintLookup["菁英髮型-D"] = 4;
+         
+        SMaxSprintLookup["愚者髮型-D"] = 4;
+        SMaxSprintLookup["灰姑娘髮型-D"] = 4;
+        SMaxSprintLookup["野獸之王髮型-D"] = 4;
+        SMaxSprintLookup["九尾狐影月髮型-D"] = 4;
+        SMaxSprintLookup["九尾狐陽焰髮型-D"] = 4;
+         
+        SMaxSprintLookup["白雪公主髮型-D"] = 4;
+        SMaxSprintLookup["惡魔貴族髮型"] = 4;
+        SMaxSprintLookup["天使貴族髮型"] = 4;
+        SMaxSprintLookup["垂鐘花髮型-D"] = 4;
+        SMaxSprintLookup["茉莉髮型-D"] = 4;
+         
+        SMaxSprintLookup["玫瑰妖精髮型-D"] = 4;
+        SMaxSprintLookup["鈴蘭髮型-D"] = 4;
+        SMaxSprintLookup["白衣患者髮型-D"] = 4;
+        SMaxSprintLookup["惡夢博士髮型-D"] = 4;
+        SMaxSprintLookup["夢幻髮型-D"] = 4;
+        //Page 2
+        SMaxSprintLookup["茶花髮型-D"] = 4;
+        SMaxSprintLookup["雛菊髮型-D"] = 4;
+        SMaxSprintLookup["勿忘草髮型-D"] = 4;
+        SMaxSprintLookup["玫瑰騎士髮型-D"] = 4;
+        SMaxSprintLookup["雪狼髮型-D"] = 4;
+         
+        SMaxSprintLookup["水仙髮型-D"] = 4;
+        SMaxSprintLookup["安圖莎的髮型-D"] = 4;
+        SMaxSprintLookup["棉花髮型-D"] = 4;
+        SMaxSprintLookup["塔羅小丑的散漫-D"] = 4;
+        SMaxSprintLookup["翠菊髮型-D"] = 4;
+         
+        SMaxSprintLookup["海芋髮型-D"] = 4;
+        SMaxSprintLookup["龍膽髮型-D"] = 4;
+        SMaxSprintLookup["魔法艾洛髮型-D"] = 4;
+        SMaxSprintLookup["向日葵髮型-D"] = 4;
+        SMaxSprintLookup["幽藍天鵝髮型-D"] = 4;
+         
+        SMaxSprintLookup["安德烈的魅力髮型-D"] = 4;
+        SMaxSprintLookup["羊咩咩髮型-D"] = 4;
+        SMaxSprintLookup["馬拉高髮型-D"] = 4;
+        SMaxSprintLookup["蛇寶寶髮型-D"] = 4;
+        SMaxSprintLookup["小龍兒髮型-D"] = 4;
+         
+        SMaxSprintLookup["純潔白燐髮型-D"] = 4;
+        SMaxSprintLookup["小雪兔髮型-D"] = 4;
+        SMaxSprintLookup["夢幻鑄造者髮型-D"] = 4;
+        SMaxSprintLookup["叛胖虎髮型-D"] = 4;
+        SMaxSprintLookup["黑鳳凰頭盔-D"] = 4;
+         
+        SMaxSprintLookup["牛奶仔髮型-D"] = 4;
+        SMaxSprintLookup["闇影龍騎士頭盔-D"] = 4;
+        SMaxSprintLookup["霜雪龍騎士頭盔-D"] = 4;
+        SMaxSprintLookup["赤焰龍騎士頭盔-D"] = 4;
+        SMaxSprintLookup["榮譽騎士髮型-D"] = 4;
+        //Page 3
+        SMaxSprintLookup["吱吱鼠髮型-D"] = 4;
+        SMaxSprintLookup["豬太郎髮型-D"] = 4;
+        SMaxSprintLookup["夜煞黑燐之厄運 ‧ 壞滅"] = 4;
+        SMaxSprintLookup["路西法的墮落-D"] = 4;
+        SMaxSprintLookup["汪汪狗髮型-D"] = 4;
+         
+        SMaxSprintLookup["跍跍雞髮型-D"] = 4;
+        SMaxSprintLookup["頑皮猴髮型-D"] = 4;
+        SMaxSprintLookup["優雅青燐髮型-D"] = 4;
+        SMaxSprintLookup["宙斯髮型-D"] = 4;
+        SMaxSprintLookup["雅典娜髮型-D"] = 4;
+         
+        SMaxSprintLookup["秀麗紅燐髮型-D"] = 4;
+        SMaxSprintLookup["赫密斯髮型-D"] = 4;
+        SMaxSprintLookup["青春歲月校服髮型S-D"] = 4;
+        SMaxSprintLookup["阿芙蘿黛蒂髮型-D"] = 4;
+        SMaxSprintLookup["甜蜜約會髮型S"] = 4;
+         
+        SMaxSprintLookup["阿瑞斯髮型-D"] = 4;
+        SMaxSprintLookup["赫拉的髮型-D"] = 4;
+        SMaxSprintLookup["星空奇夢髮型-D"] = 4;
+        SMaxSprintLookup["赫淮斯托斯髮型-D"] = 4;
+        SMaxSprintLookup["翱翔機師髮型S-D"] = 4;
+         
+        SMaxSprintLookup["查理的辮子髮型-D"] = 4;
+        SMaxSprintLookup["阿提密斯髮型-D"] = 4;
+        SMaxSprintLookup["夢幻魔利師髮型-D"] = 4;
+        SMaxSprintLookup["帝奧尼索斯髮型-D"] = 4;
+        SMaxSprintLookup["皇窒主僕髮型-D"] = 4;
+         
+        SMaxSprintLookup["波塞頓髮型-D"] = 4;
+        SMaxSprintLookup["五星童話主廚髮型-D"] = 4;
+        SMaxSprintLookup["狄密特髮型-D"] = 4;
+        SMaxSprintLookup["莉莉的命運髮型"] = 4;
+        SMaxSprintLookup["阿波羅髮型-D"] = 4;
+        //Page 4
+        SMaxSprintLookup["夢想雨衣髮型-D"] = 4;
+        SMaxSprintLookup["華麗婚禮髮型-D"] = 4;
+        SMaxSprintLookup["狂野高中生髮型-D"] = 4;
+        SMaxSprintLookup["天御聖守 ‧ 訣"] = 4;
+        SMaxSprintLookup["麒麟的神豔 ‧ 神蹟"] = 4;
+         
+        SMaxSprintLookup["聖亳王之怒 ‧ 終焉"] = 4;
+        SMaxSprintLookup["玄武之靈羽 ‧ 神威"] = 4;
+        SMaxSprintLookup["極光髮型"] = 4;
+        SMaxSprintLookup["朱雀之髮冠 ‧ 究極"] = 4;
+        SMaxSprintLookup["白虎之牙 ‧ 真打"] = 4;
+         
+        SMaxSprintLookup["青龍的風聲 ‧ 極-D"] = 4;
+        SMaxSprintLookup["冰封精靈髮型"] = 4;
+        SMaxSprintLookup["星之碎片魔法髮型"] = 4;
     }
 
     void S_Force()
     {
-
+        //Page 1
+        SForceLookup["百鬼夜行髮型-D"] = 4;
+        SForceLookup["白魔法髮型-D"] = 4;
+        SForceLookup["黑魔法髮型-D"] = 4;
+        SForceLookup["黑白天鵝髮型-D"] = 4;
+        SForceLookup["遠航探險家髮型-D"] = 4;
+         
+        SForceLookup["閃耀星空髮型-D"] = 4;
+        SForceLookup["失憶患者髮型-D"] = 4;
+        SForceLookup["惡夢醫生髮型-D"] = 4;
+        SForceLookup["夏日校服髮型-D"] = 4;
+        SForceLookup["柏勒洛豐髮型-D"] = 4;
+         
+        SForceLookup["中華旗袍髮型(男)-D"] = 4;
+        SForceLookup["中華旗袍髮型(女)-D"] = 4;
+        SForceLookup["勝利女神髮型-D"] = 4;
+        SForceLookup["懶人髮型-D"] = 4;
+        SForceLookup["菁英髮型-D"] = 4;
+         
+        SForceLookup["愚者髮型-D"] = 4;
+        SForceLookup["灰姑娘髮型-D"] = 4;
+        SForceLookup["野獸之王髮型-D"] = 4;
+        SForceLookup["九尾狐影月髮型-D"] = 4;
+        SForceLookup["九尾狐陽焰髮型-D"] = 4;
+         
+        SForceLookup["白雪公主髮型-D"] = 4;
+        SForceLookup["惡魔貴族髮型"] = 4;
+        SForceLookup["天使貴族髮型"] = 4;
+        SForceLookup["垂鐘花髮型-D"] = 4;
+        SForceLookup["茉莉髮型-D"] = 4;
+         
+        SForceLookup["玫瑰妖精髮型-D"] = 4;
+        SForceLookup["鈴蘭髮型-D"] = 4;
+        SForceLookup["白衣患者髮型-D"] = 4;
+        SForceLookup["惡夢博士髮型-D"] = 4;
+        SForceLookup["夢幻髮型-D"] = 4;
+        //Page 2
+        SForceLookup["茶花髮型-D"] = 4;
+        SForceLookup["雛菊髮型-D"] = 4;
+        SForceLookup["勿忘草髮型-D"] = 4;
+        SForceLookup["玫瑰騎士髮型-D"] = 4;
+        SForceLookup["雪狼髮型-D"] = 4;
+         
+        SForceLookup["水仙髮型-D"] = 4;
+        SForceLookup["安圖莎的髮型-D"] = 4;
+        SForceLookup["棉花髮型-D"] = 4;
+        SForceLookup["塔羅小丑的散漫-D"] = 4;
+        SForceLookup["翠菊髮型-D"] = 4;
+         
+        SForceLookup["海芋髮型-D"] = 4;
+        SForceLookup["龍膽髮型-D"] = 4;
+        SForceLookup["魔法艾洛髮型-D"] = 4;
+        SForceLookup["向日葵髮型-D"] = 4;
+        SForceLookup["幽藍天鵝髮型-D"] = 4;
+         
+        SForceLookup["安德烈的魅力髮型-D"] = 4;
+        SForceLookup["羊咩咩髮型-D"] = 4;
+        SForceLookup["馬拉高髮型-D"] = 4;
+        SForceLookup["蛇寶寶髮型-D"] = 4;
+        SForceLookup["小龍兒髮型-D"] = 4;
+         
+        SForceLookup["純潔白燐髮型-D"] = 4;
+        SForceLookup["小雪兔髮型-D"] = 4;
+        SForceLookup["夢幻鑄造者髮型-D"] = 4;
+        SForceLookup["叛胖虎髮型-D"] = 4;
+        SForceLookup["黑鳳凰頭盔-D"] = 4;
+         
+        SForceLookup["牛奶仔髮型-D"] = 4;
+        SForceLookup["闇影龍騎士頭盔-D"] = 4;
+        SForceLookup["霜雪龍騎士頭盔-D"] = 4;
+        SForceLookup["赤焰龍騎士頭盔-D"] = 4;
+        SForceLookup["榮譽騎士髮型-D"] = 4;
+        //Page 3
+        SForceLookup["吱吱鼠髮型-D"] = 4;
+        SForceLookup["豬太郎髮型-D"] = 4;
+        SForceLookup["夜煞黑燐之厄運 ‧ 壞滅"] = 4;
+        SForceLookup["路西法的墮落-D"] = 4;
+        SForceLookup["汪汪狗髮型-D"] = 4;
+         
+        SForceLookup["跍跍雞髮型-D"] = 4;
+        SForceLookup["頑皮猴髮型-D"] = 4;
+        SForceLookup["優雅青燐髮型-D"] = 4;
+        SForceLookup["宙斯髮型-D"] = 4;
+        SForceLookup["雅典娜髮型-D"] = 4;
+         
+        SForceLookup["秀麗紅燐髮型-D"] = 4;
+        SForceLookup["赫密斯髮型-D"] = 4;
+        SForceLookup["青春歲月校服髮型S-D"] = 4;
+        SForceLookup["阿芙蘿黛蒂髮型-D"] = 4;
+        SForceLookup["甜蜜約會髮型S"] = 4;
+         
+        SForceLookup["阿瑞斯髮型-D"] = 4;
+        SForceLookup["赫拉的髮型-D"] = 4;
+        SForceLookup["星空奇夢髮型-D"] = 4;
+        SForceLookup["赫淮斯托斯髮型-D"] = 4;
+        SForceLookup["翱翔機師髮型S-D"] = 4;
+         
+        SForceLookup["查理的辮子髮型-D"] = 4;
+        SForceLookup["阿提密斯髮型-D"] = 4;
+        SForceLookup["夢幻魔利師髮型-D"] = 4;
+        SForceLookup["帝奧尼索斯髮型-D"] = 4;
+        SForceLookup["皇窒主僕髮型-D"] = 4;
+         
+        SForceLookup["波塞頓髮型-D"] = 4;
+        SForceLookup["五星童話主廚髮型-D"] = 4;
+        SForceLookup["狄密特髮型-D"] = 4;
+        SForceLookup["莉莉的命運髮型"] = 4;
+        SForceLookup["阿波羅髮型-D"] = 4;
+        //Page 4
+        SForceLookup["夢想雨衣髮型-D"] = 4;
+        SForceLookup["華麗婚禮髮型-D"] = 4;
+        SForceLookup["狂野高中生髮型-D"] = 4;
+        SForceLookup["天御聖守 ‧ 訣"] = 4;
+        SForceLookup["麒麟的神豔 ‧ 神蹟"] = 4;
+         
+        SForceLookup["聖亳王之怒 ‧ 終焉"] = 4;
+        SForceLookup["玄武之靈羽 ‧ 神威"] = 4;
+        SForceLookup["極光髮型"] = 4;
+        SForceLookup["朱雀之髮冠 ‧ 究極"] = 4;
+        SForceLookup["白虎之牙 ‧ 真打"] = 4;
+         
+        SForceLookup["青龍的風聲 ‧ 極-D"] = 4;
+        SForceLookup["冰封精靈髮型"] = 4;
+        SForceLookup["星之碎片魔法髮型"] = 4;
     }
 
     void S_Luck()
     {
-
+        //Page 1
+        SLuckLookup["百鬼夜行髮型-D"] = 4;
+        SLuckLookup["白魔法髮型-D"] = 4;
+        SLuckLookup["黑魔法髮型-D"] = 4;
+        SLuckLookup["黑白天鵝髮型-D"] = 4;
+        SLuckLookup["遠航探險家髮型-D"] = 4;
+         
+        SLuckLookup["閃耀星空髮型-D"] = 4;
+        SLuckLookup["失憶患者髮型-D"] = 4;
+        SLuckLookup["惡夢醫生髮型-D"] = 4;
+        SLuckLookup["夏日校服髮型-D"] = 4;
+        SLuckLookup["柏勒洛豐髮型-D"] = 4;
+         
+        SLuckLookup["中華旗袍髮型(男)-D"] = 4;
+        SLuckLookup["中華旗袍髮型(女)-D"] = 4;
+        SLuckLookup["勝利女神髮型-D"] = 4;
+        SLuckLookup["懶人髮型-D"] = 4;
+        SLuckLookup["菁英髮型-D"] = 4;
+         
+        SLuckLookup["愚者髮型-D"] = 4;
+        SLuckLookup["灰姑娘髮型-D"] = 4;
+        SLuckLookup["野獸之王髮型-D"] = 4;
+        SLuckLookup["九尾狐影月髮型-D"] = 4;
+        SLuckLookup["九尾狐陽焰髮型-D"] = 4;
+         
+        SLuckLookup["白雪公主髮型-D"] = 4;
+        SLuckLookup["惡魔貴族髮型"] = 4;
+        SLuckLookup["天使貴族髮型"] = 4;
+        SLuckLookup["垂鐘花髮型-D"] = 4;
+        SLuckLookup["茉莉髮型-D"] = 4;
+         
+        SLuckLookup["玫瑰妖精髮型-D"] = 4;
+        SLuckLookup["鈴蘭髮型-D"] = 4;
+        SLuckLookup["白衣患者髮型-D"] = 4;
+        SLuckLookup["惡夢博士髮型-D"] = 4;
+        SLuckLookup["夢幻髮型-D"] = 4;
+        //Page 2
+        SLuckLookup["茶花髮型-D"] = 4;
+        SLuckLookup["雛菊髮型-D"] = 4;
+        SLuckLookup["勿忘草髮型-D"] = 4;
+        SLuckLookup["玫瑰騎士髮型-D"] = 4;
+        SLuckLookup["雪狼髮型-D"] = 4;
+         
+        SLuckLookup["水仙髮型-D"] = 4;
+        SLuckLookup["安圖莎的髮型-D"] = 4;
+        SLuckLookup["棉花髮型-D"] = 4;
+        SLuckLookup["塔羅小丑的散漫-D"] = 4;
+        SLuckLookup["翠菊髮型-D"] = 4;
+         
+        SLuckLookup["海芋髮型-D"] = 4;
+        SLuckLookup["龍膽髮型-D"] = 4;
+        SLuckLookup["魔法艾洛髮型-D"] = 4;
+        SLuckLookup["向日葵髮型-D"] = 4;
+        SLuckLookup["幽藍天鵝髮型-D"] = 4;
+         
+        SLuckLookup["安德烈的魅力髮型-D"] = 4;
+        SLuckLookup["羊咩咩髮型-D"] = 4;
+        SLuckLookup["馬拉高髮型-D"] = 4;
+        SLuckLookup["蛇寶寶髮型-D"] = 4;
+        SLuckLookup["小龍兒髮型-D"] = 4;
+         
+        SLuckLookup["純潔白燐髮型-D"] = 4;
+        SLuckLookup["小雪兔髮型-D"] = 4;
+        SLuckLookup["夢幻鑄造者髮型-D"] = 4;
+        SLuckLookup["叛胖虎髮型-D"] = 4;
+        SLuckLookup["黑鳳凰頭盔-D"] = 4;
+         
+        SLuckLookup["牛奶仔髮型-D"] = 4;
+        SLuckLookup["闇影龍騎士頭盔-D"] = 4;
+        SLuckLookup["霜雪龍騎士頭盔-D"] = 4;
+        SLuckLookup["赤焰龍騎士頭盔-D"] = 4;
+        SLuckLookup["榮譽騎士髮型-D"] = 4;
+        //Page 3
+        SLuckLookup["吱吱鼠髮型-D"] = 4;
+        SLuckLookup["豬太郎髮型-D"] = 4;
+        SLuckLookup["夜煞黑燐之厄運 ‧ 壞滅"] = 4;
+        SLuckLookup["路西法的墮落-D"] = 4;
+        SLuckLookup["汪汪狗髮型-D"] = 4;
+         
+        SLuckLookup["跍跍雞髮型-D"] = 4;
+        SLuckLookup["頑皮猴髮型-D"] = 4;
+        SLuckLookup["優雅青燐髮型-D"] = 4;
+        SLuckLookup["宙斯髮型-D"] = 4;
+        SLuckLookup["雅典娜髮型-D"] = 4;
+         
+        SLuckLookup["秀麗紅燐髮型-D"] = 4;
+        SLuckLookup["赫密斯髮型-D"] = 4;
+        SLuckLookup["青春歲月校服髮型S-D"] = 4;
+        SLuckLookup["阿芙蘿黛蒂髮型-D"] = 4;
+        SLuckLookup["甜蜜約會髮型S"] = 4;
+         
+        SLuckLookup["阿瑞斯髮型-D"] = 4;
+        SLuckLookup["赫拉的髮型-D"] = 4;
+        SLuckLookup["星空奇夢髮型-D"] = 4;
+        SLuckLookup["赫淮斯托斯髮型-D"] = 4;
+        SLuckLookup["翱翔機師髮型S-D"] = 4;
+         
+        SLuckLookup["查理的辮子髮型-D"] = 4;
+        SLuckLookup["阿提密斯髮型-D"] = 4;
+        SLuckLookup["夢幻魔利師髮型-D"] = 4;
+        SLuckLookup["帝奧尼索斯髮型-D"] = 4;
+        SLuckLookup["皇窒主僕髮型-D"] = 4;
+         
+        SLuckLookup["波塞頓髮型-D"] = 4;
+        SLuckLookup["五星童話主廚髮型-D"] = 4;
+        SLuckLookup["狄密特髮型-D"] = 4;
+        SLuckLookup["莉莉的命運髮型"] = 4;
+        SLuckLookup["阿波羅髮型-D"] = 4;
+        //Page 4
+        SLuckLookup["夢想雨衣髮型-D"] = 4;
+        SLuckLookup["華麗婚禮髮型-D"] = 4;
+        SLuckLookup["狂野高中生髮型-D"] = 4;
+        SLuckLookup["天御聖守 ‧ 訣"] = 4;
+        SLuckLookup["麒麟的神豔 ‧ 神蹟"] = 4;
+         
+        SLuckLookup["聖亳王之怒 ‧ 終焉"] = 4;
+        SLuckLookup["玄武之靈羽 ‧ 神威"] = 4;
+        SLuckLookup["極光髮型"] = 4;
+        SLuckLookup["朱雀之髮冠 ‧ 究極"] = 4;
+        SLuckLookup["白虎之牙 ‧ 真打"] = 4;
+         
+        SLuckLookup["青龍的風聲 ‧ 極-D"] = 4;
+        SLuckLookup["冰封精靈髮型"] = 4;
+        SLuckLookup["星之碎片魔法髮型"] = 4;
     }
 
     void SS_Hair()
