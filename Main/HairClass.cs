@@ -3940,7 +3940,7 @@ class HairClass : Gears
     }
 
     void S_Mode()
-    {
+    {/*
         //Page 1
         SModeLookup["百鬼夜行髮型-D"] = 4;
         SModeLookup["白魔法髮型-D"] = 4;
@@ -4065,6 +4065,7 @@ class HairClass : Gears
         SModeLookup["青龍的風聲 ‧ 極-D"] = 4;
         SModeLookup["冰封精靈髮型"] = 4;
         SModeLookup["星之碎片魔法髮型"] = 4;
+        */
     }
 
     void S_Speed()
